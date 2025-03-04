@@ -1,5 +1,5 @@
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
-import HomeArtist from "@/components/HomePage/HomeArtist/HomeArtist";
+// import HomeArtist from "@/components/HomePage/HomeArtist/HomeArtist";
 import HomeHeader from "@/components/HomePage/HomeHeader/HomeHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";

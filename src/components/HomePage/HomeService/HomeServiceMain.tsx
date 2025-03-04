@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import "./HomeService.css";
 // import Carousel from "react-bootstrap/Carousel";
 import Link from "next/link";
