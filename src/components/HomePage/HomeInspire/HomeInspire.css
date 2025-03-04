@@ -1,0 +1,107 @@
+.homeInspire-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.homeInspire-static {
+  /* border: solid blue; */
+  width: 25%;
+  height: 500px;
+  background-color: black;
+}
+.homeInspire-cardContainer {
+  /* border: solid blue; */
+  width: 25%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.homeInspire-cardContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homeInspire-cardContainer:hover .homeInspire-cardContent {
+  transform: translateX(0);
+}
+.homeInspire-cardContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  transform: translateX(-100%);
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  transition: 500ms ease;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.homeInspire-cardContent > h3 {
+  font-size: 50px;
+  position: relative;
+  color: white;
+}
+.homeInspire-cardContent > h3::after {
+  content: "";
+  width: 50%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  border: solid 2px white;
+}
+.homeInspire-cardContent > p {
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+.homeInspire-static {
+  padding: 50px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.homeInspire-static > h2 {
+  font-size: 50px;
+  position: relative;
+  color: white;
+}
+.homeInspire-static > h2::after {
+  content: "";
+  width: 50%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  border: solid 2px white;
+}
+#colorChange1 {
+  background-color: rgba(255, 0, 0, 0.851);
+}
+#colorChange2 {
+  background-color: rgba(0, 0, 255, 0.851);
+}
+#colorChange3 {
+  background-color: rgba(255, 53, 87, 0.851);
+}
+#colorChange4 {
+  background-color: rgba(165, 42, 42, 0.851);
+}
+#colorChange5 {
+  background-color: rgba(0, 0, 0, 0.851);
+}
+#colorChange6 {
+  background-color: rgba(91, 81, 81, 0.851);
+}
+#colorChange7 {
+  background-color: rgba(255, 166, 0, 0.851);
+}

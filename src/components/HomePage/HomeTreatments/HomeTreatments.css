@@ -1,0 +1,118 @@
+.homeTreatment-container {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--customBg1);
+}
+.homeTreatment-heading {
+  text-align: start;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.homeTreatment-heading > h2 {
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+}
+.carouselItem {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important ;
+  align-items: center !important;
+  /* border: solid blue; */
+  gap: 20px;
+}
+.homeTreatmentMain-container {
+  /* border: solid brown; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.homeTreatmentMain-content {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.homeTreatmentMain-content > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 600ms ease;
+}
+.carousel-control-prev-icon {
+  display: none;
+}
+.carousel-control-next-icon {
+  display: none;
+}
+.homeTreatmentMain-item {
+  /* border: solid yellowgreen; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: 600ms ease;
+}
+.homeTreatmentMain-textContainer {
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  transition: 600ms ease;
+}
+
+.homeTreatmentMain-textContainer > h3 > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.homeTreatmentMain-textContainer > h6 {
+  color: #f8b93e;
+  font-weight: bold;
+}
+.homeTreatmentMain-content:hover .homeTreatmentMain-item {
+  background-color: rgba(0, 0, 0, 0.564);
+}
+/* .homeTreatmentMain-content:hover img {
+    transform: scale(1.2);
+  } */
+/* .homeTreatmentMain-content:hover .homeTreatmentMain-textContainer {
+  border: 2px solid white;
+} */
+.carousel-indicators {
+  display: none;
+}
+.homeTreatmentMain-item > button {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  padding: 10px;
+  backdrop-filter: blur(20px);
+  background-color: transparent;
+  border: 1px white solid;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.253);
+}
