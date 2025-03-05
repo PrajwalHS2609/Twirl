@@ -41,9 +41,11 @@
 }
 .homeAbout-content > h6 {
   font-weight: bold;
+  text-align: center;
 }
 .homeAbout-content > p {
-  text-align: justify;font-size: 18px;
+  text-align: justify;
+  font-size: 18px;
 }
 .homeAbout-content > button {
   width: 100%;
@@ -52,4 +54,25 @@
   background-color: black;
   color: white;
   font-weight: 500;
+  &:hover {
+    border: solid black 1px;
+    background-color: white;
+    color: black;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .homeAbout-container {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+  .homeAbout-content {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .homeAbout-content > h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
 }

@@ -105,3 +105,16 @@
 #colorChange7 {
   background-color: rgba(255, 166, 0, 0.851);
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .homeInspire-static {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .homeInspire-cardContainer {
+    /* border: solid blue; */
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+}

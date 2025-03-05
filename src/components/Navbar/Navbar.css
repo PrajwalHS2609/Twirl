@@ -68,6 +68,12 @@
   padding: 10px;
   cursor: pointer;
   background-color: black;
+  font-weight: 500;
+  &:hover {
+    border: solid black 1px;
+    background-color: white;
+    color: black;
+  }
 }
 .menu-content1 > li > a::after {
   content: "";
@@ -87,8 +93,7 @@
   color: white;
 }
 .menuDrop-container {
-  border-top: 4px solid var(--customColor5);
-  box-shadow: 0 0 2px grey;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Smooth shadow */
   position: absolute;
   top: 80px;
   width: 200px;
@@ -96,39 +101,47 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 10px;
-  background-color: white;
+  padding: 10px 0;
+  /* background-color: white; */
+  border-radius: 8px; /* Rounded edges */
   visibility: hidden;
-  transform: translateY(-20px);
+  transform: translateY(-10px);
   opacity: 0;
-  transition: 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   z-index: 10;
-}
+} 
 .menu-content1 > li:hover .menuDrop-container {
   visibility: visible;
   transform: translateY(0px);
   opacity: 1;
 }
+
+
 .menuDrop-container > ul {
   /* border: solid black; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  gap: 5px;
   margin: 0;
   padding: 0;
 }
 .menuDrop-container > ul > li {
-  border-top: solid 1px var(--customColor4);
+  /* border-top: solid 1px grey; */
   list-style: none;
   width: 200px;
   height: 50px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  transition: 300ms ease-in-out;
+  transition: 300ms ease;
+  color: black;
+  background-color: white;
+
   &:hover {
-    border-left: 5px solid var(--customColor);
+    /* border-left: 5px solid grey; */
+background-color:var(--customBg1);
   }
 }
 .menuDrop-container > ul > li > a {
@@ -141,7 +154,7 @@
   font-weight: 500;
 }
 .menuDrop-container > ul > li:hover a {
-  color: var(--customColor3);
+  color: white;
   transform: translateX(5px);
 }
 .serviceIco {
