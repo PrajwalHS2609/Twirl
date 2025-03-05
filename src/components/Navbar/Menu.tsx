@@ -95,19 +95,14 @@ const Menu = () => {
     },
     {
       id: "4",
-      pathName: "/dog-walkers-in-bangalore",
+      pathName: "",
       menu: "Spa",
     },
-    // {
-    //   id: "5",
-    //   pathName: "/pets-grooming-in-bangalore",
-    //   menu: "Grooming",
-    // },
-    // {
-    //   id: "6",
-    //   pathName: "/pets-food-in-bangalore",
-    //   menu: "Health Food",
-    // },
+    {
+      id: "5",
+      pathName: "",
+      menu: "Makeup",
+    },
   ];
 
   return (
