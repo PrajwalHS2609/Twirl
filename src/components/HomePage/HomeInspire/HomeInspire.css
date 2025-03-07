@@ -27,6 +27,8 @@
 }
 .homeInspire-cardContainer:hover .homeInspire-cardContent {
   transform: translateX(0);
+  opacity: 1;
+
 }
 .homeInspire-cardContent {
   position: absolute;
@@ -43,6 +45,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
+  opacity: 0;
 }
 .homeInspire-cardContent > h3 {
   font-size: 50px;

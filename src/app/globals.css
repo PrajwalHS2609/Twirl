@@ -9,6 +9,7 @@
 
 :root {
   --customBg1: #383131;
+  --customColor1: #f8b93e;
 }
 .main-container {
   display: flex;

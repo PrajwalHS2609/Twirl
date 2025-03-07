@@ -18,7 +18,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.166);
+  background-color: rgba(0, 0, 0, 0.266);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,5 +70,12 @@
     height: 100%;
     object-fit: cover;
     object-position: -100px 0;
+  }
+  .homeHeader-content > h2 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    /* font-family: "Moon Dance", cursive; */
+    font-weight: 500;
+    text-align: center;
   }
 }

@@ -5,12 +5,11 @@ const HomeHeader = () => {
     <div className="homeHeader-container">
       <video src="/Video/HomeBanner.mp4" autoPlay loop muted></video>
       <div className="homeHeader-content">
-        <h2>TWIRL</h2>
+        <h2>TWIRL LIFESTYLE</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          provident deleniti deserunt labore velit, distinctio dolore dolorum
-          cum tempore praesentium officia quis quo? Voluptates harum ullam,
-          ducimus sed consequatur impedit.
+          Step into luxury at our premium unisex salon, where style meets
+          sophistication! From flawless haircuts to indulgent spa treatments, we
+          bring out the best in you. Because you deserve nothing but the finest!
         </p>
         <div className="homeHeader-button">
           <button>BOOK APPOINTMENT</button> <h3>or</h3>

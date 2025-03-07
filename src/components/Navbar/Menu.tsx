@@ -80,7 +80,7 @@ const Menu = () => {
   const services = [
     {
       id: "1",
-      pathName: "",
+      pathName: "/hair-services",
       menu: "Hair",
     },
     {
@@ -145,15 +145,15 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link href="/shop" className={pathname === "/blog" ? "active" : ""}>
-            SHOP{" "}
+          <Link href="/about-us" className={pathname === "/blog" ? "active" : ""}>
+            ABOUT US{" "}
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/franchise" className={pathname === "/blog" ? "active" : ""}>
             FRANCHISE{" "}
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             href="/contact-us"

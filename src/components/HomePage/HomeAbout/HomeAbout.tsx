@@ -4,15 +4,22 @@ const HomeAbout = () => {
   return (
     <div className="homeAbout-container">
       <div className="homeAbout-content">
-        <h2>A World Class Hair Company</h2>
+        <h2>Twirl Lifestyle – Where Beauty Meets Luxury! ✨</h2>
         <h6>Bespoke colour services, beautiful hairdressing</h6>
         <p>
-          The Alex Wilson salons offer world class colour services and
-          beautiful, bespoke hairdressing. Alex is an award winning colourist
-          that has handpicked and trained his teams to deliver the very best
-          personalised colour, style and experience. Every team member is
-          respectful, inclusive and inspired to deliver a tailored style that
-          supports a unique philosophy – natural beauty enhancement in hair.
+          Experience premium beauty and wellness at Twirl Lifestyle, Mangalore’s
+          finest unisex salon. Our expert stylists and therapists bring
+          elegance, precision, and indulgence to every service—be it a chic
+          haircut, rejuvenating facial, or luxurious spa treatment.
+        </p>
+        <p>
+          With world-class products and cutting-edge techniques, we ensure you
+          leave feeling confident and radiant. Step into a space where
+          sophistication meets comfort, and let us pamper you with perfection.
+        </p>
+        <p>
+          At Twirl Lifestyle, beauty isn’t just a look—it’s a feeling. Come,
+          indulge in the ultimate salon experience!
         </p>
         <button>FIND OUT MORE</button>
       </div>
