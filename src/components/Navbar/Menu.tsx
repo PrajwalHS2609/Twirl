@@ -85,17 +85,17 @@ const Menu = () => {
     },
     {
       id: "2",
-      pathName: "",
+      pathName: "/nails-services",
       menu: "Nails",
     },
     {
       id: "3",
-      pathName: "",
+      pathName: "/facials-services",
       menu: "Facials",
     },
     {
       id: "4",
-      pathName: "",
+      pathName: "/spa-services",
       menu: "Spa",
     },
     {

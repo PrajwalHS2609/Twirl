@@ -1,13 +1,13 @@
-import React from "react";
-import "@/components/Style/style.css";
 import Image from "next/image";
-import hairServiceBanner from "@/media/Images/HairService/hairServiceBanner.jpg";
-const HairHead = () => {
+import React from "react";
+import nailServiceBanner from "@/media/Images/NailService/nailServiceBanner.jpg";
+
+const NailsServicesHead = () => {
   return (
     <div className="subHead-container">
-      <Image src={hairServiceBanner} alt="hairServiceBanner" />
+      <Image src={nailServiceBanner} alt="nailServiceBanner" />
       <div className="subHead-content">
-        <h2>Hair Services</h2>
+        <h2>Facial Services</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
           eligendi est fugit distinctio repellendus dolorem dolorum? Tempore
@@ -19,4 +19,4 @@ const HairHead = () => {
   );
 };
 
-export default HairHead;
+export default NailsServicesHead;

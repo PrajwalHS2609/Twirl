@@ -1,15 +1,15 @@
-.hairHead-container {
+.subHead-container {
   /* border: solid red; */
   width: 100%;
   height: 600px;
   position: relative;
 }
-.hairHead-container > img {
+.subHead-container > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.hairHead-content {
+.subHead-content {
   width: 100%;
   height: 100%;
   /* border: solid blue; */
@@ -24,17 +24,17 @@
   padding: 30px;
   color: white;
 }
-.hairHead-content > h2 {
+.subHead-content > h2 {
   font-size: 80px;
   letter-spacing: 2px;
   font-weight: 500;
   text-align: center;
 }
-.hairHead-content > p {
+.subHead-content > p {
   width: 50%;
   font-size: 20px;
 }
-.hairServices-container {
+.subServices-container {
   /* border: solid green; */
   width: 100%;
   height: 100%;
@@ -45,7 +45,7 @@
   padding: 20px;
 }
 
-.hairServices-cardContainer {
+.subServices-cardContainer {
   /* border: solid blue; */
   width: 380px;
   height: 500px;
@@ -53,21 +53,21 @@
   transition: 300ms ease;
   margin: 20px;
 }
-.hairServices-cardContainer:hover {
+.subServices-cardContainer:hover {
   border-bottom: var(--customColor1) solid 5px;
   transform: translateY(-5px);
 }
-.hairServices-cardImg {
+.subServices-cardImg {
   /* border: solid pink; */
   width: 100%;
   height: 45%;
 }
-.hairServices-cardImg > img {
+.subServices-cardImg > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.hairServices-cardContent {
+.subServices-cardContent {
   /* border: solid brown; */
   width: 100%;
   height: 55%;
@@ -77,16 +77,16 @@
   flex-direction: column;
   padding: 20px;
 }
-.hairServices-cardContent > p {
+.subServices-cardContent > p {
   font-size: 15px;
   text-align: justify;
 }
-.hairServices-cardContent > a {
+.subServices-cardContent > a {
   color: var(--customBg1);
   font-weight: 600;
   text-decoration: none;
 }
-.hairServices-cardContent > a::after {
+.subServices-cardContent > a::after {
   content: "";
   display: flex;
   justify-content: center;
@@ -96,12 +96,12 @@
   transition: 300ms ease;
   opacity: 0;
 }
-.hairServices-cardContent > a:hover::after {
+.subServices-cardContent > a:hover::after {
   width: 100%;
   opacity: 1;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .hairHead-content > p {
+  .subHead-content > p {
     width: 100%;
     text-align: justify;
     padding: 20px;

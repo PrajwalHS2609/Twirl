@@ -1,16 +1,17 @@
-import HairHead from "@/components/HairPage/HairHead";
-import HairServices from "@/components/HairPage/HairServices";
+import FacialServicesCard from "@/components/FacialServices/FacialServicesCard";
+import FacialServicesHead from "@/components/FacialServices/FacialServicesHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
-import React from "react";
+import SpaServicesCard from "@/components/SpaServices/SpaServicesCard";
+import SpaServicesHead from "@/components/SpaServices/SpaServicesHead";
 
-export default function HairService() {
+export default function SpaService() {
   return (
     <div className="main-container">
-      <HairHead />
-      <HairServices />
+      <SpaServicesHead />
+      <SpaServicesCard />
       <HomeTreatments />
       <HomeInterior />
       <HomeTestimonial />
