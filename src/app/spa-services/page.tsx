@@ -1,5 +1,3 @@
-import FacialServicesCard from "@/components/FacialServices/FacialServicesCard";
-import FacialServicesHead from "@/components/FacialServices/FacialServicesHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
