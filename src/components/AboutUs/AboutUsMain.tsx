@@ -1,41 +1,67 @@
 import React from "react";
 import "./AboutUs.css";
+import welcomeImg from "@/media/Images/AboutUs/welcomeImg.jpg"
+import ourStory from "@/media/Images/AboutUs/ourStory.jpg"
+import Image from "next/image";
 
 const AboutUsMain = () => {
   return (
     <div className="aboutMain-container">
       <div className="aboutMain-content">
         <div className="aboutMain-item">
-          <img
-            src="https://img.freepik.com/free-photo/woman-drying-hair-hairsalon_1157-27191.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid"
-            alt=""
+          <Image
+            src={welcomeImg}
+            alt="Welcome Img"
           />
         </div>
         <div className="aboutMain-item">
           <h3>Welcome to Twirl Salon </h3>
+          <br />
           <p>
-            Community is everything at Corlears. It’s who we are and how things
-            get done. Everyone here is motivated by a deep commitment to making
-            sure each child and family feels welcome and included. When everyone
-            feels like they belong, we are stronger and smarter together. We’re
-            a community driven to make the world a better place—starting in our
+            Experience premium beauty and wellness at Twirl Lifestyle,
+            Mangalore’s finest unisex salon. Our expert stylists and therapists
+            bring elegance, precision, and indulgence to every service—be it a
+            chic haircut, rejuvenating facial, or luxurious spa treatment.
+          </p>
+          <p>
+            With world-class products and cutting-edge techniques, we ensure you
+            leave feeling confident and radiant. Step into a space where
+            sophistication meets comfort, and let us pamper you with perfection.
+          </p>
+          <p>
+            At Twirl Lifestyle, beauty isn’t just a look—it’s a feeling. Come,
+            indulge in the ultimate salon experience!
           </p>
         </div>
       </div>
       <div className="aboutMain-content">
         <div className="aboutMain-item">
           <h3>Our Story</h3>
+          <br />
           <p>
-            Our curriculum appeals to student diversity and interest, and is
-            rigorous and challenging. We understand each child comes to us with
-            different talents, learning styles, and identities. And we celebrate
-            that difference because our diversity is our strength.
+            At Twirl Salon, beauty is more than just a service—it’s an
+            experience, a celebration of confidence, and a reflection of
+            individuality. Born from a passion for artistry and a commitment to
+            excellence, Twirl Salon was founded to redefine self-care with
+            elegance, innovation, and warmth.
+          </p>
+          <p>
+            Every strand styled, every shade perfected, and every moment spent
+            with us is crafted to inspire confidence and radiance. Our expert
+            team believes in the power of transformation—whether it’s a subtle
+            refresh or a bold new look, we bring dreams to life with precision
+            and care.
+          </p>
+          <p>
+            Twirl Salon isn’t just a destination; it’s a journey of beauty,
+            where creativity meets sophistication. Step in, unwind, and let us
+            twirl you into a world of timeless elegance.
           </p>
         </div>
         <div className="aboutMain-item">
-          <img
-            src="https://img.freepik.com/free-photo/woman-makeup-artist-looking-phone_23-2148332485.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid"
-            alt=""
+          <Image
+            src={ourStory}
+            alt="Our Story"
           />
         </div>
       </div>

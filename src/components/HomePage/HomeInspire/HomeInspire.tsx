@@ -1,62 +1,71 @@
 import React from "react";
 import "./HomeInspire.css";
 import Link from "next/link";
+import caramelBrown from "@/media/Images/HomeInspire/caramel brown hair colour.png";
+import curlyBangs from "@/media/Images/HomeInspire/Curly Bangs Hair Cut.png";
+import nailExtensions from "@/media/Images/HomeInspire/nail extensions.png";
+import trendyMens from "@/media/Images/HomeInspire/Trendy Men's Hair Style.png";
+import bridalMakeup from "@/media/Images/HomeInspire/Bridal Makeup.png";
+import frizzyHair from "@/media/Images/HomeInspire/Frizzy Hair Treatment.png";
+import eyelash from "@/media/Images/HomeInspire/eyelash extensions.png";
+import Image from "next/image";
+
 const HomeInspire = () => {
   const inspireCard = [
     {
       id: 1,
-      title: "Paul Mitchell Hair Show",
-      img: "https://img.freepik.com/free-photo/sisters-twins-posing-grey_176420-7591.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Caramel Brown Hair Colour",
+      img: caramelBrown,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi incidunt ipsum inventore autem commodi perspiciatis possimus, consequuntur facere, dolor ducimus molestias accusantium. Laborum, nobis? Officia similique itaque explicabo ipsa.",
+        "Elevate your look with rich caramel brown hair—warm, luminous, and effortlessly chic. A perfect blend of elegance and confidence!",
       bg: "colorChange1",
     },
     {
       id: 2,
-      title: "Samantha Marshall Hair Show",
-      img: "https://img.freepik.com/free-photo/portrait-pretty-brunette-woman-with-long-hair-bright-make-up-stylish-cozy-sweater-scarf-playful-mood-gray-wall-toned-colors_291049-1233.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Curly Bangs Hair Cut",
+      img: curlyBangs,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi incidunt ipsum inventore autem commodi perspiciatis possimus, consequuntur facere, dolor ducimus molestias accusantium. Laborum, nobis? Officia similique itaque explicabo ipsa.",
+        "Embrace the charm of curly bangs—playful, bold, and effortlessly stylish. A perfect mix of volume, texture, and personality! ",
       bg: "colorChange2",
     },
     {
       id: 3,
-      title: "Samantha Marshall Hair Show",
-      img: "https://img.freepik.com/free-photo/young-handsome-hipster-man-trendy-style-outfit-denim-shirt-trousers-sunglasses-hat-isolated-jumping-cheerful-pointing-finger_285396-1517.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Nail Extensions",
+      img: nailExtensions,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi incidunt ipsum inventore autem commodi perspiciatis possimus, consequuntur facere, dolor ducimus molestias accusantium. Laborum, nobis? Officia similique itaque explicabo ipsa.",
+        "Flaunt flawless nails with stunning extensions—elegant, durable, and effortlessly glamorous. Perfect length, perfect style, perfect you!",
       bg: "colorChange3",
     },
     {
       id: 4,
-      title: "Samantha Marshall Hair Show",
-      img: "https://img.freepik.com/free-photo/young-brunette-woman-smiling-gray_114579-64899.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Trendy Men's Hair Style",
+      img: trendyMens,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi incidunt ipsum inventore autem commodi perspiciatis possimus, consequuntur facere, dolor ducimus molestias accusantium. Laborum, nobis? Officia similique itaque explicabo ipsa.",
+        "Upgrade your look with a trendy men's hairstyle—sharp, stylish, and effortlessly confident. Because great hair is the ultimate power move!",
       bg: "colorChange4",
     },
     {
       id: 5,
-      title: "Samantha Marshall Hair Show",
-      img: "https://img.freepik.com/free-photo/portrait-sexy-young-couple-posing_149155-4524.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Bridal Makeup",
+      img: bridalMakeup,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi incidunt ipsum inventore autem commodi perspiciatis possimus, consequuntur facere, dolor ducimus molestias accusantium. Laborum, nobis? Officia similique itaque explicabo ipsa.",
+        "Radiate elegance on your big day with flawless bridal makeup—timeless, luminous, and uniquely you. Because every bride deserves perfection! ",
       bg: "colorChange5",
     },
     {
       id: 6,
-      title: "Samantha Marshall Hair Show",
-      img: "https://img.freepik.com/free-photo/expressive-woman-posing-outdoor_344912-3095.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Frizzy Hair Treatment",
+      img: frizzyHair,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi incidunt ipsum inventore autem commodi perspiciatis possimus, consequuntur facere, dolor ducimus molestias accusantium. Laborum, nobis? Officia similique itaque explicabo ipsa.",
+        "Tame the frizz, unleash the shine! Our frizzy hair treatment smooths, nourishes, and transforms your hair into silky perfection.",
       bg: "colorChange6",
     },
     {
       id: 7,
-      title: "Samantha Marshall Hair Show",
-      img: "https://img.freepik.com/free-photo/tender-smiling-lady-is-walking-street-posing-casual-modern-coat-hat_231208-3269.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Eyelash Extensions",
+      img: eyelash,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi incidunt ipsum inventore autem commodi perspiciatis possimus, consequuntur facere, dolor ducimus molestias accusantium. Laborum, nobis? Officia similique itaque explicabo ipsa.",
+        "Enhance your beauty with flawless eyelash extensions—longer, fuller, and effortlessly glamorous. Wake up to stunning lashes every day",
       bg: "colorChange7",
     },
   ];
@@ -68,12 +77,11 @@ const HomeInspire = () => {
       </div>
       {inspireCard.map((x) => (
         <div className="homeInspire-cardContainer" key={x.id}>
-          <img src={x.img} alt="" />
+          <Image src={x.img} alt={x.title}/>
           <div className="homeInspire-cardContent" id={x.bg}>
-            <h3>Paul Mitchell Hair Show</h3>
+            <h3>{x.title}</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi
-              incidunt ipsum inventore.
+             {x.description}
             </p>
             <div className="homeInspire-iconContainer">
               <Link href="/"></Link>

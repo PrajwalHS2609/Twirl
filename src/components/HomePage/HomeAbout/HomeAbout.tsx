@@ -5,7 +5,7 @@ const HomeAbout = () => {
     <div className="homeAbout-container">
       <div className="homeAbout-content">
         <h2>Twirl Lifestyle – Where Beauty Meets Luxury! ✨</h2>
-        <h6>Bespoke colour services, beautiful hairdressing</h6>
+        {/* <h6>Bespoke colour services, beautiful hairdressing</h6> */}
         <p>
           Experience premium beauty and wellness at Twirl Lifestyle, Mangalore’s
           finest unisex salon. Our expert stylists and therapists bring

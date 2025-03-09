@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
-import aboutUsHeader from "@/media/Images/aboutUsHeader.jpg"
+import aboutUsHeader from "@/media/Images/AboutUs/aboutUsHeader.jpg"
 import Image from "next/image";
 const AboutUsHeader = () => {
   return (

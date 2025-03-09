@@ -6,7 +6,7 @@ import Link from "next/link";
 import spaServiceImg from "@/media/Images/HomeServices/spaServiceImg.png";
 import facialServiceImg from "@/media/Images/HomeServices/facialServiceImg.png";
 import hairServiceImg from "@/media/Images/HomeServices/hairServiceImg.png";
-import nailServiceImg from "@/media/Images/HomeServices/nails.jpg";
+import nailServiceImg from "@/media/Images/HomeServices/nailsServiceImg.jpg";
 import beautyServiceImg from "@/media/Images/HomeServices/beautyEssentialsImg.png";
 import Image from "next/image";
 

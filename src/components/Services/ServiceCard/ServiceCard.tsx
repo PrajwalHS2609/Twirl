@@ -4,7 +4,7 @@ import "./ServiceCard.css";
 import spaServiceImg from "@/media/Images/HomeServices/spaServiceImg.png";
 import facialServiceImg from "@/media/Images/HomeServices/facialServiceImg.png";
 import hairServiceImg from "@/media/Images/HomeServices/hairServiceImg.png";
-import nailServiceImg from "@/media/Images/HomeServices/nails.jpg";
+import nailServiceImg from "@/media/Images/HomeServices/nailsServiceImg.jpg";
 import beautyServiceImg from "@/media/Images/HomeServices/beautyEssentialsImg.png";
 import lashesServiceImg from "@/media/Images/HomeServices/lashesServiceImg.jpg";
 import makeupServiceImg from "@/media/Images/HomeServices/makeupServiceImg.jpg";
