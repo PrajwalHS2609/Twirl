@@ -8,7 +8,7 @@ const SpaServicesHead = () => {
     <div className="subHead-container">
     <Image src={spaServiceBanner} alt="spaServiceBanner" />
     <div className="subHead-content">
-      <h2>Facial Services</h2>
+      <h2>Spa Services</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
         eligendi est fugit distinctio repellendus dolorem dolorum? Tempore

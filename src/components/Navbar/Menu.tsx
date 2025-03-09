@@ -101,7 +101,13 @@ const Menu = () => {
     {
       id: "5",
       pathName: "",
-      menu: "Makeup",
+      menu: "Beauty Essentials",
+    },
+    
+    {
+      id: "6",
+      pathName: "",
+      menu: "Lashes",
     },
   ];
 

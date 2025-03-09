@@ -136,7 +136,7 @@ const NailsServices = () => {
           <div className="subServices-cardContent">
             <h3>{x.title}</h3>
             <p>{x.description}</p>
-            <Link href="/">View More</Link>
+            <Link href={x.link}>View More</Link>
           </div>
         </div>
       ))}

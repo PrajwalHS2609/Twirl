@@ -3,61 +3,72 @@ import React from "react";
 import "./HomeService.css";
 // import Carousel from "react-bootstrap/Carousel";
 import Link from "next/link";
+import spaServiceImg from "@/media/Images/HomeServices/spaServiceImg.png";
+import facialServiceImg from "@/media/Images/HomeServices/facialServiceImg.png";
+import hairServiceImg from "@/media/Images/HomeServices/hairServiceImg.png";
+import nailServiceImg from "@/media/Images/HomeServices/nails.jpg";
+import beautyServiceImg from "@/media/Images/HomeServices/beautyEssentialsImg.png";
+import Image from "next/image";
 
 const HomeServiceMain = () => {
   const services = [
     {
       id: 1,
-      title: "Body",
-      link: "/",
-      image:
-        "https://img.freepik.com/free-photo/young-woman-enjoying-spa-day_155003-29190.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Hair",
+      link: "/hair-services",
+      image: hairServiceImg,
     },
     {
       id: 2,
-      title: "Hair",
-      link: "/hair-services",
-      image:
-        "https://img.freepik.com/free-photo/portrait-beautiful-woman-with-long-brown-hair-posing-photographer-lady-with-modern-hairstyle-posing-studio_549566-538.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Nails",
+      link: "/nails-services",
+      image: nailServiceImg,
     },
+
     {
       id: 3,
       title: "Facial",
       link: "/facial-services",
-      image:
-        "https://img.freepik.com/free-photo/beautician-with-brush-applies-white-moisturizing-mask-face-young-girl-client-spa-beauty-salon_343596-4248.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      image: facialServiceImg,
     },
     {
       id: 4,
-      title: "Nails",
-      link: "/nails-services",
-      image:
-        "https://img.freepik.com/free-photo/woman-showing-her-nail-art-fingernails-against-monster-leaf_23-2149820447.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Spa",
+      link: "/spa-services",
+      image: spaServiceImg,
     },
+
     {
       id: 5,
-      title: "Makeup",
-      link: "/",
-      image:
-        "https://img.freepik.com/free-photo/female-model-wedding-bridal-makeup_114579-9312.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+      title: "Beauty Essentials",
+      link: "/beauty-essentials-services",
+      image: beautyServiceImg,
     },
+
   ];
+  console.log(hairServiceImg, nailServiceImg, facialServiceImg);
+
   return (
-    <div className="homeServiceMain-container">
-      {services.map((service) => (
-        <div className="homeServiceMain-content" key={service.id}>
-          <img src={service.image} alt="" />
-          <div className="homeServiceMain-item">
-            <div className="homeServiceMain-textContainer">
-              {" "}
-              <h3>
-                <Link href={service.link}>{service.title}</Link>
-              </h3>
+    <>
+      <div className="homeServiceMain-container">
+        {services.map((service) => (
+          <div className="homeServiceMain-content" key={service.id}>
+            <Image src={service.image} alt={service.title} loading="lazy" />
+            <div className="homeServiceMain-item">
+              <div className="homeServiceMain-textContainer">
+                {" "}
+                <h3>
+                  <Link href={service.link}>{service.title}</Link>
+                </h3>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+      <div className="homeServiceMain-view">
+        <Link href="/services">View More</Link>
+      </div>
+    </>
   );
 };
 
