@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Link from "next/link";
 const FooterAddress = () => {
   return (
     <div className="footerList-container" id="footerAddress">

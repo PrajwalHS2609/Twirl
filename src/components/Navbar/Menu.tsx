@@ -90,7 +90,7 @@ const Menu = () => {
     },
     {
       id: "3",
-      pathName: "/facials-services",
+      pathName: "/facial-services",
       menu: "Facials",
     },
     {

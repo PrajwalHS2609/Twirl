@@ -51,7 +51,7 @@ const HomeServiceMain = () => {
             <div className="homeServiceMain-textContainer">
               {" "}
               <h3>
-                <Link href="/">{service.title}</Link>
+                <Link href={service.link}>{service.title}</Link>
               </h3>
             </div>
           </div>
