@@ -16,21 +16,21 @@ const HomeServiceMain = () => {
     {
       id: 2,
       title: "Hair",
-      link: "/",
+      link: "/hair-services",
       image:
         "https://img.freepik.com/free-photo/portrait-beautiful-woman-with-long-brown-hair-posing-photographer-lady-with-modern-hairstyle-posing-studio_549566-538.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
     },
     {
       id: 3,
       title: "Facial",
-      link: "/",
+      link: "/facial-services",
       image:
         "https://img.freepik.com/free-photo/beautician-with-brush-applies-white-moisturizing-mask-face-young-girl-client-spa-beauty-salon_343596-4248.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
     },
     {
       id: 4,
       title: "Nails",
-      link: "/",
+      link: "/nails-services",
       image:
         "https://img.freepik.com/free-photo/woman-showing-her-nail-art-fingernails-against-monster-leaf_23-2149820447.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
     },

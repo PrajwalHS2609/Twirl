@@ -1,0 +1,19 @@
+.homeMap-container {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--customBg1);
+}
+.homeMap-container > h2 {
+  font-size: 60px;
+  color: white;
+}
+.homeMap-container > iframe {
+  width: 100%;
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .homeMap-container > h2 {
+    font-size: 50px;
+    color: white;
+  }
+}

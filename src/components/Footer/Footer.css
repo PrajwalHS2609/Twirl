@@ -112,6 +112,10 @@
   background-color: rgb(181, 181, 181);
   border-radius: 100%;
 }
+#footerAddress>ul{
+  /* border: solid; */
+  width: 300px;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .topFooter-container {
     /* border: solid blue; */

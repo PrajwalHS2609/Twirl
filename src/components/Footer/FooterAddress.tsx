@@ -3,19 +3,20 @@ import "./Footer.css";
 import Link from "next/link";
 const FooterAddress = () => {
   return (
-    <div className="footerList-container">
+    <div className="footerList-container" id="footerAddress">
       <ul>
         <h4>Address</h4>
         <li>
-          <Link href="/">
-            123, 4th Cross, MG Road, Bangalore, Karnataka - 560001
-          </Link>
+          <a href="https://www.google.com/maps/place/Twirl+Lifestyle+%7C+HAIR+%26+BEAUTY+SALON/@12.8857261,74.8428603,808m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3ba35b8ceb3f1c37:0x2ad8a35b91863b11!8m2!3d12.8857261!4d74.8454352!16s%2Fg%2F11x2psm6my?hl=en-IN&entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D">
+            1st floor, KG commercial complex, Pais Garden, opp. Inland Business
+            Park, Bejai, Mangaluru, Karnataka 575004{" "}
+          </a>
         </li>
         <li>
-          <a href="tel:9876543210">+91 9876543210</a>
+          <a href="tel:9972272700">+91 9972272700</a>
         </li>
         <li>
-          <a href="mailto:info@xyz.com">info@xyz.com</a>
+          <a href="mailto:booking@twirlsalon.com">booking@twirlsalon.com</a>
         </li>
       </ul>
     </div>

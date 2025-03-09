@@ -3,6 +3,7 @@ import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
 import HomeHeader from "@/components/HomePage/HomeHeader/HomeHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
+import HomeMap from "@/components/HomePage/HomeMap/HomeMap";
 import HomeService from "@/components/HomePage/HomeService/HomeService";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
@@ -18,6 +19,7 @@ export default function HomePage() {
       <HomeInterior />
       <HomeTestimonial />
       <HomeInspire />
+      <HomeMap />
     </div>
   );
 }
