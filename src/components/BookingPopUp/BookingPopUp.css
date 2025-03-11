@@ -18,12 +18,16 @@
   width: 50%;
   height: 100%;
   transform: scale(0.9px);
+  border-radius: 20px;
+  background-image: url("./../../media//Images//bookPopUp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .book-item {
   /* border: solid blue; */
   width: 100%;
   padding: 20px;
-  background-color: white;
+  /* background-color: white; */
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -43,7 +47,10 @@
   width: 100%;
 }
 .bookForm-content > h3 {
-  font-size: 30px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
 }
 .bookForm-content > p {
   font-size: 18px;
@@ -76,19 +83,23 @@
   background-color: #f8ba3e4b;
   border: 1px solid grey;
   outline: none;
-  font-size: 25px;
+  font-size: 20px;
+  padding-left: 10px;
 }
 .bookForm-item > label {
-  font-size: 20px;
+  font-size: 25px;
   text-align: start;
+  color: white;
 }
 .bookForm-itemWrapper:nth-child(2) {
   flex-direction: column;
 }
 .bookForm-itemWrapper > label {
-  font-size: 20px;
+  font-size: 25px;
   text-align: start;
   width: 100%;
+  color: white;
+
 }
 .bookForm-itemWrapper > textarea {
   width: 100%;
@@ -97,7 +108,8 @@
   background-color: #f8ba3e4b;
   border: 1px solid grey;
   outline: none;
-  font-size: 25px;
+  font-size: 20px;
+  padding-left: 10px;
 }
 .bookForm-itemWrapper > button {
   width: 200px;

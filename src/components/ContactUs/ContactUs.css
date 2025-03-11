@@ -177,6 +177,7 @@
   border: 1px solid grey;
   outline: none;
   font-size: 25px;
+  padding-left: 10px;
 }
 .contactForm-item > label {
   font-size: 20px;
@@ -198,6 +199,7 @@
   border: 1px solid grey;
   outline: none;
   font-size: 25px;
+  padding-left: 10px;
 }
 .contactForm-itemWrapper > button {
   width: 200px;

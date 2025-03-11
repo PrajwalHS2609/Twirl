@@ -20,11 +20,11 @@ const BookingPopUp = () => {
         </div>
         <div className="book-item">
           <div className="bookForm-content">
-            <h3>Ask a Question</h3>
-            <p>
+            <h3>Book Your Appointment</h3>
+            {/* <p>
               If you have any questions, you can contact us. Please, fill out
               the form below.
-            </p>
+            </p> */}
             <form action="">
               <div className="bookForm-itemWrapper">
                 <div className="bookForm-item">
