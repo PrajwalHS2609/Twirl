@@ -3,23 +3,33 @@ import "./Footer.css";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
 
 const FooterSocial = () => {
   return (
     <div className="footer-social">
       <ul>
         <li>
-          <FaInstagram className="footer-socialIco"/>
+          <a href="">
+            {" "}
+            <FaInstagram className="footer-socialIco" />
+          </a>{" "}
         </li>
         <li>
-          <FaXTwitter className="footer-socialIco"/>
+          <a href="">
+            {" "}
+            <FaXTwitter className="footer-socialIco" />
+          </a>{" "}
         </li>
         <li>
-          <FaFacebookF className="footer-socialIco"/>
+          <a href="">
+            <FaFacebookF className="footer-socialIco" />
+          </a>
         </li>
         <li>
-          <FaWhatsapp className="footer-socialIco"/>
+          <a href="">
+            <FaYoutube className="footer-socialIco" />
+          </a>{" "}
         </li>
       </ul>
     </div>

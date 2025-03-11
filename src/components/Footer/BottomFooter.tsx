@@ -8,7 +8,7 @@ const BottomFooter = () => {
       <div className="bottomFooter-content">
         <b>Twirl © Copyright 2025</b>
       </div>
-      <div className="bottomFooter-tss"><Image src={tss} alt="tss" /></div>
+      <div className="bottomFooter-tss"><a href="https://tryseoservices.com/"><Image src={tss} alt="tss" /></a></div>
       <div className="bottomFooter-content">
         <FooterSocial />
       </div>
