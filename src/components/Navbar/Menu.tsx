@@ -107,20 +107,16 @@ const Menu = () => {
     },
     {
       id: "4",
-      pathName: "/spa-services",
-      menu: "Spa",
+      pathName: "/waxing-services",
+      menu: "Waxing",
     },
     {
       id: "5",
-      pathName: "",
-      menu: "Beauty Essentials",
+      pathName: "/makeup-services",
+      menu: "Makeup",
     },
 
-    {
-      id: "6",
-      pathName: "",
-      menu: "Lashes",
-    },
+
   ];
 
   return (

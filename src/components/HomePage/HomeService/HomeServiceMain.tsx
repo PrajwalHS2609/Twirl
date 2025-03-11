@@ -3,11 +3,12 @@ import React from "react";
 import "./HomeService.css";
 // import Carousel from "react-bootstrap/Carousel";
 import Link from "next/link";
-import spaServiceImg from "@/media/Images/HomeServices/spaServiceImg.png";
 import facialServiceImg from "@/media/Images/HomeServices/facialServiceImg.png";
 import hairServiceImg from "@/media/Images/HomeServices/hairServiceImg.png";
 import nailServiceImg from "@/media/Images/HomeServices/nailsServiceImg.jpg";
 import beautyServiceImg from "@/media/Images/HomeServices/beautyEssentialsImg.png";
+import makeupImg from "@/media/Images/HomeServices/makeupServiceImg.jpg";
+
 import Image from "next/image";
 
 const HomeServiceMain = () => {
@@ -31,20 +32,19 @@ const HomeServiceMain = () => {
       link: "/facial-services",
       image: facialServiceImg,
     },
+
     {
       id: 4,
-      title: "Spa",
-      link: "/spa-services",
-      image: spaServiceImg,
-    },
-
-    {
-      id: 5,
-      title: "Beauty Essentials",
-      link: "/beauty-essentials-services",
+      title: "Waxing",
+      link: "/waxing-services",
       image: beautyServiceImg,
     },
-
+    {
+      id: 5,
+      title: "Makeup",
+      link: "/makeup-services",
+      image: makeupImg,
+    },
   ];
 
   return (

@@ -1,14 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import "./ServiceCard.css";
-import spaServiceImg from "@/media/Images/HomeServices/spaServiceImg.png";
 import facialServiceImg from "@/media/Images/HomeServices/facialServiceImg.png";
 import hairServiceImg from "@/media/Images/HomeServices/hairServiceImg.png";
 import nailServiceImg from "@/media/Images/HomeServices/nailsServiceImg.jpg";
 import beautyServiceImg from "@/media/Images/HomeServices/beautyEssentialsImg.png";
-import lashesServiceImg from "@/media/Images/HomeServices/lashesServiceImg.jpg";
 import makeupServiceImg from "@/media/Images/HomeServices/makeupServiceImg.jpg";
-import microBladingServiceImg from "@/media/Images/HomeServices/microbladingServiceImg.jpg";
+import Link from "next/link";
 
 const ServiceCard = () => {
   const services = [
@@ -33,34 +31,15 @@ const ServiceCard = () => {
     },
     {
       id: 4,
-      title: "Spa",
-      link: "/spa-services",
-      image: spaServiceImg,
-    },
-
-    {
-      id: 5,
-      title: "Beauty Essentials",
-      link: "/beauty-essentials-services",
+      title: "Waxing",
+      link: "/waxing-services",
       image: beautyServiceImg,
     },
     {
-      id: 6,
+      id: 5,
       title: "Makeup",
-      link: "/",
+      link: "/makeup-services",
       image: makeupServiceImg,
-    },
-    {
-      id: 7,
-      title: "Lashes",
-      link: "/",
-      image: lashesServiceImg,
-    },
-    {
-      id: 8,
-      title: "MicroBlading",
-      link: "/",
-      image: microBladingServiceImg,
     },
   ];
   return (
@@ -75,7 +54,10 @@ const ServiceCard = () => {
                   <a href={services.link}>{services.title}</a>
                 </h3>
               </div>
-              <button>VIEW DETAILS</button>
+              <Link href={services.link}>
+                {" "}
+                <button>VIEW DETAILS</button>
+              </Link>
             </div>
           </div>
         </div>
