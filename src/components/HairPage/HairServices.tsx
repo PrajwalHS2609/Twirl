@@ -1,6 +1,12 @@
 import React from "react";
 import "@/components/Style/style.css";
-import haircutStyling from "@/media/Images/HairService/haircutStyling.jpg";
+import haircutStyling from "@/media/Images/HairService/Haircut & Styling.png";
+import hairHighlights from "@/media/Images/HairService/Highlights & Streaks.png";
+import hairSpa from "@/media/Images/HairService/Hair Spa.png";
+import hairTreatment from "@/media/Images/HairService/Hair Treatment.png";
+import beardStyling from "@/media/Images/HairService/Beard Styling.png";
+import mustache from "@/media/Images/HairService/Mustache.png";
+
 import Image from "next/image";
 import Link from "next/link";
 const HairServices = () => {
@@ -16,7 +22,7 @@ const HairServices = () => {
     {
       id: 2,
       title: "Highlights & Streaks",
-      image: haircutStyling,
+      image: hairHighlights,
       link: "/",
       description:
         " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
@@ -24,7 +30,7 @@ const HairServices = () => {
     {
       id: 3,
       title: "Hair Spa",
-      image: haircutStyling,
+      image: hairSpa,
       link: "/",
       description:
         " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
@@ -32,7 +38,7 @@ const HairServices = () => {
     {
       id: 4,
       title: "Hair Treatment",
-      image: haircutStyling,
+      image: hairTreatment,
       link: "/",
       description:
         " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
@@ -40,7 +46,7 @@ const HairServices = () => {
     {
       id: 5,
       title: "Beard Styling",
-      image: haircutStyling,
+      image: beardStyling,
       link: "/",
       description:
         " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
@@ -48,7 +54,7 @@ const HairServices = () => {
     {
       id: 6,
       title: "Mustache",
-      image: haircutStyling,
+      image: mustache,
       link: "/",
       description:
         " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
