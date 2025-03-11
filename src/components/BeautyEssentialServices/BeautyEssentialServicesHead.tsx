@@ -8,7 +8,7 @@ const BeautyEssentialServicesHead = () => {
     <div className="subHead-container">
       <Image src={BeautyServiceBanner} alt="facialServiceBanner" />
       <div className="subHead-content">
-        <h2>Beauty Essential Services</h2>
+        <h2>Waxing Services</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
           eligendi est fugit distinctio repellendus dolorem dolorum? Tempore
