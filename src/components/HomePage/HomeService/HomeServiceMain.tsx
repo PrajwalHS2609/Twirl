@@ -46,7 +46,6 @@ const HomeServiceMain = () => {
     },
 
   ];
-  console.log(hairServiceImg, nailServiceImg, facialServiceImg);
 
   return (
     <>

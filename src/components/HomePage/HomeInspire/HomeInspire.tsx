@@ -77,7 +77,7 @@ const HomeInspire = () => {
       </div>
       {inspireCard.map((x) => (
         <div className="homeInspire-cardContainer" key={x.id}>
-          <Image src={x.img} alt={x.title}/>
+          <Image src={x.img} alt={x.title} loading="lazy"/>
           <div className="homeInspire-cardContent" id={x.bg}>
             <h3>{x.title}</h3>
             <p>

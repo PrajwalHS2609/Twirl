@@ -1,6 +1,15 @@
+"use client"
 import React from "react";
 import "./HomeHeader.css";
 const HomeHeader = () => {
+  const handleAppointment = () => {
+    const bookPopUpElement = document.querySelector(".book-container");
+    if (bookPopUpElement) {
+      (bookPopUpElement as HTMLElement).style.visibility = "visible";
+    } else {
+      console.warn("Element with class 'bookPopUp' not found");
+    }
+  };
   return (
     <div className="homeHeader-container">
       <video src="/Video/HomeBanner.mp4" autoPlay loop muted></video>
@@ -12,7 +21,7 @@ const HomeHeader = () => {
           bring out the best in you. Because you deserve nothing but the finest!
         </p>
         <div className="homeHeader-button">
-          <button>BOOK APPOINTMENT</button> <h3>or</h3>
+          <button onClick={handleAppointment}>BOOK APPOINTMENT</button> <h3>or</h3>
           <button>CONTACT US</button>
         </div>
       </div>

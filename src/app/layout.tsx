@@ -2,6 +2,8 @@ import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BookingPopUp from "@/components/BookingPopUp/BookingPopUp";
+// import BookingPopUp from "./../components/BookingPopUp/BookingPopUp.jsx";
 
 export default function RootLayout({
   children,
@@ -21,6 +23,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <BookingPopUp />
       </body>
     </html>
   );

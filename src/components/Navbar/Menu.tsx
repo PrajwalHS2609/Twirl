@@ -76,6 +76,18 @@ const Menu = () => {
   //     console.error("dropRef is null or not attached to an element");
   //   }
   // };
+  const handleAppointment = () => {
+    const bookPopUpElement = document.querySelector(".book-container");
+    const sideBar = document.querySelector(".resp-Menu") as HTMLElement;
+    sideBar.style.visibility = "visible";
+    sideBar.style.opacity = "1";
+    sideBar.style.transform = "translateX(0px)";
+    if (bookPopUpElement) {
+      (bookPopUpElement as HTMLElement).style.visibility = "visible";
+    } else {
+      console.warn("Element with class 'bookPopUp' not found");
+    }
+  };
 
   const services = [
     {
@@ -103,7 +115,7 @@ const Menu = () => {
       pathName: "",
       menu: "Beauty Essentials",
     },
-    
+
     {
       id: "6",
       pathName: "",
@@ -147,11 +159,14 @@ const Menu = () => {
             href="/salon-membership"
             className={pathname === "/about-us" ? "active" : ""}
           >
-          SALON MEMBERSHIP
+            SALON MEMBERSHIP
           </Link>
         </li>
         <li>
-          <Link href="/about-us" className={pathname === "/blog" ? "active" : ""}>
+          <Link
+            href="/about-us"
+            className={pathname === "/blog" ? "active" : ""}
+          >
             ABOUT US{" "}
           </Link>
         </li>
@@ -169,7 +184,7 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <button>BOOK YOUR VISIT</button>
+          <button onClick={handleAppointment}>BOOK YOUR VISIT</button>
         </li>
       </div>
       {/* -----------------------respMenu------------------------------- */}
@@ -255,10 +270,10 @@ const Menu = () => {
               </Link>
             </li>
             <li className="menuContainerBtn-Container">
-              <div className="menuContainerBtn">
+              <div className="menuContainerBtn" >
                 {" "}
-                <Link href="/">
-                  <button>BOOK NOW </button>
+                <Link href="" >
+                  <button onClick={handleAppointment}>BOOK NOW </button>
                 </Link>
               </div>
             </li>
