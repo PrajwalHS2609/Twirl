@@ -9,10 +9,10 @@ const HairHead = () => {
       <div className="subHead-content">
         <h2>Hair Services</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
-          eligendi est fugit distinctio repellendus dolorem dolorum? Tempore
-          nobis ipsam, molestias harum ullam incidunt sapiente rem soluta
-          maiores, dignissimos aperiam similique.
+          Experience the ultimate hair transformation at Twirl Hair Salon! From
+          precision haircuts to vibrant coloring, rejuvenating hair spas, and
+          expert smoothening treatments, our skilled stylists ensure you leave
+          looking and feeling your best. Step in for a style upgrade today!
         </p>
       </div>
     </div>

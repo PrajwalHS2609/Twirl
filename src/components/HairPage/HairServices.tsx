@@ -17,7 +17,7 @@ const HairServices = () => {
       image: haircutStyling,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Upgrade your style at Twirl! Get trendy haircuts and flawless blow-dries from expert stylists. Experience a Dyson transformation and step out with confidence. Visit us in Mangaluru for exclusive offers!",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const HairServices = () => {
       image: hairHighlights,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Transform your look with expert hair coloring and highlights! From bold shades to subtle tones, we create a style that suits you. Step into color and confidence!",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const HairServices = () => {
       image: hairSpa,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Revive your hair at Twirl Salon with Botox, Keratin & Olaplex treatments! Strengthen, nourish, and restore shine to chemically treated hair.",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const HairServices = () => {
       image: hairTreatment,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Indulge in luxurious hair treatments at Twirl Salon! Restore health and shine with deep hydration, scalp therapies, and conditioning masks for soft, vibrant locks.",
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ const HairServices = () => {
       image: beardStyling,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Twirl Salon crafts beard styles that suit your personality. With expert precision, we enhance your features for a sharp, well-groomed look!",
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ const HairServices = () => {
       image: mustache,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Get a sharp, refined mustache at Twirl Salon! Our expert barbers craft precision styles, from classic to modern. Book your appointment today!",
     },
   ];
   return (
