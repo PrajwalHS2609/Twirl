@@ -1,113 +1,125 @@
 import React from "react";
-import facialServiceImg from "@/media/Images/FacialService/facialServiceImg.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import organicFacial from "@/media/Images/FacialService/Organic Cleanup Facial.jpg";
+import snowWhite from "@/media/Images/FacialService/Snow white facial.png";
+import deadSea from "@/media/Images/FacialService/Dead Sea Mineral Facial.png";
+import chocolateMint from "@/media/Images/FacialService/Chocolate Mint Facial.png";
+import whiteSecret from "@/media/Images/FacialService/White Secret.png";
+import acneCare from "@/media/Images/FacialService/Acne Cure Facial.png";
+import diamondGlow from "@/media/Images/FacialService/Diamond Glow Facial.png";
+import antiAgeing from "@/media/Images/FacialService/Anti Ageing Facial.png";
+import goldFacial from "@/media/Images/FacialService/Gold Facial.png";
+import eyeProtection from "@/media/Images/FacialService/Eye Protection Facial.png";
+import hydraLifting from "@/media/Images/FacialService/Hydra Lifting Ocean Miracle.png";
+import luminousFacial from "@/media/Images/FacialService/Luminous Lightening Facial.png";
+import brazilianSkin from "@/media/Images/FacialService/Brazilian Skin Lightening.png";
 
 const FacialServicesCard = () => {
   const facialService = [
     {
       id: 1,
       title: "Organic Cleanup Facial",
-      image: facialServiceImg,
+      image: organicFacial,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Infused with the power of Kakadu plum, Noni fruit, and Dead Sea minerals, this facial deeply purifies and revitalizes your skin, leaving it refreshed, radiant, and beautifully clear.",
     },
     {
       id: 2,
       title: "Snow white facial",
-      image: facialServiceImg,
+      image: snowWhite,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Achieve a luminous, radiant glow with the soothing power of Canadian Willow Herb, the exfoliating magic of Papain Enzymes, and the refreshing touch of Cucumber Herbal Extracts.",
     },
     {
       id: 3,
       title: "Dead Sea Mineral Facial",
-      image: facialServiceImg,
+      image: deadSea,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Enriched with pure Dead Sea minerals, this treatment deeply hydrates and firms your skin, leaving it plump, nourished, and beautifully revitalized.",
     },
     {
       id: 4,
       title: "Chocolate Mint Facial",
-      image: facialServiceImg,
+      image: chocolateMint,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Infused with the rejuvenating blend of coffee, refreshing mint, Korean cica, and nutrient-rich seabuckthorn, this magical formula brightens your skin, enhances elasticity, and restores a youthful glow.",
     },
     {
       id: 5,
       title: "White Secret",
-      image: facialServiceImg,
+      image: whiteSecret,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Unlock intense radiance and a luminous glow with the power of highly active plant extracts, nourishing Echium seed oil, and brightening Liquorice root extracts.",
     },
     {
       id: 6,
       title: "Acne Cure Facial",
-      image: facialServiceImg,
+      image: acneCare,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Say goodbye to acne, pimples, and pigmentation with a powerful blend of skin-purifying ingredients designed to clarify, heal, and restore your natural glow.",
     },
     {
       id: 7,
       title: "Diamond Glow Facial",
-      image: facialServiceImg,
+      image: diamondGlow,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Achieve an instant radiant glow and deep hydration with this rejuvenating treatment, leaving your skin luminous, refreshed, and beautifully nourished.",
     },
     {
       id: 8,
       title: "Anti Ageing Facial",
-      image: facialServiceImg,
+      image: antiAgeing,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Experience the ultimate skin refresh with deep pore cleansing, firming, and an instant brightening boost for a smooth, radiant, and flawless complexion.",
     },
     {
       id: 9,
       title: "Gold Facial",
-      image: facialServiceImg,
+      image: goldFacial,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Revitalize and replenish dehydrated skin with this luxurious facial, enriched with Morocco’s pure gold Argan oil, brightening Vitamin C, and deeply hydrating Hyaluronic Acid for a radiant, youthful glow.",
     },
     {
       id: 10,
       title: "Eye Protection Facial",
-      image: facialServiceImg,
+      image: eyeProtection,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Inspired by advanced carboxytherapy, this cutting-edge cosmetic technology targets and prevents all aesthetic concerns around the eyes, leaving them refreshed, youthful, and radiant.",
     },
     {
       id: 11,
       title: "Hydra Lifting Ocean Miracle",
-      image: facialServiceImg,
+      image: hydraLifting,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Powered by marine biotechnology and Quinton sea water, this firming treatment nourishes, restores elasticity, and enhances your youthful glow.",
     },
     {
       id: 12,
       title: "Luminous Lightening Facial",
-      image: facialServiceImg,
+      image: luminousFacial,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "This illuminating anti-aging treatment clarifies, brightens, and envelops your skin in a radiant halo of light and youthful vitality.",
     },
     {
       id: 13,
       title: "Brazilian Skin Lightening",
-      image: facialServiceImg,
+      image: brazilianSkin,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Reveal a brighter, more even tone with our intimate area treatment—say goodbye to darkness and embrace confidence with regular care.",
     },
   ];
   return (

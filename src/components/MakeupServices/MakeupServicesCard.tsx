@@ -1,5 +1,7 @@
 import React from "react";
-import makeupImg from "@/media/Images/MakeupServices/makeupImg.png";
+import preBridal from "@/media/Images/MakeupServices/Pre-Bridal Makeup.png";
+import bridal from "@/media/Images/MakeupServices/Bridal MakeUp.png";
+
 import Image from "next/image";
 import Link from "next/link";
 import "@/components/Style/style.css";
@@ -8,11 +10,19 @@ const MakeupServicesCard = () => {
   const lashesService = [
     {
       id: 1,
-      title: "Makeup",
-      image: makeupImg,
+      title: "Pre-Bridal Makeup",
+      image: preBridal,
       link: "/",
       description:
-        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum culpa laboriosam est commodi velit, aliquid nesciunt blanditiis eum? Ex ullam dolorem nemo similique itaque rem consequatur cupiditate corporis in aspernatur!",
+        "Make your wedding unforgettable with Twirl's Pre-bridal Services! Tailored for brides and grooms, our packages include hair, skin, grooming, and more. Book online or visit us in Mangaluru for a personalized experience!",
+    },
+    {
+      id: 2,
+      title: "Bridal Makeup",
+      image: bridal,
+      link: "/",
+      description:
+        "Become the bride of your dreams with Twirl’s personalized bridal packages! Visit our Mangaluru salon for exclusive offers and let us make you feel beautiful on your special day.",
     },
   ];
   return (

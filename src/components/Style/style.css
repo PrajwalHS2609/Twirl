@@ -31,8 +31,9 @@
   text-align: center;
 }
 .subHead-content > p {
-  width: 50%;
+  width: 60%;
   font-size: 20px;
+  text-align: justify;
 }
 .subServices-container {
   /* border: solid green; */
@@ -100,6 +101,9 @@
 .subServices-cardContent > a:hover::after {
   width: 100%;
   opacity: 1;
+}
+.subServices-cardContent > h3 {
+  text-align: center;
 }
 /* -------------------------------------------------------------------------- */
 .hairServiceHead-container {
