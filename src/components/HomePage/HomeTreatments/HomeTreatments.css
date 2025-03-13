@@ -49,12 +49,7 @@
   object-fit: cover;
   transition: 600ms ease;
 }
-.carousel-control-prev-icon {
-  display: none;
-}
-.carousel-control-next-icon {
-  display: none;
-}
+
 .homeTreatmentMain-item {
   /* border: solid yellowgreen; */
   width: 100%;
