@@ -24,9 +24,9 @@
     background-color: rgb(152, 152, 152);
     display: none;
   }
-  /* .styles-module_whatsappChatBox__MdQ5U.styles-module_open__R8NqR {
+  .styles-module_whatsappChatBox__MdQ5U.styles-module_open__R8NqR {
     width: 450px;
-  } */
+  }
   .styles-module_chatBody__VBxQH {
     overflow-y: scroll;
   }
