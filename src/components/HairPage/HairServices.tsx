@@ -47,7 +47,7 @@ const HairServices = () => {
       id: 5,
       title: "Beard Styling",
       image: beardStyling,
-      link: "/",
+      link: "/beard",
       description:
         "Twirl Salon crafts beard styles that suit your personality. With expert precision, we enhance your features for a sharp, well-groomed look!",
     },
@@ -55,7 +55,7 @@ const HairServices = () => {
       id: 6,
       title: "Mustache",
       image: mustache,
-      link: "/",
+      link: "/mustache",
       description:
         "Get a sharp, refined mustache at Twirl Salon! Our expert barbers craft precision styles, from classic to modern. Book your appointment today!",
     },
@@ -70,7 +70,7 @@ const HairServices = () => {
           <div className="subServices-cardContent">
             <h3>{x.title}</h3>
             <p>{x.description}</p>
-            <Link href="/">View More</Link>
+            <Link href={x.link}>View More</Link>
           </div>
         </div>
       ))}

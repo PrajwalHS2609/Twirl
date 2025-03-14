@@ -4,6 +4,13 @@ import "./HomeTestimonial.css";
 import Carousel from "react-bootstrap/Carousel";
 import { FaQuoteRight } from "react-icons/fa";
 import { FaQuoteLeft } from "react-icons/fa";
+import Image from "next/image";
+import amit from "@/media/Images/TestimonialImgs/Amit S.png"
+import neha from "@/media/Images/TestimonialImgs/Neha R.png"
+import pooja from "@/media/Images/TestimonialImgs/Pooja K.png"
+import rohit from "@/media/Images/TestimonialImgs/Rohit V.png"
+import shruti from "@/media/Images/TestimonialImgs/Shruti M.png"
+
 
 const HomeTestimonialMain = () => {
   const [index, setIndex] = useState(0);
@@ -18,10 +25,7 @@ const HomeTestimonialMain = () => {
           <div className="homeTestimonial-content">
             <div className="homeTestimonial-itemWrapper">
               <div className="homeTestimonial-item">
-                <img
-                  src="https://img.freepik.com/free-photo/brunette-man-isolated-white-background_1368-4404.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid"
-                  alt=""
-                />
+                <Image src={neha} alt="neha" />
                 <h5>Neha R</h5>
               </div>
               <div className="homeTestimonial-item">
@@ -44,10 +48,7 @@ const HomeTestimonialMain = () => {
           <div className="homeTestimonial-content">
             <div className="homeTestimonial-itemWrapper">
               <div className="homeTestimonial-item">
-                <img
-                  src="https://img.freepik.com/free-photo/brunette-man-isolated-white-background_1368-4404.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid"
-                  alt=""
-                />
+                <Image src={pooja} alt="pooja" />
                 <h5>Pooja K</h5>
               </div>
               <div className="homeTestimonial-item">
@@ -68,10 +69,7 @@ const HomeTestimonialMain = () => {
           <div className="homeTestimonial-content">
             <div className="homeTestimonial-itemWrapper">
               <div className="homeTestimonial-item">
-                <img
-                  src="https://img.freepik.com/free-photo/brunette-man-isolated-white-background_1368-4404.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid"
-                  alt=""
-                />
+                <Image src={rohit} alt="rohit" />
                 <h5>Rohit V</h5>
               </div>
               <div className="homeTestimonial-item">
@@ -92,10 +90,7 @@ const HomeTestimonialMain = () => {
           <div className="homeTestimonial-content">
             <div className="homeTestimonial-itemWrapper">
               <div className="homeTestimonial-item">
-                <img
-                  src="https://img.freepik.com/free-photo/brunette-man-isolated-white-background_1368-4404.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid"
-                  alt=""
-                />
+                <Image src={shruti} alt="shruti" />
                 <h5>Shruti M</h5>
               </div>
               <div className="homeTestimonial-item">
@@ -118,10 +113,7 @@ const HomeTestimonialMain = () => {
           <div className="homeTestimonial-content">
             <div className="homeTestimonial-itemWrapper">
               <div className="homeTestimonial-item">
-                <img
-                  src="https://img.freepik.com/free-photo/brunette-man-isolated-white-background_1368-4404.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid"
-                  alt=""
-                />
+                <Image src={amit} alt="amit" />
                 <h5> Amit S</h5>
               </div>
               <div className="homeTestimonial-item">

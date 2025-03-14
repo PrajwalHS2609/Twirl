@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import "@/components/Style/style.css";
-import gelNailArtBanner from "@/media/Images/NailService/banner/gelNailBanner.jpg";
+import gelNailArtBanner from "@/media/Images/NailService/Banner/gelNailBanner.jpg";
 
 
 const GelNailArtHead = () => {
