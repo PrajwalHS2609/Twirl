@@ -10,7 +10,7 @@ const FooterSocial = () => {
     <div className="footer-social">
       <ul>
         <li>
-          <a href="">
+          <a href="https://www.instagram.com/twirllifestyle/">
             {" "}
             <FaInstagram className="footer-socialIco" />
           </a>{" "}
@@ -22,7 +22,7 @@ const FooterSocial = () => {
           </a>{" "}
         </li>
         <li>
-          <a href="">
+          <a href="https://www.facebook.com/share/15xNyAGn54/">
             <FaFacebookF className="footer-socialIco" />
           </a>
         </li>

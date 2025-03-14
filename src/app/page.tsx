@@ -1,4 +1,5 @@
 import HomeAbout from "@/components/HomePage/HomeAbout/HomeAbout";
+import HomeContent from "@/components/HomePage/HomeContent/HomeContent";
 // import HomeArtist from "@/components/HomePage/HomeArtist/HomeArtist";
 import HomeHeader from "@/components/HomePage/HomeHeader/HomeHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
@@ -20,6 +21,7 @@ export default function HomePage() {
       <HomeTestimonial />
       <HomeInspire />
       <HomeMap />
+      <HomeContent/>
     </div>
   );
 }

@@ -92,27 +92,27 @@ const Menu = () => {
   const services = [
     {
       id: "1",
-      pathName: "/hair-services",
+      pathName: "/hair-salon-in-mangaluru",
       menu: "Hair",
     },
     {
       id: "2",
-      pathName: "/nails-services",
+      pathName: "/nail-salon-in-mangaluru",
       menu: "Nails",
     },
     {
       id: "3",
-      pathName: "/facial-services",
+      pathName: "/facials-in-mangaluru",
       menu: "Facials",
     },
     {
       id: "4",
-      pathName: "/waxing-services",
+      pathName: "/waxing-in-mangaluru",
       menu: "Waxing",
     },
     {
       id: "5",
-      pathName: "/makeup-services",
+      pathName: "/makeup-in-mangaluru",
       menu: "Makeup",
     },
 
@@ -152,8 +152,8 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href="/salon-membership"
-            className={pathname === "/about-us" ? "active" : ""}
+            href="/salon-membership-in-mangaluru"
+            className={pathname === "/salon-membership-in-mangaluru" ? "active" : ""}
           >
             SALON MEMBERSHIP
           </Link>
@@ -161,7 +161,7 @@ const Menu = () => {
         <li>
           <Link
             href="/about-us"
-            className={pathname === "/blog" ? "active" : ""}
+            className={pathname === "/about-us" ? "active" : ""}
           >
             ABOUT US{" "}
           </Link>

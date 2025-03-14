@@ -7,19 +7,19 @@ const FooterServices = () => {
     <ul>
       <h4>Services</h4>
       <li>
-        <Link href="/hair-services">Hair</Link>
+        <Link href="/hair-salon-in-mangaluru">Hair</Link>
       </li>
       <li>
-        <Link href="/nails-services">Nails</Link>
+        <Link href="/nail-salon-in-mangaluru">Nails</Link>
       </li>
       <li>
-        <Link href="/facial-services">Facials</Link>
+        <Link href="/facials-in-mangaluru">Facials</Link>
       </li>
       <li>
-        <Link href="/waxing-services">Waxing</Link>
+        <Link href="/waxing-in-mangaluru">Waxing</Link>
       </li>
       <li>
-        <Link href="/makeup-services">Makeup</Link>
+        <Link href="/makeup-in-mangaluru">Makeup</Link>
       </li>
     </ul>
   </div>

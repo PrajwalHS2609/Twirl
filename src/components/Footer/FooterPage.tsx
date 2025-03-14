@@ -10,16 +10,16 @@ const FooterPage = () => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">Services</Link>
+          <Link href="/services">Services</Link>
         </li>
         <li>
-          <Link href="/">About Us</Link>
+          <Link href="/about-us">About Us</Link>
         </li>
         <li>
-          <Link href="/">Salon Membership</Link>
+          <Link href="/salon-membership-in-mangaluru">Salon Membership</Link>
         </li>
         <li>
-          <Link href="/">Contact Us</Link>
+          <Link href="/contact-us">Contact Us</Link>
         </li>
       </ul>
     </div>
