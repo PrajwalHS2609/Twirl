@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BookingPopUp from "@/components/BookingPopUp/BookingPopUp";
+import Whatsapp from "@/components/Whatsapp/Whatsapp";
 // import BookingPopUp from "./../components/BookingPopUp/BookingPopUp.jsx";
 
 export default function RootLayout({
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Whatsapp />
         <BookingPopUp />
       </body>
     </html>

@@ -15,7 +15,7 @@ const HairServices = () => {
       id: 1,
       title: "Haircut & Styling",
       image: haircutStyling,
-      link: "/",
+      link: "/haircut-and-styling",
       description:
         "Upgrade your style at Twirl! Get trendy haircuts and flawless blow-dries from expert stylists. Experience a Dyson transformation and step out with confidence. Visit us in Mangaluru for exclusive offers!",
     },
@@ -31,7 +31,7 @@ const HairServices = () => {
       id: 3,
       title: "Hair Spa",
       image: hairSpa,
-      link: "/",
+      link: "/hair-spa",
       description:
         "Revive your hair at Twirl Salon with Botox, Keratin & Olaplex treatments! Strengthen, nourish, and restore shine to chemically treated hair.",
     },
@@ -39,7 +39,7 @@ const HairServices = () => {
       id: 4,
       title: "Hair Treatment",
       image: hairTreatment,
-      link: "/",
+      link: "/hair-treatment",
       description:
         "Indulge in luxurious hair treatments at Twirl Salon! Restore health and shine with deep hydration, scalp therapies, and conditioning masks for soft, vibrant locks.",
     },

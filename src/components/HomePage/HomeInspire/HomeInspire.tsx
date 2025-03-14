@@ -7,7 +7,7 @@ import nailExtensions from "@/media/Images/HomeInspire/nail extensions.png";
 import trendyMens from "@/media/Images/HomeInspire/Trendy Men's Hair Style.png";
 import bridalMakeup from "@/media/Images/HomeInspire/Bridal Makeup.png";
 import frizzyHair from "@/media/Images/HomeInspire/Frizzy Hair Treatment.png";
-import eyelash from "@/media/Images/HomeInspire/eyelash extensions.png";
+import pedicure from "@/media/Images/HomeInspire/Pedicure.png";
 import Image from "next/image";
 
 const HomeInspire = () => {
@@ -30,10 +30,10 @@ const HomeInspire = () => {
     },
     {
       id: 3,
-      title: "Nail Extensions",
+      title: "Manicure",
       img: nailExtensions,
       description:
-        "Flaunt flawless nails with stunning extensions—elegant, durable, and effortlessly glamorous. Perfect length, perfect style, perfect you!",
+        "Pamper your hands with a luxurious manicure! From nail shaping and cuticle care to a relaxing massage and flawless polish, enjoy beautifully groomed and nourished nails that make a statement.",
       bg: "colorChange3",
     },
     {
@@ -62,10 +62,10 @@ const HomeInspire = () => {
     },
     {
       id: 7,
-      title: "Eyelash Extensions",
-      img: eyelash,
+      title: "Pedicure",
+      img: pedicure,
       description:
-        "Enhance your beauty with flawless eyelash extensions—longer, fuller, and effortlessly glamorous. Wake up to stunning lashes every day",
+        "Give your feet the care they deserve! A soothing pedicure includes a relaxing soak, nail shaping, cuticle care, exfoliation, and a hydrating massage, leaving your feet soft, refreshed, and beautiful.",
       bg: "colorChange7",
     },
   ];
