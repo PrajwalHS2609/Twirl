@@ -16,33 +16,33 @@ const HomeServiceMain = () => {
     {
       id: 1,
       title: "Hair",
-      link: "/hair-services",
+      link: "/hair-salon-in-mangaluru",
       image: hairServiceImg,
     },
     {
       id: 2,
       title: "Nails",
-      link: "/nails-services",
+      link: "/nail-salon-in-mangaluru",
       image: nailServiceImg,
     },
 
     {
       id: 3,
       title: "Facial",
-      link: "/facial-services",
+      link: "/facials-in-mangaluru",
       image: facialServiceImg,
     },
 
     {
       id: 4,
       title: "Waxing",
-      link: "/waxing-services",
+      link: "/waxing-in-mangaluru",
       image: beautyServiceImg,
     },
     {
       id: 5,
       title: "Makeup",
-      link: "/makeup-services",
+      link: "/makeup-in-mangaluru",
       image: makeupImg,
     },
   ];

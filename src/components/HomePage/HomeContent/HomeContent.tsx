@@ -87,8 +87,8 @@ const HomeContent = () => {
           massage, and detox treatments, to help you unwind and refresh.
         </p>
         <p>
-          We also provide advanced beauty treatments such as laser hair removal,
-          microblading, and semi-permanent makeup. These services at our beauty
+          We also provide advanced beauty treatments such as Organic Cleanup Facial,
+          Waxing, and semi-permanent makeup. These services at our beauty
           salon in Mangaluru are performed by trained professionals using the
           latest techniques to ensure precision and long-lasting results.
         </p>
