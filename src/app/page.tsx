@@ -8,7 +8,18 @@ import HomeMap from "@/components/HomePage/HomeMap/HomeMap";
 import HomeService from "@/components/HomePage/HomeService/HomeService";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
-
+export const metadata = {
+  title: "Beauty Salon in Mangaluru – Hair, Nails, Facial, Waxing & Make-Up",
+  description:
+    "Beauty Salon in Mangaluru. Whether you are looking for expert haircuts, skin treatments, nail care, or relaxing spa services. Book Now!",
+  canonical: "https://twirlsalon.com/",
+  keywords: [
+    "Best salon near me",
+    "Luxury salon experience",
+    "Professional hairstyling",
+    "Hair and beauty salon",
+  ],
+};
 export default function HomePage() {
   return (
     <div className="main-container">
@@ -21,7 +32,7 @@ export default function HomePage() {
       <HomeTestimonial />
       <HomeInspire />
       <HomeMap />
-      <HomeContent/>
+      <HomeContent />
     </div>
   );
 }
