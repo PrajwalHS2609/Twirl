@@ -18,6 +18,10 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
+        <meta
+          name="google-site-verification"
+          content="Ny1sryXLA5O4tZ-M4lTfw8VgYAndPN2fYbXwLDAoehM"
+        />
         <link rel="icon" type="image/png" href="./favicon.png" />
       </head>
       <body>
