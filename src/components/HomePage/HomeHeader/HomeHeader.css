@@ -55,6 +55,20 @@
     color: black;
   }
 }
+.homeHeader-button > button > a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+.homeHeader-button > button:hover a{
+  background-color: white;
+  color: black;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .homeHeader-content > p {
     width: 100%;

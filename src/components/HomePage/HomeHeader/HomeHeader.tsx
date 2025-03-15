@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import "./HomeHeader.css";
+import Link from "next/link";
 const HomeHeader = () => {
   const handleAppointment = () => {
     const bookPopUpElement = document.querySelector(".book-container");
@@ -22,7 +23,7 @@ const HomeHeader = () => {
         </p>
         <div className="homeHeader-button">
           <button onClick={handleAppointment}>BOOK APPOINTMENT</button> <h3>or</h3>
-          <button>CONTACT US</button>
+          <button><Link href="/contact-us">CONTACT US</Link></button>
         </div>
       </div>
     </div>
