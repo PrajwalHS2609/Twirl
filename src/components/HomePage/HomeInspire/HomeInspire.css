@@ -28,7 +28,6 @@
 .homeInspire-cardContainer:hover .homeInspire-cardContent {
   transform: translateX(0);
   opacity: 1;
-
 }
 .homeInspire-cardContent {
   position: absolute;
@@ -119,5 +118,15 @@
     height: 500px;
     position: relative;
     overflow: hidden;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .homeInspire-static {
+    padding: 10px;
+  }
+  .homeInspire-static > h2 {
+    font-size: 40px;
+    position: relative;
+    color: white;
   }
 }
