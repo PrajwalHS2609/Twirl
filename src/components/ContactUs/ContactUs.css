@@ -281,7 +281,6 @@
     /* border: solid red; */
     flex-direction: column;
     gap: 20px;
-
   }
   .contactForm-content {
     /* border: solid yellowgreen; */
@@ -299,5 +298,49 @@
   .contactForm-content > p {
     font-size: 20px;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contactHeader-content > h2 {
+    text-align: start;
+    font-size: 40px;
+    color: white;
+  }
+  .contactForm-container {
+    /* border: solid red; */
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contactHeader-call {
+    border-left: none;
+    border-top: solid 1px white;
+    width: 100%;
+  }
+  .contactHeader-item {
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+  .contactForm-content {
+    /* border: solid yellowgreen; */
+    width: 100%;
+  }
+  .contactForm-itemWrapper {
+    /* border: solid blue; */
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contactForm-content > h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .contactForm-content > p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contactForm-itemWrapper > textarea {
+    width: 50%;
   }
 }

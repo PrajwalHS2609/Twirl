@@ -84,4 +84,7 @@
   .membershipHead-container > img {
 object-position: 0 0 ;
   }
+  .membershipHead-containerMob {
+  height: 700px;
+}
 }
