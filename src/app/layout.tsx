@@ -22,6 +22,19 @@ export default function RootLayout({
           name="google-site-verification"
           content="Ny1sryXLA5O4tZ-M4lTfw8VgYAndPN2fYbXwLDAoehM"
         />
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CMCQW65YQW"
+        ></script>
+        <script>
+          {`
+           window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CMCQW65YQW');
+  `}
+        </script>
         <link rel="icon" type="image/png" href="./favicon.png" />
       </head>
       <body>
