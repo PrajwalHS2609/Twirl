@@ -14,7 +14,7 @@ const MakeupServicesCard = () => {
       image: preBridal,
       link: "/",
       description:
-        "Make your wedding unforgettable with Twirl's Pre-bridal Services! Tailored for brides and grooms, our packages include hair, skin, grooming, and more. Book online or visit us in Mangaluru for a personalized experience!",
+        "Make your wedding unforgettable with Twirl's Pre-bridal Services! Tailored for brides and grooms, our packages include hair, skin, grooming, and more. Book online or visit us in mangalore for a personalized experience!",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const MakeupServicesCard = () => {
       image: bridal,
       link: "/",
       description:
-        "Become the bride of your dreams with Twirl’s personalized bridal packages! Visit our Mangaluru salon for exclusive offers and let us make you feel beautiful on your special day.",
+        "Become the bride of your dreams with Twirl’s personalized bridal packages! Visit our mangalore salon for exclusive offers and let us make you feel beautiful on your special day.",
     },
   ];
   return (

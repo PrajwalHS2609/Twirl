@@ -6,10 +6,10 @@ import SalonMembershipContent from "@/components/SalonMembership/SalonMembership
 import SalonMembershipHead from "@/components/SalonMembership/SalonMembershipHead";
 export const metadata = {
   title:
-    "Salon Membership in Mangaluru – Hair, Nails, Facial, Waxing & Make-Up",
+    "Salon Membership in mangalore – Hair, Nails, Facial, Waxing & Make-Up",
   description:
-    "Salon Membership in Mangaluru. Whether you are looking for expert haircuts, skin treatments, nail care, or relaxing spa services. Book Now!",
-  canonical: "https://twirlsalon.com/salon-membership-in-mangaluru",
+    "Salon Membership in mangalore. Whether you are looking for expert haircuts, skin treatments, nail care, or relaxing spa services. Book Now!",
+  canonical: "https://twirlsalon.com/salon-membership-in-mangalore",
   keywords: [
     "Best salon near me",
     "Luxury salon experience",

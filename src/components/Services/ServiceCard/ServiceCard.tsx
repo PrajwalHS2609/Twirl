@@ -13,32 +13,32 @@ const ServiceCard = () => {
     {
       id: 1,
       title: "Hair",
-      link: "/hair-services",
+      link: "/hair-salon-in-mangalore",
       image: hairServiceImg,
     },
     {
       id: 2,
       title: "Nails",
-      link: "/nails-services",
+      link: "/nail-salon-in-mangalore",
       image: nailServiceImg,
     },
 
     {
       id: 3,
       title: "Facial",
-      link: "/facial-services",
+      link: "/facials-in-mangalore",
       image: facialServiceImg,
     },
     {
       id: 4,
       title: "Waxing",
-      link: "/waxing-services",
+      link: "/waxing-in-mangalore",
       image: beautyServiceImg,
     },
     {
       id: 5,
       title: "Makeup",
-      link: "/makeup-services",
+      link: "/makeup-in-mangalore",
       image: makeupServiceImg,
     },
   ];

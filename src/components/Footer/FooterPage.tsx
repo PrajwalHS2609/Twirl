@@ -16,7 +16,7 @@ const FooterPage = () => {
           <Link href="/about-us">About Us</Link>
         </li>
         <li>
-          <Link href="/salon-membership-in-mangaluru">Salon Membership</Link>
+          <Link href="/salon-membership-in-mangalore">Salon Membership</Link>
         </li>
         <li>
           <Link href="/contact-us">Contact Us</Link>

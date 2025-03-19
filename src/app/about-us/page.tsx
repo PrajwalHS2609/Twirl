@@ -3,9 +3,9 @@ import AboutUsMain from "@/components/AboutUs/AboutUsMain";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 export const metadata = {
-  title: "Twirl Salon in Mangaluru – About Us",
+  title: "Twirl Salon in mangalore – About Us",
   description:
-    "Twirl Salon in Mangaluru. Our expert stylists and therapists bring elegance, precision, and indulgence to every service—be it a chic haircut, rejuvenating facial, or luxurious spa treatment.",
+    "Twirl Salon in Mangalore. Our expert stylists and therapists bring elegance, precision, and indulgence to every service—be it a chic haircut, rejuvenating facial, or luxurious spa treatment.",
   canonical: "https://twirlsalon.com/about-us",
   keywords: [
     "Best salon near me",

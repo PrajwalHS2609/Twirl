@@ -6,10 +6,10 @@ import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 export const metadata = {
-  title: "Waxing in Mangaluru | Body Waxing in Mangaluru",
+  title: "Waxing in Mangalore | Body Waxing in Mangalore",
   description:
-    "Waxing in Mangaluru. At Twirl Salon, we specialize in offering high-quality waxing services that leave your skin soft, hair-free, and glowing. Book Now!",
-  canonical: "https://twirlsalon.com/waxing-in-mangaluru",
+    "Waxing in Mangalore. At Twirl Salon, we specialize in offering high-quality waxing services that leave your skin soft, hair-free, and glowing. Book Now!",
+  canonical: "https://twirlsalon.com/waxing-in-mangalore",
   keywords: [
     "Best salon near me",
     "Luxury salon experience",

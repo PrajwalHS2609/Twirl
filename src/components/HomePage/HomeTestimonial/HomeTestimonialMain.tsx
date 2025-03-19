@@ -102,7 +102,7 @@ const HomeTestimonialMain = () => {
                   process so smooth and painless. The hygienic setup and
                   high-quality wax left my skin feeling super soft! Highly
                   recommend Twirl Salon for the best waxing experience in
-                  Mangaluru!
+                  mangalore!
                 </p>
                 <FaQuoteLeft className="homeTestimonial-icon2" />
               </div>

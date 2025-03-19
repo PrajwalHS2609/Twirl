@@ -7,10 +7,10 @@ import NailsServices from "@/components/NailPage/NailsServices";
 import NailsServicesHead from "@/components/NailPage/NailsServicesHead";
 import React from "react";
 export const metadata = {
-  title: "Nail Salon in Mangaluru | Manicure & Pedicure Treatment in Mangaluru",
+  title: "Nail Salon in Mangalore | Manicure & Pedicure Treatment in Mangalore",
   description:
-    "Nail Salon in Mangaluru. Twirl Salon is your go-to destination for all things nails, providing top-notch manicures, pedicures, nail extensions, and nail art. ",
-  canonical: "https://twirlsalon.com/nail-salon-in-mangaluru",
+    "Nail Salon in Mangalore. Twirl Salon is your go-to destination for all things nails, providing top-notch manicures, pedicures, nail extensions, and nail art. ",
+  canonical: "https://twirlsalon.com/nail-salon-in-mangalore",
   keywords: [
     "Best salon near me",
     "Luxury salon experience",

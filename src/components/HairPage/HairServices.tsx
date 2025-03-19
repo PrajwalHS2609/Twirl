@@ -17,7 +17,7 @@ const HairServices = () => {
       image: haircutStyling,
       link: "/haircut-and-styling",
       description:
-        "Upgrade your style at Twirl! Get trendy haircuts and flawless blow-dries from expert stylists. Experience a Dyson transformation and step out with confidence. Visit us in Mangaluru for exclusive offers!",
+        "Upgrade your style at Twirl! Get trendy haircuts and flawless blow-dries from expert stylists. Experience a Dyson transformation and step out with confidence. Visit us in mangalore for exclusive offers!",
     },
     {
       id: 2,

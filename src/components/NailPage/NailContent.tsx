@@ -4,23 +4,23 @@ const NailContent = () => {
   return (
     <div className="subServiceContent-container">
       <div className="subServicesMain-item">
-        <h1>Nail Salon in Mangaluru</h1>
+        <h1>Nail Salon in mangalore</h1>
         <p>
-          Finding the perfect nail salon in Mangaluru that offers expert
+          Finding the perfect nail salon in mangalore that offers expert
           services with a luxurious experience can be a challenge. Twirl Salon
           is your go-to destination for all things nails, providing top-notch
           manicures, pedicures, nail extensions, and nail art. Whether you're
           looking for a classic polish, gel nails, acrylic extensions, or
           intricate nail designs, our{" "}
-          <a href="https://twirlsalon.com/nail-salon-in-mangaluru">
+          <a href="https://twirlsalon.com/nail-salon-in-mangalore">
             {" "}
-            nail salon in Mangaluru
+            nail salon in mangalore
           </a>{" "}
           ensures that you receive personalized services tailored to your needs.
         </p>
         <p>
           At Twirl Salon, we understand that your nails are an extension of your
-          style. Our nail salon in Mangaluru is designed to offer a
+          style. Our nail salon in mangalore is designed to offer a
           sophisticated and relaxing ambiance where clients can enjoy high-end
           nail care. Our professional nail technicians specialize in precision
           shaping, cuticle care, long-lasting polishes, and customized nail art.
@@ -29,7 +29,7 @@ const NailContent = () => {
         </p>
         <p>
           Nail health is a priority at our{" "}
-          <a href="https://twirlsalon.com/">nail salon in Mangaluru</a>. We
+          <a href="https://twirlsalon.com/">nail salon in mangalore</a>. We
           offer nourishing treatments that strengthen and protect your natural
           nails, ensuring they remain healthy and beautiful. Our hydrating
           manicures and pedicures rejuvenate the skin, improve nail texture, and
@@ -38,8 +38,8 @@ const NailContent = () => {
         <p>
           If you’re seeking long-lasting, chip-free nail color, Twirl Salon is
           the place to be. Our{" "}
-          <a href="https://twirlsalon.com/nail-salon-in-mangaluru">
-            nail salon in Mangaluru
+          <a href="https://twirlsalon.com/nail-salon-in-mangalore">
+            nail salon in mangalore
           </a>{" "}
           offers gel polish, shellac manicures, and dip powder nails that
           provide vibrant, durable finishes. We customize shades to complement
@@ -47,7 +47,7 @@ const NailContent = () => {
         </p>
         <p>
           For those who love glamorous, statement nails, our nail salon in
-          Mangaluru provides high-quality acrylic and gel nail extensions. These
+          mangalore provides high-quality acrylic and gel nail extensions. These
           extensions add length and strength to your nails, giving you the
           perfect canvas for stunning nail art. Our expert technicians ensure
           precise application and maintenance, so your nails always look
@@ -55,7 +55,7 @@ const NailContent = () => {
         </p>
         <p>
           Nail art is another specialty at Twirl Salon. Our nail salon in
-          Mangaluru offers a wide range of creative nail designs, including
+          mangalore offers a wide range of creative nail designs, including
           ombré nails, chrome finishes, cat-eye effects, French tips, and
           intricate hand-painted art. Whether you prefer minimalistic elegance
           or bold, artistic expressions, our technicians bring your nail dreams
@@ -63,11 +63,11 @@ const NailContent = () => {
         </p>
         <p>
           Bridal and special occasion{" "}
-          <a href="https://twirlsalon.com/nail-salon-in-mangaluru">
+          <a href="https://twirlsalon.com/nail-salon-in-mangalore">
             nail services
           </a>{" "}
           are an integral part of our offerings at Twirl Salon. Our nail salon
-          in Mangaluru specializes in customized bridal nails, party-ready
+          in mangalore specializes in customized bridal nails, party-ready
           styles, and themed designs to ensure your nails complement your look
           for any event. From elegant nude shades to dazzling embellishments, we
           create stunning nails that enhance your overall appearance.
@@ -75,7 +75,7 @@ const NailContent = () => {
         <p>
           One of the highlights of our{" "}
           <a href="https://twirlsalon.com/contact-us">
-            nail salon in Mangaluru
+            nail salon in mangalore
           </a>{" "}
           is our commitment to hygiene and client satisfaction. We maintain a
           clean and sanitized environment, using high-quality products and
@@ -85,20 +85,20 @@ const NailContent = () => {
         </p>
         <p>
           Twirl Salon is also a hub for nail care education. Our nail salon in
-          Mangaluru offers expert advice on maintaining your nails between salon
+          mangalore offers expert advice on maintaining your nails between salon
           visits. We guide you on the right products, techniques, and routines
           to keep your nails strong and beautiful at home.
         </p>
         <p>
           We stay ahead of trends and continuously upgrade our skills to bring
           the latest nail innovations to our clients. Our nail salon in
-          Mangaluru is equipped with modern technology and advanced techniques
+          mangalore is equipped with modern technology and advanced techniques
           to provide unparalleled service and exceptional results.
         </p>
         <p>
           Booking an appointment at our{" "}
-          <a href="https://twirlsalon.com/nail-salon-in-mangaluru">
-            nail salon in Mangaluru
+          <a href="https://twirlsalon.com/nail-salon-in-mangalore">
+            nail salon in mangalore
           </a>{" "}
           is seamless and hassle-free. Whether you choose to walk in, book
           online, or call ahead, we ensure a smooth and convenient experience
@@ -108,8 +108,8 @@ const NailContent = () => {
         <p>
           Twirl Salon believes in making premium nail services accessible to
           all. Our{" "}
-          <a href="https://twirlsalon.com/nail-salon-in-mangaluru">
-            nail salon in Mangaluru
+          <a href="https://twirlsalon.com/nail-salon-in-mangalore">
+            nail salon in mangalore
           </a>{" "}
           offers competitive pricing, exclusive packages, and membership plans
           that provide incredible value for money. We ensure that every client
@@ -119,7 +119,7 @@ const NailContent = () => {
           Twirl Salon is more than just a salon; it's a destination for nail
           transformation. Whether you’re looking for a simple manicure, a
           complete nail makeover, or intricate nail art, our nail salon in
-          Mangaluru delivers excellence in every service. Visit us today and
+          mangalore delivers excellence in every service. Visit us today and
           experience nail care like never before!
         </p>
       </div>

@@ -92,27 +92,27 @@ const Menu = () => {
   const services = [
     {
       id: "1",
-      pathName: "/hair-salon-in-mangaluru",
+      pathName: "/hair-salon-in-mangalore",
       menu: "Hair",
     },
     {
       id: "2",
-      pathName: "/nail-salon-in-mangaluru",
+      pathName: "/nail-salon-in-mangalore",
       menu: "Nails",
     },
     {
       id: "3",
-      pathName: "/facials-in-mangaluru",
+      pathName: "/facials-in-mangalore",
       menu: "Facials",
     },
     {
       id: "4",
-      pathName: "/waxing-in-mangaluru",
+      pathName: "/waxing-in-mangalore",
       menu: "Waxing",
     },
     {
       id: "5",
-      pathName: "/makeup-in-mangaluru",
+      pathName: "/makeup-in-mangalore",
       menu: "Makeup",
     },
 
@@ -152,8 +152,8 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href="/salon-membership-in-mangaluru"
-            className={pathname === "/salon-membership-in-mangaluru" ? "active" : ""}
+            href="/salon-membership-in-mangalore"
+            className={pathname === "/salon-membership-in-mangalore" ? "active" : ""}
           >
             SALON MEMBERSHIP
           </Link>

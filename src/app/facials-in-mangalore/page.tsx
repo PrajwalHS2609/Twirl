@@ -7,9 +7,9 @@ import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimoni
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 import "@/components/Style/style.css";
 export const metadata = {
-  title: "Facials in Mangaluru | Facial Treatment in Mangaluru",
-  description: "Facials in Mangaluru. Twirl Salon is your go-to destination for all things skincare, providing top-notch facials that cater to different skin types and concerns.",
-  canonical: "https://twirlsalon.com/facials-in-mangaluru",
+  title: "Facials in Mangalore | Facial Treatment in Mangalore",
+  description: "Facials in Mangalore. Twirl Salon is your go-to destination for all things skincare, providing top-notch facials that cater to different skin types and concerns.",
+  canonical: "https://twirlsalon.com/facials-in-mangalore",
   keywords: [
     "Best salon near me",
     "Luxury salon experience",
