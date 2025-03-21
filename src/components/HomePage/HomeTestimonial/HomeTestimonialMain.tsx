@@ -5,12 +5,11 @@ import Carousel from "react-bootstrap/Carousel";
 import { FaQuoteRight } from "react-icons/fa";
 import { FaQuoteLeft } from "react-icons/fa";
 import Image from "next/image";
-import amit from "@/media/Images/TestimonialImgs/Amit S.png"
-import neha from "@/media/Images/TestimonialImgs/Neha R.png"
-import pooja from "@/media/Images/TestimonialImgs/Pooja K.png"
-import rohit from "@/media/Images/TestimonialImgs/Rohit V.png"
-import shruti from "@/media/Images/TestimonialImgs/Shruti M.png"
-
+import amit from "@/media/Images/TestimonialImgs/Amit S.png";
+import neha from "@/media/Images/TestimonialImgs/Neha R.png";
+import pooja from "@/media/Images/TestimonialImgs/Pooja K.png";
+import rohit from "@/media/Images/TestimonialImgs/Rohit V.png";
+import shruti from "@/media/Images/TestimonialImgs/Shruti M.png";
 
 const HomeTestimonialMain = () => {
   const [index, setIndex] = useState(0);
@@ -29,7 +28,7 @@ const HomeTestimonialMain = () => {
                 <h5>Neha R</h5>
               </div>
               <div className="homeTestimonial-item">
-                <FaQuoteRight className="homeTestimonial-icon1" />
+                <FaQuoteLeft className="homeTestimonial-icon1" />
                 <p>
                   Absolutely in love with my new hair color from Twirl Salon!
                   The team took the time to understand my vision and exceeded
@@ -39,7 +38,7 @@ const HomeTestimonialMain = () => {
                   expertise. If you're looking for a stunning hair color
                   transformation, this is the place to be! Highly recommend!
                 </p>
-                <FaQuoteLeft className="homeTestimonial-icon2" />
+                <FaQuoteRight className="homeTestimonial-icon2" />
               </div>
             </div>
           </div>
@@ -52,7 +51,7 @@ const HomeTestimonialMain = () => {
                 <h5>Pooja K</h5>
               </div>
               <div className="homeTestimonial-item">
-                <FaQuoteRight className="homeTestimonial-icon1" />
+                <FaQuoteLeft className="homeTestimonial-icon1" />
 
                 <p>
                   Loved my manicure at Twirl Salon! From the warm welcome to the
@@ -60,7 +59,7 @@ const HomeTestimonialMain = () => {
                   flawless and beautiful, and my hands feel so soft! Can’t wait
                   for my next visit. Highly recommend!
                 </p>
-                <FaQuoteLeft className="homeTestimonial-icon2" />
+                <FaQuoteRight className="homeTestimonial-icon2" />
               </div>
             </div>
           </div>
@@ -73,7 +72,7 @@ const HomeTestimonialMain = () => {
                 <h5>Rohit V</h5>
               </div>
               <div className="homeTestimonial-item">
-                <FaQuoteRight className="homeTestimonial-icon1" />
+                <FaQuoteLeft className="homeTestimonial-icon1" />
 
                 <p>
                   Incredible service and attention to detail! I had a
@@ -81,7 +80,7 @@ const HomeTestimonialMain = () => {
                   refreshed. The ambiance is soothing, and the staff is super
                   professional. Highly recommended!
                 </p>
-                <FaQuoteLeft className="homeTestimonial-icon2" />
+                <FaQuoteRight className="homeTestimonial-icon2" />
               </div>
             </div>
           </div>
@@ -94,7 +93,7 @@ const HomeTestimonialMain = () => {
                 <h5>Shruti M</h5>
               </div>
               <div className="homeTestimonial-item">
-                <FaQuoteRight className="homeTestimonial-icon1" />
+                <FaQuoteLeft className="homeTestimonial-icon1" />
 
                 <p>
                   Had an amazing waxing experience at Twirl Salon! The team,
@@ -104,7 +103,7 @@ const HomeTestimonialMain = () => {
                   recommend Twirl Salon for the best waxing experience in
                   mangalore!
                 </p>
-                <FaQuoteLeft className="homeTestimonial-icon2" />
+                <FaQuoteRight className="homeTestimonial-icon2" />
               </div>
             </div>
           </div>
@@ -117,7 +116,7 @@ const HomeTestimonialMain = () => {
                 <h5> Amit S</h5>
               </div>
               <div className="homeTestimonial-item">
-                <FaQuoteRight className="homeTestimonial-icon1" />
+                <FaQuoteLeft className="homeTestimonial-icon1" />
 
                 <p>
                   From gorgeous hair transformations to rejuvenating skincare,
@@ -127,7 +126,7 @@ const HomeTestimonialMain = () => {
                   refreshing! Can’t wait to be back for my next pampering
                   session! Highly recommend!
                 </p>
-                <FaQuoteLeft className="homeTestimonial-icon2" />
+                <FaQuoteRight className="homeTestimonial-icon2" />
               </div>
             </div>
           </div>
