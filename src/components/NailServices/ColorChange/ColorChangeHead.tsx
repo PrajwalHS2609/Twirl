@@ -5,11 +5,11 @@ import colorChangeBanner from "@/media/Images/NailService/Banner/colorChangeBann
 
 const ColorChangeHead = () => {
   return (
-    <div className="hairServiceHead-container">
-    <div className="hairServiceHead-content">
+    <div className="subServiceHead-container">
+    <div className="subServiceHead-content">
       <Image src={colorChangeBanner} alt="Color Change Banner" />
     </div>
-    <div className="hairServiceHead-content">
+    <div className="subServiceHead-content">
       <h6>NAIL SERVICE</h6>
       <h2>Nail Color Change</h2>
       <p>

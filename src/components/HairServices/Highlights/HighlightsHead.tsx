@@ -1,20 +1,16 @@
-import Image from 'next/image'
 import React from 'react'
-import candleManicureBanner from "@/media/Images/NailService/Candle Spa Manicure.png"
+import highlightBanner from "@/media/Images/HairHighlight/highlightHead.jpg";
 import "@/components/Style/style.css";
-
-const CandleSpaManicureHead = () => {
+import Image from 'next/image';
+const HighlightsHead = () => {
   return (
-<div className="subServiceHead-container">
+    <div className="subServiceHead-container">
     <div className="subServiceHead-content">
-      <Image
-        src={candleManicureBanner}
-        alt="Candle Manicure Banner"
-      />
+      <Image src={highlightBanner} alt="Highlight Banner" />
     </div>
     <div className="subServiceHead-content">
-      <h6>NAIL SERVICE</h6>
-      <h2>Candle Spa Manicure</h2>
+      <h6>HAIR SERVICE</h6>
+      <h2>Hair Highlight and Streaks </h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis
         sunt id pariatur vero ab minus itaque doloremque quibusdam, libero
@@ -26,4 +22,4 @@ const CandleSpaManicureHead = () => {
   )
 }
 
-export default CandleSpaManicureHead
+export default HighlightsHead

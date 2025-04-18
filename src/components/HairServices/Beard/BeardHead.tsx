@@ -5,11 +5,11 @@ import "@/components/Style/style.css";
 
 const BeardHead = () => {
   return (
-    <div className="hairServiceHead-container">
-      <div className="hairServiceHead-content">
+    <div className="subServiceHead-container">
+      <div className="subServiceHead-content">
         <Image src={beardBanner} alt="Beard Banner" />
       </div>
-      <div className="hairServiceHead-content">
+      <div className="subServiceHead-content">
         <h6>HAIR SERVICE</h6>
         <h2>Beard Styling</h2>
         <p>

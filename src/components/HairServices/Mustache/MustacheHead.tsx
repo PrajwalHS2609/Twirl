@@ -5,14 +5,14 @@ import "@/components/Style/style.css";
 
 const MustacheHead = () => {
   return (
-<div className="hairServiceHead-container">
-    <div className="hairServiceHead-content">
+<div className="subServiceHead-container">
+    <div className="subServiceHead-content">
       <Image
         src={mustacheBanner}
         alt="Mustache Banner"
       />
     </div>
-    <div className="hairServiceHead-content">
+    <div className="subServiceHead-content">
       <h6>HAIR SERVICE</h6>
       <h2>Mustache</h2>
       <p>

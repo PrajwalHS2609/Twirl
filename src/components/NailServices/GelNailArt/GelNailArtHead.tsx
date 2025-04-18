@@ -6,11 +6,11 @@ import gelNailArtBanner from "@/media/Images/NailService/Banner/gelNailBanner.jp
 
 const GelNailArtHead = () => {
   return (
-    <div className="hairServiceHead-container">
-    <div className="hairServiceHead-content">
+    <div className="subServiceHead-container">
+    <div className="subServiceHead-content">
       <Image src={gelNailArtBanner} alt="Gel Nail Art Banner" />
     </div>
-    <div className="hairServiceHead-content">
+    <div className="subServiceHead-content">
       <h6>NAIL SERVICE</h6>
       <h2>Gel Nail Art</h2>
       <p>

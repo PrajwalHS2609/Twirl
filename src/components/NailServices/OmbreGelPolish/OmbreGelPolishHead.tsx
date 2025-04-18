@@ -4,11 +4,11 @@ import "@/components/Style/style.css";
 import Image from "next/image";
 const OmbreGelPolishHead = () => {
   return (
-    <div className="hairServiceHead-container">
-      <div className="hairServiceHead-content">
+    <div className="subServiceHead-container">
+      <div className="subServiceHead-content">
         <Image src={ombreGelBanner} alt="Ombre Gel Banner" />
       </div>
-      <div className="hairServiceHead-content">
+      <div className="subServiceHead-content">
         <h6>NAIL SERVICE</h6>
         <h2>Ombre Gel Polish</h2>
         <p>

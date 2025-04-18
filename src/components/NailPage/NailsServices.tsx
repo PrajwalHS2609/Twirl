@@ -23,6 +23,7 @@ const NailsServices = () => {
       title: "Gel Nail Art",
       image: gelNail,
       link: "/",
+      price: "100 (per)",
       description:
         "Elevate your nails with breathtaking designs, expertly crafted by our in-house specialists, turning nail painting into a true art form.",
     },
@@ -31,6 +32,7 @@ const NailsServices = () => {
       title: "Chrome Gel Polish",
       image: chromeGel,
       link: "/",
+      price: "1000",
       description:
         "Experience the beauty of a flawless chrome finish, expertly applied by our skilled nail technicians, turning your nails into captivating works of art.",
     },
@@ -39,6 +41,7 @@ const NailsServices = () => {
       title: "Ombre Gel Polish",
       image: ombreGel,
       link: "/",
+      price: "1500",
       description:
         "Achieve the trendy ombre nail look with seamlessly blended hues, creating a stunning gradient effect that's effortlessly chic and stylish.",
     },
@@ -47,6 +50,7 @@ const NailsServices = () => {
       title: "Classic Manicure",
       image: classicManicure,
       link: "/",
+      price: "500",
       description:
         "Indulge in our Classic Manicure for beautifully groomed nails. Our expert technicians will shape, buff, and polish your nails to perfection, leaving your hands refreshed and revitalized.",
     },
@@ -55,6 +59,7 @@ const NailsServices = () => {
       title: "Organic Manicure",
       image: organicManicure,
       link: "/",
+      price: "700",
       description:
         "Enjoy the ultimate pampering with our Organic Manicure, where skilled technicians use natural products to nourish, strengthen, and enhance your nails and cuticles.",
     },
@@ -63,6 +68,7 @@ const NailsServices = () => {
       title: "Classic Pedicure",
       image: classicPedicure,
       link: "/",
+      price: "700",
       description:
         "Pamper your feet with our Classic Pedicure, featuring a relaxing soak, expert nail shaping, cuticle care, and a hydrating massage. Walk away feeling refreshed and rejuvenated.",
     },
@@ -71,6 +77,7 @@ const NailsServices = () => {
       title: "Organic Pedicure",
       image: organicPedicure,
       link: "/",
+      price: "900",
       description:
         "Relax and rejuvenate with our Organic Pedicure, featuring natural products, a soothing foot soak, exfoliation, expert nail shaping, and cuticle care. Step out feeling refreshed and pampered.",
     },
@@ -79,6 +86,7 @@ const NailsServices = () => {
       title: "Candle Spa Manicure",
       image: candleManicure,
       link: "/",
+      price: "1000",
       description:
         "Indulge in our Candle Spa Manicure for a luxurious nail care experience. Enjoy a soothing warm wax treatment, expert nail shaping, cuticle care, and a hydrating massage for soft, rejuvenated hands.",
     },
@@ -87,6 +95,7 @@ const NailsServices = () => {
       title: "Candle Spa Pedicure",
       image: candlePedicure,
       link: "/",
+      price: "1500",
       description:
         "Indulge in our Candle Spa Pedicure for the ultimate relaxation. Enjoy a warm candle wax treatment, expert nail shaping, cuticle care, and a deeply hydrating massage, leaving your feet refreshed and rejuvenated from heel to toe.",
     },
@@ -95,6 +104,7 @@ const NailsServices = () => {
       title: "Cut & File",
       image: cutFile,
       link: "/",
+      price: "200",
       description:
         "Achieve perfectly shaped nails with our Cut & File service. Our skilled technicians will trim and shape your nails to your preferred length and style, ensuring a neat and polished look",
     },
@@ -103,6 +113,7 @@ const NailsServices = () => {
       title: "Colour Change",
       image: colorChange,
       link: "/",
+      price: "200",
       description:
         "Refresh your nails instantly with our Colour Change service. Choose from a stunning selection of shades, and let our expert technicians give your nails a vibrant and stylish makeover",
     },
@@ -111,6 +122,7 @@ const NailsServices = () => {
       title: "Geleration",
       image: geleration,
       link: "/",
+      price: "700",
       description:
         "Enjoy flawless, chip-free nails with our Geleration service. Our expert technicians apply a long-lasting gel polish that cures instantly under UV light, keeping your nails beautiful and durable for weeks.",
     },
@@ -119,6 +131,7 @@ const NailsServices = () => {
       title: "French Geleration",
       image: frenchGeleration,
       link: "/",
+      price: "750",
       description:
         "Enhance your sophistication with our French Geleration service. Our expert technicians apply long-lasting gel polish, giving you timeless, elegant nails that stay flawless for weeks.",
     },
@@ -127,14 +140,22 @@ const NailsServices = () => {
     <div className="subServices-container">
       {nailsService.map((x) => (
         <div className="subServices-cardContainer" key={x.id}>
-          <div className="subServices-cardImg">
-            <Image src={x.image} alt={x.title} />
-          </div>
-          <div className="subServices-cardContent">
-            <h3>{x.title}</h3>
-            <p>{x.description}</p>
-            <Link href={x.link}>View More</Link>
-          </div>
+          <Link href={x.link}>
+            <div className="subServices-cardImg">
+              <Image src={x.image} alt={x.title} />
+            </div>
+            <div className="subServices-cardContent">
+              <h3>{x.title}</h3>
+              <p>{x.description}</p>
+              <div className="subServices-cardItemWrapper">
+                <span>
+                  <a href="">Book Now</a>
+                </span>
+                <div className="line"></div>
+                <span>Price : ₹{x.price}</span>
+              </div>
+            </div>
+          </Link>
         </div>
       ))}
     </div>

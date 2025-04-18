@@ -5,14 +5,14 @@ import "@/components/Style/style.css";
 
 const HairSpaHead = () => {
   return (
-    <div className="hairServiceHead-container">
-    <div className="hairServiceHead-content">
+    <div className="subServiceHead-container">
+    <div className="subServiceHead-content">
       <Image
         src={hairSpaBanner}
         alt="hairSpa Banner"
       />
     </div>
-    <div className="hairServiceHead-content">
+    <div className="subServiceHead-content">
       <h6>HAIR SERVICE</h6>
       <h2>Hair Spa</h2>
       <p>

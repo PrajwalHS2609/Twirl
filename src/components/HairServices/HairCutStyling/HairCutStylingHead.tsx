@@ -4,14 +4,14 @@ import Image from "next/image";
 import hairCutStylingBanner from "@/media/Images/HairStyling/hairStylingBanner.jpg"
 const HairCutStylingHead = () => {
   return (
-    <div className="hairServiceHead-container">
-      <div className="hairServiceHead-content">
+    <div className="subServiceHead-container">
+      <div className="subServiceHead-content">
         <Image
           src={hairCutStylingBanner}
           alt="hairCut Styling Banner"
         />
       </div>
-      <div className="hairServiceHead-content">
+      <div className="subServiceHead-content">
         <h6>HAIR SERVICE</h6>
         <h2>Haircut And Styling</h2>
         <p>

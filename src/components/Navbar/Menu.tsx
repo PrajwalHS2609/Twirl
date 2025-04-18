@@ -107,11 +107,16 @@ const Menu = () => {
     },
     {
       id: "4",
+      pathName: "/spa-services-in-mangalore",
+      menu: "Spa",
+    },
+    {
+      id: "5",
       pathName: "/waxing-in-mangalore",
       menu: "Waxing",
     },
     {
-      id: "5",
+      id: "6",
       pathName: "/makeup-in-mangalore",
       menu: "Makeup",
     },

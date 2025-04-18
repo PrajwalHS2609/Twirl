@@ -5,11 +5,11 @@ import "@/components/Style/style.css";
 
 const ChromeGelPolishHead = () => {
   return (
-    <div className="hairServiceHead-container">
-      <div className="hairServiceHead-content">
+    <div className="subServiceHead-container">
+      <div className="subServiceHead-content">
         <Image src={chromeGelBanner} alt="Chrome Gel Banner" />
       </div>
-      <div className="hairServiceHead-content">
+      <div className="subServiceHead-content">
         <h6>NAIL SERVICE</h6>
         <h2>Chrome Gel Nail Polish</h2>
         <p>

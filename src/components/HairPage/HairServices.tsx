@@ -23,7 +23,7 @@ const HairServices = () => {
       id: 2,
       title: "Highlights & Streaks",
       image: hairHighlights,
-      link: "/",
+      link: "/hair-highlights-and-streak",
       description:
         "Transform your look with expert hair coloring and highlights! From bold shades to subtle tones, we create a style that suits you. Step into color and confidence!",
     },
