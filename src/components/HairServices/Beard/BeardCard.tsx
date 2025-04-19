@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import "@/components/Style/style.css";
 
@@ -22,7 +21,7 @@ const BeardCard = () => {
   return (
     <div className="subServiceCard-container">
       {cardContent.map((x) => (
-        <div className="subServiceCard-content"  key={x.id}>
+        <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
             <img
               src="https://img.freepik.com/free-photo/hair-stylist-drying-his-client-s-hair_23-2148242788.jpg?t=st=1744910722~exp=1744914322~hmac=1f299e061f4c79530e03f01779d7f95c0ba8b65c28bd5512d7c383bb9a546615&w=740"
@@ -50,7 +49,9 @@ const BeardCard = () => {
             </p>
             <div className="subServiceCard-itemWrapper">
               <span>
-                <Link href="">Book Now</Link>
+                <a href="https://wa.me/919972272700" target="_blank">
+                  Book Now
+                </a>{" "}
               </span>
               <div className="line"></div>
               <span>Price : ₹{x.price}</span>

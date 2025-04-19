@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import React from 'react'
+import "@/components/Style/style.css";
 
 const MustacheCard = () => {
     const cardContent = [
@@ -42,8 +42,9 @@ const MustacheCard = () => {
                 </p>
                 <div className="subServiceCard-itemWrapper">
                   <span>
-                    <Link href="">Book Now</Link>
-                  </span>
+                  <a href="https://wa.me/919972272700" target="_blank">
+                  Book Now
+                </a>                  </span>
                   <div className="line"></div>
                   <span>Price : ₹{x.price}</span>
                 </div>

@@ -91,20 +91,10 @@
   font-weight: 600;
   text-decoration: none;
 }
-.subServices-cardContent > a::after {
-  content: "";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 0;
-  border: solid 1px black;
-  transition: 300ms ease;
-  opacity: 0;
-}
-.subServices-cardContent > a:hover::after {
-  width: 100%;
-  opacity: 1;
-}
+.subServices-cardContent > a:hover h3{
+color: var(--customColor1);
+} 
+
 .subServices-cardContent > h3 {
   text-align: center;
 }
@@ -117,6 +107,12 @@
   height: 50px;
   padding: 5px;
 }
+.subServices-cardContent > a {
+  text-decoration: none;
+  &:hover {
+    color: var(--customColor1x);
+  }
+}
 .subServices-cardItemWrapper > .line {
   border-left: solid 1px var(--customColor1);
   height: 100%;
@@ -125,11 +121,32 @@
   font-weight: 500;
   color: black;
   text-align: center;
+  position: relative;
 }
 .subServices-cardItemWrapper > span > a {
   text-decoration: none;
   color: black;
   font-weight: 500;
+  position: relative;
+  transition: 300ms;
+}
+.subServices-cardItemWrapper > span > a:hover {
+  color: var(--customColor1);
+}
+.subServices-cardItemWrapper > span > a::after {
+  content: "";
+  border-top: solid 1px black;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  opacity: 0;
+  transition: 300ms ease;
+}
+.subServices-cardItemWrapper > span > a:hover::after {
+  border-top: solid 1px var(--customColor1);
+  width: 100%;
+  opacity: 1;
 }
 /* -------------------------------------------------------------------------- */
 .subServiceHead-container {
@@ -444,4 +461,23 @@
   text-decoration: none;
   color: black;
   font-weight: 500;
+  position: relative;
+}
+.subServiceCard-itemWrapper  > span > a:hover {
+  color: var(--customColor1);
+}
+.subServiceCard-itemWrapper  > span > a::after {
+  content: "";
+  border-top: solid 1px black;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  opacity: 0;
+  transition: 300ms ease;
+}
+.subServiceCard-itemWrapper  > span > a:hover::after {
+  border-top: solid 1px var(--customColor1);
+  width: 100%;
+  opacity: 1;
 }

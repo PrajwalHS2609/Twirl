@@ -41,14 +41,14 @@ const FacialServicesCard = () => {
       description:
         "Enriched with pure Dead Sea minerals, this treatment deeply hydrates and firms your skin, leaving it plump, nourished, and beautifully revitalized.",
     },
-      // {
-      //   id: 4,
-      //   title: "Chocolate Mint Facial",
-      //   image: chocolateMint,
-      //   link: "/",
-      //   description:
-      //     "Infused with the rejuvenating blend of coffee, refreshing mint, Korean cica, and nutrient-rich seabuckthorn, this magical formula brightens your skin, enhances elasticity, and restores a youthful glow.",
-      // },
+    // {
+    //   id: 4,
+    //   title: "Chocolate Mint Facial",
+    //   image: chocolateMint,
+    //   link: "/",
+    //   description:
+    //     "Infused with the rejuvenating blend of coffee, refreshing mint, Korean cica, and nutrient-rich seabuckthorn, this magical formula brightens your skin, enhances elasticity, and restores a youthful glow.",
+    // },
     {
       id: 5,
       title: "White Secret",
@@ -124,7 +124,7 @@ const FacialServicesCard = () => {
       title: "Brazilian Skin Lightening",
       image: brazilianSkin,
       link: "/",
-      price:"1000",
+      price: "1000",
       description:
         "Reveal a brighter, more even tone with our intimate area treatment—say goodbye to darkness and embrace confidence with regular care.",
     },
@@ -132,24 +132,26 @@ const FacialServicesCard = () => {
   return (
     <div className="subServices-container">
       {facialService.map((x) => (
-        <div className="subServices-cardContainer" key={x.id}>
-          <Link href={x.link}>
-            <div className="subServices-cardImg">
-              <Image src={x.image} alt={x.title} />
-            </div>
-            <div className="subServices-cardContent">
-              <h3>{x.title}</h3>
-              <p>{x.description}</p>
-              <div className="subServices-cardItemWrapper">
-                <span>
-                  <a href="">Book Now</a>
-                </span>
-                <div className="line"></div>
-                <span>Price : ₹{x.price}</span>
-              </div>
-            </div>
-          </Link>
-        </div>
+       <div className="subServices-cardContainer" key={x.id}>
+       <div className="subServices-cardImg">
+         <Image src={x.image} alt={x.title} />
+       </div>
+       <div className="subServices-cardContent">
+         <Link href={x.link}>
+           <h3>{x.title}</h3>
+         </Link>
+         <p>{x.description}</p>
+         <div className="subServices-cardItemWrapper">
+           <span>
+             <a href="https://wa.me/919972272700" target="_blank">
+               Book Now
+             </a>
+           </span>
+           <div className="line"></div>
+           <span>Price : ₹{x.price}</span>
+         </div>
+       </div>
+     </div>
       ))}
     </div>
   );

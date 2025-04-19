@@ -1,6 +1,5 @@
 import React from "react";
 import "@/components/Style/style.css";
-import Link from "next/link";
 const HairCutStylingCard = () => {
   const cardContent = [
     {
@@ -32,35 +31,35 @@ const HairCutStylingCard = () => {
       img: "",
     },
     {
-      id: 4,
+      id: 5,
       title: "Kid's HairCut",
       para: "",
       price: "150",
       img: "",
     },
     {
-      id: 5,
+      id: 6,
       title: "Head Shave",
       para: "",
       price: "500",
       img: "",
     },
     {
-      id: 6,
-      title: "Blow Dry" ,
+      id: 7,
+      title: "Blow Dry",
       para: "",
       price: "800",
       img: "",
     },
     {
-      id: 7,
+      id: 8,
       title: "Iron/Curl",
       para: "",
       price: "1000",
       img: "",
     },
     {
-      id: 8,
+      id: 9,
       title: "UPDO (No Wash)",
       para: "",
       price: "1200",
@@ -98,7 +97,9 @@ const HairCutStylingCard = () => {
             </p>
             <div className="subServiceCard-itemWrapper">
               <span>
-                <Link href="">Book Now</Link>
+                <a href="https://wa.me/919972272700" target="_blank">
+                  Book Now
+                </a>
               </span>
               <div className="line"></div>
               <span>Price : ₹{x.price}</span>

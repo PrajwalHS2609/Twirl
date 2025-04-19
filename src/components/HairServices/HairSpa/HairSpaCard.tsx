@@ -1,4 +1,4 @@
-import Link from "next/link";
+import "@/components/Style/style.css";
 import React from "react";
 
 const HairSpaCard = () => {
@@ -70,8 +70,9 @@ const HairSpaCard = () => {
             </p>
             <div className="subServiceCard-itemWrapper">
               <span>
-                <Link href="">Book Now</Link>
-              </span>
+              <a href="https://wa.me/919972272700" target="_blank">
+                  Book Now
+                </a>              </span>
               <div className="line"></div>
               <span>Price : ₹{x.price}</span>
             </div>
