@@ -1,30 +1,27 @@
-import React from 'react'
+import React from "react";
 import "@/components/Style/style.css";
-import hairTreatmentBanner from "@/media/Images/HairTreatment/hairTreatmentBanner.jpg"
-import Image from 'next/image';
+import hairTreatmentBanner from "@/media/Images/HairTreatment/hairTreatmentBanner.jpg";
+import Image from "next/image";
 import "@/components/Style/style.css";
 
 const HairTreatmentHead = () => {
   return (
-<div className="subServiceHead-container">
-    <div className="subServiceHead-content">
-      <Image
-        src={hairTreatmentBanner}
-        alt="hair Treatment Banner"
-      />
+    <div className="subServiceHead-container">
+      <div className="subServiceHead-content">
+        <Image src={hairTreatmentBanner} alt="hair Treatment Banner" />
+      </div>
+      <div className="subServiceHead-content">
+        <h6>HAIR SERVICE</h6>
+        <h2>Hair Treatment</h2>
+        <p>
+          Hair treatment is a therapeutic process that revitalizes and nourishes
+          the hair, improving its texture, strength, and shine. It helps address
+          issues like dryness, damage, frizz, and split ends, leaving your hair
+          healthier, smoother, and more manageable.
+        </p>
+      </div>
     </div>
-    <div className="subServiceHead-content">
-      <h6>HAIR SERVICE</h6>
-      <h2>Hair Treatment</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis
-        sunt id pariatur vero ab minus itaque doloremque quibusdam, libero
-        optio perspiciatis corporis. Voluptatum id vitae consequuntur enim
-        optio repudiandae?
-      </p>
-    </div>
-  </div>
-  )
-}
+  );
+};
 
-export default HairTreatmentHead
+export default HairTreatmentHead;

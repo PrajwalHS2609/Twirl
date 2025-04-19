@@ -1,49 +1,48 @@
 import "@/components/Style/style.css";
 import React from "react";
-import spaAntiHairFall from "@/media/Images/HairSpa/Spa Essence Anti Hairfall.png"
-import spaAntiDandruff from "@/media/Images/HairSpa/Spa Essence Anti Dandruff.png"
-import sheaButter from "@/media/Images/HairSpa/Shea Butter.png"
-import olaplex from "@/media/Images/HairSpa/Olaplex.png"
-import botox from "@/media/Images/HairSpa/Botox.png"
+import spaAntiHairFall from "@/media/Images/HairSpa/Spa Essence Anti Hairfall.png";
+import spaAntiDandruff from "@/media/Images/HairSpa/Spa Essence Anti Dandruff.png";
+import sheaButter from "@/media/Images/HairSpa/Shea Butter.png";
+import olaplex from "@/media/Images/HairSpa/Olaplex.png";
+import botox from "@/media/Images/HairSpa/Botox.png";
 import Image from "next/image";
-
 
 const HairSpaCard = () => {
   const cardContent = [
     {
       id: 1,
       title: "Spa Essence Anti Hairfall",
-      para: "",
+      para: "This treatment strengthens hair, reduces breakage, and prevents hair fall. Rich in natural ingredients, it promotes growth and improves scalp health for thicker,fuller hair.",
       price: "1200 (short)",
-      img:spaAntiHairFall ,
+      img: spaAntiHairFall,
     },
     {
       id: 2,
       title: "Spa Essence Anti Dandruff",
-      para: "",
+      para: "This treatment fights dandruff and flakiness, soothes irritation, and restores scalp balance for healthier, shinier hair.",
       price: "1200 (short)",
-      img:spaAntiDandruff ,
+      img: spaAntiDandruff,
     },
     {
       id: 3,
       title: "Shea Butter",
-      para: "",
+      para: "Shea Butter deeply moisturizes and soothes dry skin, boosting elasticity and promoting a smooth, radiant look. It also helps heal and protect against environmental stress.",
       price: "2000 (short)",
       img: sheaButter,
     },
     {
       id: 4,
       title: "Olaplex",
-      para: "",
+      para: "Olaplex repairs damaged hair by rebuilding broken bonds, leaving it healthier, smoother, and stronger—even after chemical or heat styling.",
       price: "2000 (short)",
       img: olaplex,
     },
     {
       id: 5,
       title: "Botox",
-      para: "",
+      para: "Hair Botox deeply conditions and repairs, restoring shine, smoothness, and strength while reducing frizz—all without harsh chemicals.",
       price: "2000 (short)",
-      img:botox ,
+      img: botox,
     },
   ];
   return (
@@ -51,10 +50,7 @@ const HairSpaCard = () => {
       {cardContent.map((x) => (
         <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
-            <Image
-              src={x.img}
-              alt={x.title}
-            />
+            <Image src={x.img} alt={x.title} />
             <div className="custom-shape-divider-bottom-1744910806">
               <svg
                 data-name="Layer 1"
@@ -71,15 +67,13 @@ const HairSpaCard = () => {
           </div>
           <div className="subServiceCard-item">
             <h3>{x.title}</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore autem.
-            </p>
+            <p>{x.para}</p>
             <div className="subServiceCard-itemWrapper">
               <span>
-              <a href="https://wa.me/919972272700" target="_blank">
+                <a href="https://wa.me/919972272700" target="_blank">
                   Book Now
-                </a>              </span>
+                </a>{" "}
+              </span>
               <div className="line"></div>
               <span>Price : ₹{x.price}</span>
             </div>

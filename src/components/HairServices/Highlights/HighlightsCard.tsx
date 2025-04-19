@@ -32,7 +32,7 @@ const HighlightsCard = () => {
     {
       id: 4,
       title: " Root touch up nh3 free ",
-      para: "Root touch-up NH3-free is a gentle, ammonia-free formula that effectively covers regrowth while maintaining the health of your hair. It offers a smooth, natural finish without the harsh chemicals, perfect for sensitive scalps.",
+      para: "Root touch-up NH3-free covers regrowth with a gentle, ammonia-free formula, offering a smooth, natural finish for sensitive scalps.",
       price: "1500",
       img: rootTouchNh3Free,
     },

@@ -13,10 +13,10 @@ const BeardHead = () => {
         <h6>HAIR SERVICE</h6>
         <h2>Beard Styling</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis
-          sunt id pariatur vero ab minus itaque doloremque quibusdam, libero
-          optio perspiciatis corporis. Voluptatum id vitae consequuntur enim
-          optio repudiandae?
+          Beard styling involves shaping and grooming facial hair to create a
+          polished, well-defined look. Whether it's trimming, shaping, or adding
+          texture, professional beard styling enhances your features and
+          complements your overall style.
         </p>
       </div>
     </div>

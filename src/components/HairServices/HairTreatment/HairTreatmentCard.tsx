@@ -14,49 +14,49 @@ const HairTreatmentCard = () => {
     {
       id: 1,
       title: "Olaplex",
-      para: "",
+      para: "Olaplex repairs damaged hair by rebuilding broken bonds, leaving it healthier, smoother, and stronger—even after chemical or heat styling.",
       price: "1500 (Short)",
       img: olaplex,
     },
     {
       id: 2,
       title: "Perming",
-      para: "",
+      para: "Perming is a hair treatment that creates long-lasting curls or waves. By altering the hair’s structure, it adds volume, texture, and bounce, providing a beautiful, frizz-free style that lasts for weeks.",
       price: "6500 (Short)",
       img: perming,
     },
     {
       id: 3,
       title: "Straightening",
-      para: "",
+      para: "Straightening is a hair treatment that smooths and straightens curly or wavy hair, giving it a sleek, polished look. It tames frizz, adds shine, and leaves your hair looking effortlessly smooth and straight for an extended period.",
       price: "5000 (Short)",
       img: straightening,
     },
     {
       id: 4,
       title: "Botox",
-      para: "",
+      para: "Hair Botox deeply conditions and repairs, restoring shine, smoothness, and strength while reducing frizz—all without harsh chemicals.",
       price: "7000 (Short)",
       img: botox,
     },
     {
       id: 5,
       title: "Botoliss",
-      para: "",
+      para: "Hair Botoliss is a nourishing hair treatment that restores strength, smoothness, and shine. It works by deep conditioning and repairing damaged hair, leaving it frizz-free, hydrated, and more manageable with a silky finish.",
       price: "8000 (Short)",
       img: botoliss,
     },
     {
       id: 6,
       title: "Anti Dandruff Treatment",
-      para: "",
+      para: "This treatment fights dandruff and flakiness, soothes irritation, and restores scalp balance for healthier, shinier hair.",
       price: "2000",
       img: antiDandruff,
     },
     {
       id: 7,
       title: "Anti Hairfall Treatment",
-      para: "",
+      para: "This treatment strengthens hair, reduces breakage, and prevents hair fall. Rich in natural ingredients, it promotes growth and improves scalp health for thicker,fuller hair.",
       price: "2000",
       img: antiHairFall,
     },
@@ -84,8 +84,7 @@ const HairTreatmentCard = () => {
           <div className="subServiceCard-item">
             <h3>{x.title}</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore autem.
+           {x.para}
             </p>
             <div className="subServiceCard-itemWrapper">
               <span>

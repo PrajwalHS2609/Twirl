@@ -8,7 +8,7 @@ const MustacheCard = () => {
     {
       id: 1,
       title: " Beard + Moustache Coloring",
-      para: "",
+      para: "Beard and moustache coloring adds color for a fuller, defined look, covering gray hairs for a natural, youthful appearance.",
       price: "500",
       img: beadMoustache,
     },
@@ -36,8 +36,7 @@ const MustacheCard = () => {
           <div className="subServiceCard-item">
             <h3>{x.title}</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore autem.
+              {x.para}
             </p>
             <div className="subServiceCard-itemWrapper">
               <span>

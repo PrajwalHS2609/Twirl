@@ -6,6 +6,7 @@ import armsImg from "@/media/Images/WaxingService/Arms.png";
 import legsImg from "@/media/Images/WaxingService/Legs.png";
 import neckImg from "@/media/Images/WaxingService/Neck.png";
 import backImg from "@/media/Images/WaxingService/Back.png";
+import brazilWaxing from "@/media/Images/WaxingService/Brazilian Waxing.png";
 
 const BeautyEssentialServicesCard = () => {
   const beautyService = [
@@ -48,6 +49,14 @@ const BeautyEssentialServicesCard = () => {
       link: "/",
       description:
         "Reveal a radiant, flawless back with our Back D-Tan & Waxing service! Our D-Tan treatment eliminates tan and enhances brightness, while expert waxing leaves your skin silky smooth and hair-free. Feel confident and glow from every angle!",
+    },
+    {
+      id: 6,
+      title: "Brazilian Waxing",
+      image: brazilWaxing,
+      link: "/",
+      description:
+        "Brazilian waxing is a hair removal technique that removes hair from the bikini area, leaving the skin smooth and clean. It offers long-lasting results, providing a neat, flawless finish while minimizing regrowth.",
     },
   ];
   return (

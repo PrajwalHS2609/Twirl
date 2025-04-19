@@ -1,24 +1,24 @@
 import React from "react";
 import "@/components/Style/style.css";
-import beadMoustache from "@/media/Images/Beard/Beard + Moustache Coloring.png"
-import beadStyling from "@/media/Images/Beard/Beard Styling.png"
+import beadMoustache from "@/media/Images/Beard/Beard + Moustache Coloring.png";
+import beadStyling from "@/media/Images/Beard/Beard Styling.png";
 import Image from "next/image";
 
 const BeardCard = () => {
   const cardContent = [
     {
       id: 1,
-      title: " Beard + Moustache Coloring",
-      para: "",
+      title: " Beard & Moustache Coloring",
+      para: "Beard and moustache coloring adds color for a fuller, defined look, covering gray hairs for a natural, youthful appearance.",
       price: "500",
-      img:beadMoustache ,
+      img: beadMoustache,
     },
     {
       id: 2,
       title: "Beard Styling",
-      para: "",
+      para: "Beard styling is the art of shaping and grooming facial hair to achieve a clean, well-defined look. Whether it's trimming, sculpting, or adding texture, professional beard styling enhances your facial features and perfectly complements your personal style.",
       price: "200",
-      img:beadStyling ,
+      img: beadStyling,
     },
   ];
   return (
@@ -26,10 +26,7 @@ const BeardCard = () => {
       {cardContent.map((x) => (
         <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
-            <Image
-              src={x.img}
-              alt={x.title}
-            />
+            <Image src={x.img} alt={x.title} />
             <div className="custom-shape-divider-bottom-1744910806">
               <svg
                 data-name="Layer 1"
@@ -46,10 +43,7 @@ const BeardCard = () => {
           </div>
           <div className="subServiceCard-item">
             <h3>{x.title}</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore autem.
-            </p>
+            <p>{x.para}</p>
             <div className="subServiceCard-itemWrapper">
               <span>
                 <a href="https://wa.me/919972272700" target="_blank">
