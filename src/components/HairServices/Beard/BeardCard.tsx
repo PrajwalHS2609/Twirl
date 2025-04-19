@@ -1,5 +1,8 @@
 import React from "react";
 import "@/components/Style/style.css";
+import beadMoustache from "@/media/Images/Beard/Beard + Moustache Coloring.png"
+import beadStyling from "@/media/Images/Beard/Beard Styling.png"
+import Image from "next/image";
 
 const BeardCard = () => {
   const cardContent = [
@@ -8,14 +11,14 @@ const BeardCard = () => {
       title: " Beard + Moustache Coloring",
       para: "",
       price: "500",
-      img: "",
+      img:beadMoustache ,
     },
     {
       id: 2,
       title: "Beard Styling",
       para: "",
       price: "200",
-      img: "",
+      img:beadStyling ,
     },
   ];
   return (
@@ -23,8 +26,8 @@ const BeardCard = () => {
       {cardContent.map((x) => (
         <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
-            <img
-              src="https://img.freepik.com/free-photo/hair-stylist-drying-his-client-s-hair_23-2148242788.jpg?t=st=1744910722~exp=1744914322~hmac=1f299e061f4c79530e03f01779d7f95c0ba8b65c28bd5512d7c383bb9a546615&w=740"
+            <Image
+              src={x.img}
               alt={x.title}
             />
             <div className="custom-shape-divider-bottom-1744910806">

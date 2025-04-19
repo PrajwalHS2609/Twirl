@@ -1,5 +1,13 @@
 import React from "react";
 import "@/components/Style/style.css";
+import olaplex from "@/media/Images/HairTreatment/Olaplex.png";
+import perming from "@/media/Images/HairTreatment/Perming.png";
+import straightening from "@/media/Images/HairTreatment/Straightening.png";
+import botox from "@/media/Images/HairTreatment/Botox.png";
+import botoliss from "@/media/Images/HairTreatment/Botoliss.png";
+import antiDandruff from "@/media/Images/HairTreatment/Anti Dandruff.png";
+import antiHairFall from "@/media/Images/HairTreatment/Anti Hairfall.png";
+import Image from "next/image";
 
 const HairTreatmentCard = () => {
   const cardContent = [
@@ -8,49 +16,49 @@ const HairTreatmentCard = () => {
       title: "Olaplex",
       para: "",
       price: "1500 (Short)",
-      img: "",
+      img: olaplex,
     },
     {
       id: 2,
       title: "Perming",
       para: "",
       price: "6500 (Short)",
-      img: "",
+      img: perming,
     },
     {
       id: 3,
       title: "Straightening",
       para: "",
       price: "5000 (Short)",
-      img: "",
+      img: straightening,
     },
     {
       id: 4,
       title: "Botox",
       para: "",
       price: "7000 (Short)",
-      img: "",
+      img: botox,
     },
     {
       id: 5,
       title: "Botoliss",
       para: "",
       price: "8000 (Short)",
-      img: "",
+      img: botoliss,
     },
     {
       id: 6,
       title: "Anti Dandruff Treatment",
       para: "",
       price: "2000",
-      img: "",
+      img: antiDandruff,
     },
     {
       id: 7,
       title: "Anti Hairfall Treatment",
       para: "",
       price: "2000",
-      img: "",
+      img: antiHairFall,
     },
   ];
   return (
@@ -58,10 +66,7 @@ const HairTreatmentCard = () => {
       {cardContent.map((x) => (
         <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
-            <img
-              src="https://img.freepik.com/free-photo/hair-stylist-drying-his-client-s-hair_23-2148242788.jpg?t=st=1744910722~exp=1744914322~hmac=1f299e061f4c79530e03f01779d7f95c0ba8b65c28bd5512d7c383bb9a546615&w=740"
-              alt={x.title}
-            />
+            <Image src={x.img} alt={x.title} />
             <div className="custom-shape-divider-bottom-1744910806">
               <svg
                 data-name="Layer 1"

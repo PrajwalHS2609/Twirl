@@ -1,5 +1,12 @@
 import "@/components/Style/style.css";
 import React from "react";
+import spaAntiHairFall from "@/media/Images/HairSpa/Spa Essence Anti Hairfall.png"
+import spaAntiDandruff from "@/media/Images/HairSpa/Spa Essence Anti Dandruff.png"
+import sheaButter from "@/media/Images/HairSpa/Shea Butter.png"
+import olaplex from "@/media/Images/HairSpa/Olaplex.png"
+import botox from "@/media/Images/HairSpa/Botox.png"
+import Image from "next/image";
+
 
 const HairSpaCard = () => {
   const cardContent = [
@@ -8,35 +15,35 @@ const HairSpaCard = () => {
       title: "Spa Essence Anti Hairfall",
       para: "",
       price: "1200 (short)",
-      img: "",
+      img:spaAntiHairFall ,
     },
     {
       id: 2,
       title: "Spa Essence Anti Dandruff",
       para: "",
       price: "1200 (short)",
-      img: "",
+      img:spaAntiDandruff ,
     },
     {
       id: 3,
       title: "Shea Butter",
       para: "",
       price: "2000 (short)",
-      img: "",
+      img: sheaButter,
     },
     {
       id: 4,
       title: "Olaplex",
       para: "",
       price: "2000 (short)",
-      img: "",
+      img: olaplex,
     },
     {
       id: 5,
       title: "Botox",
       para: "",
       price: "2000 (short)",
-      img: "",
+      img:botox ,
     },
   ];
   return (
@@ -44,8 +51,8 @@ const HairSpaCard = () => {
       {cardContent.map((x) => (
         <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
-            <img
-              src="https://img.freepik.com/free-photo/hair-stylist-drying-his-client-s-hair_23-2148242788.jpg?t=st=1744910722~exp=1744914322~hmac=1f299e061f4c79530e03f01779d7f95c0ba8b65c28bd5512d7c383bb9a546615&w=740"
+            <Image
+              src={x.img}
               alt={x.title}
             />
             <div className="custom-shape-divider-bottom-1744910806">

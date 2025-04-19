@@ -1,35 +1,40 @@
 import React from "react";
 import "@/components/Style/style.css";
+import global from "@/media/Images/HairHighlight/Global.png";
+import highlights from "@/media/Images/HairHighlight/highlights.png";
+import rootTouch from "@/media/Images/HairHighlight/Root touch up.png";
+import rootTouchNh3Free from "@/media/Images/HairHighlight/Root touch up nh3 free.png";
+import Image from "next/image";
 
 const HighlightsCard = () => {
   const cardContent = [
     {
       id: 1,
       title: " Global",
-      para: "",
+      para: "Achieve a multi-dimensional, vibrant look with global hair color. This technique involves coloring your hair from root to tip with a single shade, offering a rich and uniform color transformation that enhances your natural beauty.",
       price: "3500 (short)",
-      img: "",
+      img: global,
     },
     {
       id: 2,
       title: "Highlights",
-      para: "",
+      para: "Highlights add brightness and depth to your hair, creating a radiant, sun-kissed effect. Whether subtle or bold, they enhance your natural color and give your hair a vibrant, multi-dimensional look.",
       price: "6000 (short)",
-      img: "",
+      img: highlights,
     },
     {
       id: 3,
       title: "Root touch up ",
-      para: "",
+      para: "Root touch-up is a quick and effective solution to cover up regrowth, restoring your hair color to perfection. It blends seamlessly with the rest of your hair, ensuring a fresh, uniform look between salon visits.",
       price: "1200",
-      img: "",
+      img: rootTouch,
     },
     {
       id: 4,
       title: " Root touch up nh3 free ",
-      para: "",
+      para: "Root touch-up NH3-free is a gentle, ammonia-free formula that effectively covers regrowth while maintaining the health of your hair. It offers a smooth, natural finish without the harsh chemicals, perfect for sensitive scalps.",
       price: "1500",
-      img: "",
+      img: rootTouchNh3Free,
     },
   ];
   return (
@@ -37,10 +42,7 @@ const HighlightsCard = () => {
       {cardContent.map((x) => (
         <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
-            <img
-              src="https://img.freepik.com/free-photo/hair-stylist-drying-his-client-s-hair_23-2148242788.jpg?t=st=1744910722~exp=1744914322~hmac=1f299e061f4c79530e03f01779d7f95c0ba8b65c28bd5512d7c383bb9a546615&w=740"
-              alt={x.title}
-            />
+            <Image src={x.img} alt={x.title} />
             <div className="custom-shape-divider-bottom-1744910806">
               <svg
                 data-name="Layer 1"
@@ -57,15 +59,13 @@ const HighlightsCard = () => {
           </div>
           <div className="subServiceCard-item">
             <h3>{x.title}</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Inventore autem.
-            </p>
+            <p>{x.para}</p>
             <div className="subServiceCard-itemWrapper">
               <span>
-              <a href="https://wa.me/919972272700" target="_blank">
+                <a href="https://wa.me/919972272700" target="_blank">
                   Book Now
-                </a>              </span>
+                </a>{" "}
+              </span>
               <div className="line"></div>
               <span>Price : ₹{x.price}</span>
             </div>
