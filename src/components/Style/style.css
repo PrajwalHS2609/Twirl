@@ -319,6 +319,9 @@ color: var(--customColor1);
     height: 100%;
     padding: 10px;
   }
+  /* .subHead-content>h2{
+    font-size: 60px;
+  } */
   .subHead-content > p {
     width: 100%;
     text-align: justify;
@@ -342,6 +345,10 @@ color: var(--customColor1);
   }
   .subServiceHead-content:nth-child(2) {
     padding: 30px;
+  }
+
+  .subServiceHead-content>h2{
+    font-size: 30px;
   }
   /* ----------------------------------------------------------------------------------------- */
   .subServiceContent-container {

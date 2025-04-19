@@ -1,5 +1,16 @@
 import React from "react";
 import "@/components/Style/style.css";
+import menHaircut from "@/media/Images/HairStyling/Mens Hair Cut.png";
+import womenHaircut from "@/media/Images/HairStyling/Women's HairCut.png";
+import boyHaircut from "@/media/Images/HairStyling/Boy's HairCut.png";
+import girlHaircut from "@/media/Images/HairStyling/Girls's HairCut.png";
+import kidHaircut from "@/media/Images/HairStyling/Kid's HairCut.png";
+import headShave from "@/media/Images/HairStyling/Head Shave.png";
+import blowDry from "@/media/Images/HairStyling/Blow Dry.png";
+import iron from "@/media/Images/HairStyling/Iron_Curl.png";
+import updo from "@/media/Images/HairStyling/UPDO.png";
+import Image from "next/image";
+
 const HairCutStylingCard = () => {
   const cardContent = [
     {
@@ -7,63 +18,63 @@ const HairCutStylingCard = () => {
       title: "Men's HairCut",
       para: "",
       price: "300",
-      img: "",
+      img: menHaircut,
     },
     {
       id: 2,
       title: "Women's HairCut",
       para: "",
       price: "1000",
-      img: "",
+      img: womenHaircut,
     },
     {
       id: 3,
       title: "Boy's HairCut",
       para: "",
       price: "300",
-      img: "",
+      img: boyHaircut,
     },
     {
       id: 4,
       title: "Girls's HairCut",
       para: "",
       price: "500",
-      img: "",
+      img: girlHaircut,
     },
     {
       id: 5,
       title: "Kid's HairCut",
       para: "",
       price: "150",
-      img: "",
+      img: kidHaircut,
     },
     {
       id: 6,
       title: "Head Shave",
       para: "",
       price: "500",
-      img: "",
+      img: headShave,
     },
     {
       id: 7,
       title: "Blow Dry",
       para: "",
       price: "800",
-      img: "",
+      img: blowDry,
     },
     {
       id: 8,
       title: "Iron/Curl",
       para: "",
       price: "1000",
-      img: "",
+      img: iron,
     },
     {
       id: 9,
       title: "UPDO (No Wash)",
       para: "",
       price: "1200",
-      img: "",
+      img: updo,
     },
   ];
   return (
@@ -71,10 +82,7 @@ const HairCutStylingCard = () => {
       {cardContent.map((x) => (
         <div className="subServiceCard-content" key={x.id}>
           <div className="subServiceCard-item">
-            <img
-              src="https://img.freepik.com/free-photo/hair-stylist-drying-his-client-s-hair_23-2148242788.jpg?t=st=1744910722~exp=1744914322~hmac=1f299e061f4c79530e03f01779d7f95c0ba8b65c28bd5512d7c383bb9a546615&w=740"
-              alt={x.title}
-            />
+            <Image src={x.img} alt={x.title} />
             <div className="custom-shape-divider-bottom-1744910806">
               <svg
                 data-name="Layer 1"
