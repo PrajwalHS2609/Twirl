@@ -8,6 +8,7 @@ import hairServiceImg from "@/media/Images/HomeServices/hairServiceImg.png";
 import nailServiceImg from "@/media/Images/HomeServices/nailsServiceImg.jpg";
 import beautyServiceImg from "@/media/Images/HomeServices/beautyEssentialsImg.png";
 import makeupImg from "@/media/Images/HomeServices/makeupServiceImg.jpg";
+import spaImg from "@/media/Images/HomeServices/spaServiceImg.png";
 
 import Image from "next/image";
 
@@ -44,6 +45,12 @@ const HomeServiceMain = () => {
       title: "Makeup",
       link: "/makeup-in-mangalore",
       image: makeupImg,
+    },
+    {
+      id: 6,
+      title: "Spa",
+      link: "/spa-services-in-mangalore",
+      image: spaImg,
     },
   ];
 
