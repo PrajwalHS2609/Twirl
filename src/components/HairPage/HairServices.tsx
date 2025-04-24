@@ -15,7 +15,7 @@ const HairServices = () => {
       id: 1,
       title: "Haircut & Styling",
       image: haircutStyling,
-      link: "/haircut-and-styling",
+      link: "/haircut-and-styling-salon-in-mangalore",
       description:
         "Upgrade your style at Twirl! Get trendy haircuts and flawless blow-dries from expert stylists. Experience a Dyson transformation and step out with confidence. Visit us in mangalore for exclusive offers!",
     },
@@ -23,7 +23,7 @@ const HairServices = () => {
       id: 2,
       title: "Highlights & Streaks",
       image: hairHighlights,
-      link: "/hair-highlights-and-streak",
+      link: "/hair-highlights-and-streaks-salon-in-mangalore",
       description:
         "Transform your look with expert hair coloring and highlights! From bold shades to subtle tones, we create a style that suits you. Step into color and confidence!",
     },
@@ -31,7 +31,7 @@ const HairServices = () => {
       id: 3,
       title: "Hair Spa",
       image: hairSpa,
-      link: "/hair-spa",
+      link: "/hair-spa-in-mangalore",
       description:
         "Revive your hair at Twirl Salon with Botox, Keratin & Olaplex treatments! Strengthen, nourish, and restore shine to chemically treated hair.",
     },
@@ -39,7 +39,7 @@ const HairServices = () => {
       id: 4,
       title: "Hair Treatment",
       image: hairTreatment,
-      link: "/hair-treatment",
+      link: "/hair-treatments-in-mangalore",
       description:
         "Indulge in luxurious hair treatments at Twirl Salon! Restore health and shine with deep hydration, scalp therapies, and conditioning masks for soft, vibrant locks.",
     },
@@ -47,7 +47,7 @@ const HairServices = () => {
       id: 5,
       title: "Beard Styling",
       image: beardStyling,
-      link: "/beard",
+      link: "/beard-styling-salon-in-mangalore",
       description:
         "Twirl Salon crafts beard styles that suit your personality. With expert precision, we enhance your features for a sharp, well-groomed look!",
     },
@@ -55,7 +55,7 @@ const HairServices = () => {
       id: 6,
       title: "Mustache",
       image: mustache,
-      link: "/mustache",
+      link: "/mustache-styling-salon-in-mangalore",
       description:
         "Get a sharp, refined mustache at Twirl Salon! Our expert barbers craft precision styles, from classic to modern. Book your appointment today!",
     },
