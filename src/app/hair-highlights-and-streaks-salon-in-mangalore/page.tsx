@@ -1,4 +1,5 @@
 import HighlightsCard from "@/components/HairServices/Highlights/HighlightsCard";
+import HighlightsContent from "@/components/HairServices/Highlights/HighlightsContent";
 import HighlightsHead from "@/components/HairServices/Highlights/HighlightsHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
@@ -24,6 +25,7 @@ export default function HairHighlights() {
       <HomeInterior />
       <HomeTestimonial />
       <HomeInspire />
+      <HighlightsContent/>
     </div>
   );
 }

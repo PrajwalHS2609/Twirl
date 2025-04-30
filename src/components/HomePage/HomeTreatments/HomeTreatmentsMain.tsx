@@ -3,6 +3,7 @@ import React from "react";
 import "./HomeTreatments.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Link from "next/link";
 
 const responsive = {
   desktop: {
@@ -27,7 +28,7 @@ const treatments = [
     id: 1,
     title: "Olaplex Treatments",
     sub: "TREATMENTS",
-    link: "/",
+    link: "/olaplex-hair-treatments-in-mangalore",
     image:
       "https://img.freepik.com/free-photo/woman-getting-treatment-hairdresser-shop_23-2149229750.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
   },
@@ -35,7 +36,7 @@ const treatments = [
     id: 2,
     title: "Keratin Smoothing",
     sub: "TREATMENTS",
-    link: "/",
+    link: "/keratin-hair-smoothing-treatment-in-mangalore",
     image:
       "https://img.freepik.com/free-photo/beautiful-keratin-treated-hair_23-2149332491.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
   },
@@ -43,7 +44,7 @@ const treatments = [
     id: 3,
     title: "Botox Treatment",
     sub: "TREATMENTS",
-    link: "/",
+    link: "/botox-hair-treatment-in-mangalore",
     image:
       "https://img.freepik.com/free-photo/female-client-getting-her-hair-washed-hairdresser_23-2150771291.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
   },
@@ -51,7 +52,7 @@ const treatments = [
     id: 4,
     title: "Balayage",
     sub: "COLORING",
-    link: "/",
+    link: "/balayage-hair-highlights-in-mangalore",
     image:
       "https://img.freepik.com/free-photo/attractive-young-blond-woman-indoor_624325-4390.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
   },
@@ -65,7 +66,7 @@ const HomeTreatmentsMain = () => {
         draggable={true}
         showDots={false}
         responsive={responsive}
-        ssr={true} 
+        ssr={true}
         infinite={true}
         autoPlaySpeed={2000}
         keyBoardControl={true}
@@ -87,7 +88,9 @@ const HomeTreatmentsMain = () => {
                   </h3>
                   <h6>{treatment.sub}</h6>
                 </div>
-                <button>VIEW DETAILS</button>
+                <button>
+                  <Link href={treatment.link}>VIEW DETAILS</Link>
+                </button>
               </div>
             </div>
           </div>

@@ -1,10 +1,17 @@
+"use client"
 import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BookingPopUp from "@/components/BookingPopUp/BookingPopUp";
-import Whatsapp from "@/components/Whatsapp/Whatsapp";
+import dynamic from "next/dynamic";
+
 // import BookingPopUp from "./../components/BookingPopUp/BookingPopUp.jsx";
+
+const Whatsapp = dynamic(() => import("@/components/Whatsapp/Whatsapp"), {
+  ssr: false,
+  loading: () => <></>, // Optional fallback while loading
+});
 
 export default function RootLayout({
   children,
