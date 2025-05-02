@@ -250,7 +250,7 @@ const Menu = () => {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               {" "}
               <Link
                 href="/blog"
@@ -259,7 +259,7 @@ const Menu = () => {
               >
                 BLOG
               </Link>
-            </li>
+            </li> */}
             <li>
               {" "}
               <Link

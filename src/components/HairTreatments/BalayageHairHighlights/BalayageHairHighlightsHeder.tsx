@@ -1,11 +1,11 @@
 import React from "react";
 import "@/components/Style/style.css";
 import Image from "next/image";
-import hairServiceBanner from "@/media/Images/HairService/hairServiceBanner.jpg";
+import balayageBanner from "@/media/Images/HairTreatment/balayageBanner.jpg";
 const BalayageHairHighlightsHeader = () => {
   return (
     <div className="subHead-container">
-      <Image src={hairServiceBanner} alt="hairServiceBanner" />
+      <Image src={balayageBanner} alt="balayage Banner" />
       <div className="subHead-content">
         <h2>Balayage Hair Highlights</h2>
         <p>

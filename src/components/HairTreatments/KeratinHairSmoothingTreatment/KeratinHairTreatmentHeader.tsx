@@ -1,11 +1,11 @@
 import React from "react";
 import "@/components/Style/style.css";
 import Image from "next/image";
-import hairServiceBanner from "@/media/Images/HairService/hairServiceBanner.jpg";
+import keratinBanner from "@/media/Images/HairTreatment/keratinBanner.jpg";
 const KeratinHairSmoothingTreatment = () => {
   return (
     <div className="subHead-container">
-      <Image src={hairServiceBanner} alt="hairServiceBanner" />
+      <Image src={keratinBanner} alt="keratin Banner" />
       <div className="subHead-content">
         <h2>Keratin Hair Smoothing Treatment</h2>
         <p>

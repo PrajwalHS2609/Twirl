@@ -4,6 +4,11 @@ import "./HomeTreatments.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
+import Balayage from "@/media/Images/HairTreatment/Balayage.jpg";
+import Olaplex from "@/media/Images/HairTreatment/OlaplexTreatment.jpg";
+import Keratin from "@/media/Images/HairTreatment/KeratinSmoothing.jpg";
+import Botox from "@/media/Images/HairTreatment/BotoxTreatment.jpg";
+import Image from "next/image";
 
 const responsive = {
   desktop: {
@@ -29,32 +34,28 @@ const treatments = [
     title: "Olaplex Treatments",
     sub: "TREATMENTS",
     link: "/olaplex-hair-treatments-in-mangalore",
-    image:
-      "https://img.freepik.com/free-photo/woman-getting-treatment-hairdresser-shop_23-2149229750.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+    image: Olaplex,
   },
   {
     id: 2,
     title: "Keratin Smoothing",
     sub: "TREATMENTS",
     link: "/keratin-hair-smoothing-treatment-in-mangalore",
-    image:
-      "https://img.freepik.com/free-photo/beautiful-keratin-treated-hair_23-2149332491.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+    image: Keratin,
   },
   {
     id: 3,
     title: "Botox Treatment",
     sub: "TREATMENTS",
     link: "/botox-hair-treatment-in-mangalore",
-    image:
-      "https://img.freepik.com/free-photo/female-client-getting-her-hair-washed-hairdresser_23-2150771291.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+    image: Botox,
   },
   {
     id: 4,
     title: "Balayage",
     sub: "COLORING",
     link: "/balayage-hair-highlights-in-mangalore",
-    image:
-      "https://img.freepik.com/free-photo/attractive-young-blond-woman-indoor_624325-4390.jpg?uid=R153459844&ga=GA1.1.790794325.1735297516&semt=ais_hybrid",
+    image: Balayage,
   },
 ];
 
@@ -80,7 +81,7 @@ const HomeTreatmentsMain = () => {
         {treatments.map((treatment) => (
           <div className="homeTreatmentMain-wrapper" key={treatment.id}>
             <div className="homeTreatmentMain-content">
-              <img src={treatment.image} alt={treatment.title} />
+              <Image src={treatment.image} alt={treatment.title} />
               <div className="homeTreatmentMain-item">
                 <div className="homeTreatmentMain-textContainer">
                   <h3>

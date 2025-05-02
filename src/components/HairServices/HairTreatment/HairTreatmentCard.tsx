@@ -1,12 +1,12 @@
 import React from "react";
 import "@/components/Style/style.css";
-import olaplex from "@/media/Images/HairTreatment/Olaplex.png";
-import perming from "@/media/Images/HairTreatment/Perming.png";
-import straightening from "@/media/Images/HairTreatment/Straightening.png";
-import botox from "@/media/Images/HairTreatment/Botox.png";
-import botoliss from "@/media/Images/HairTreatment/Botoliss.png";
-import antiDandruff from "@/media/Images/HairTreatment/Anti Dandruff.png";
-import antiHairFall from "@/media/Images/HairTreatment/Anti Hairfall.png";
+import olaplex from "@/media/Images/HairTreatmentServices/Olaplex.png";
+import perming from "@/media/Images/HairTreatmentServices/Perming.png";
+import straightening from "@/media/Images/HairTreatmentServices/Straightening.png";
+import botox from "@/media/Images/HairTreatmentServices/Botox.png";
+import botoliss from "@/media/Images/HairTreatmentServices/Botoliss.png";
+import antiDandruff from "@/media/Images/HairTreatmentServices/Anti Dandruff.png";
+import antiHairFall from "@/media/Images/HairTreatmentServices/Anti Hairfall.png";
 import Image from "next/image";
 
 const HairTreatmentCard = () => {
