@@ -1,4 +1,5 @@
 import HairSpaCard from "@/components/HairServices/HairSpa/HairSpaCard";
+import HairSpaContent from "@/components/HairServices/HairSpa/HairSpaContent";
 import HairSpaHead from "@/components/HairServices/HairSpa/HairSpaHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
@@ -25,6 +26,7 @@ export default function HaircutSpa() {
       <HomeInterior />
       <HomeTestimonial />
       <HomeInspire />
+      <HairSpaContent/>
     </div>
   );
 }

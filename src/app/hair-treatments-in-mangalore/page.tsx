@@ -1,4 +1,5 @@
 import HairTreatmentCard from "@/components/HairServices/HairTreatment/HairTreatmentCard";
+import HairTreatmentContent from "@/components/HairServices/HairTreatment/HairTreatmentContent";
 import HairTreatmentHead from "@/components/HairServices/HairTreatment/HairTreatmentHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
@@ -26,6 +27,7 @@ export default function HairTreatment() {
       <HomeInterior />
       <HomeTestimonial />
       <HomeInspire />
+      <HairTreatmentContent/>
     </div>
   );
 }
