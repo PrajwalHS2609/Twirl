@@ -1,4 +1,4 @@
-import OmbreGelPolishHead from "@/components/NailServices/OmbreGelPolish/OmbreGelPolishHead";
+import OmbreGelPolishHead from "@/components/NailSubServices/OmbreGelPolish/OmbreGelPolishHeader";
 
 
 export default function OmbreGelPolish() {

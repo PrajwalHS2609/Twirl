@@ -1,4 +1,4 @@
-import CandleSpaPedicureHead from "@/components/NailServices/CandleSpaPedicure/CandleSpaPedicureHead";
+import CandleSpaPedicureHead from "@/components/NailSubServices/CandleSpaPedicure/CandleSpaPedicureHead";
 
 export default function CandleSpaPedicure() {
   return (

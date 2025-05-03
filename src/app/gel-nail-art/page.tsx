@@ -1,4 +1,4 @@
-import GelNailArtHead from "@/components/NailServices/GelNailArt/GelNailArtHead";
+import GelNailArtHead from "@/components/NailSubServices/GelNailArt/GelNailArtHeader";
 
 export default function GelNailArt() {
   return (

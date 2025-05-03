@@ -1,17 +1,16 @@
-import Image from "next/image";
 import React from "react";
-import chromeGelBanner from "@/media/Images/NailService/Banner/chromeGelBanner.jpg";
+import ombreGelBanner from "@/media/Images/NailService/Banner/ombreNailBanner.jpg";
 import "@/components/Style/style.css";
-
-const ChromeGelPolishHead = () => {
+import Image from "next/image";
+const OmbreGelPolishHeader = () => {
   return (
     <div className="subServiceHead-container">
       <div className="subServiceHead-content">
-        <Image src={chromeGelBanner} alt="Chrome Gel Banner" />
+        <Image src={ombreGelBanner} alt="Ombre Gel Banner" />
       </div>
       <div className="subServiceHead-content">
         <h6>NAIL SERVICE</h6>
-        <h2>Chrome Gel Nail Polish</h2>
+        <h2>Ombre Gel Polish</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis
           sunt id pariatur vero ab minus itaque doloremque quibusdam, libero
@@ -23,4 +22,4 @@ const ChromeGelPolishHead = () => {
   );
 };
 
-export default ChromeGelPolishHead;
+export default OmbreGelPolishHeader;

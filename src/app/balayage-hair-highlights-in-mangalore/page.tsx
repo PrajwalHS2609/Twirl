@@ -1,6 +1,6 @@
 import BalayageHairHighlightsContent from "@/components/HairTreatments/BalayageHairHighlights/BalayageHairHighlightsContent";
 import BalayageHairHighlightsHead from "@/components/HairTreatments/BalayageHairHighlights/BalayageHairHighlightsHead";
-import BalayageHairHighlightsHeader from "@/components/HairTreatments/BalayageHairHighlights/BalayageHairHighlightsHeder";
+import BalayageHairHighlightsHeader from "@/components/HairTreatments/BalayageHairHighlights/BalayageHairHighlightsHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";

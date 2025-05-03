@@ -22,7 +22,7 @@ const NailsServices = () => {
       id: 1,
       title: "Gel Nail Art",
       image: gelNail,
-      link: "/",
+      link: "/gel-nail-art-salon-in-mangalore",
       price: "100 (per)",
       description:
         "Elevate your nails with breathtaking designs, expertly crafted by our in-house specialists, turning nail painting into a true art form.",
@@ -31,7 +31,7 @@ const NailsServices = () => {
       id: 2,
       title: "Chrome Gel Polish",
       image: chromeGel,
-      link: "/",
+      link: "/chrome-gel-polish-salon-in-mangalore",
       price: "1000",
       description:
         "Experience the beauty of a flawless chrome finish, expertly applied by our skilled nail technicians, turning your nails into captivating works of art.",
@@ -40,7 +40,7 @@ const NailsServices = () => {
       id: 3,
       title: "Ombre Gel Polish",
       image: ombreGel,
-      link: "/",
+      link: "/ombre-gel-polish-salon-in-mangalore",
       price: "1500",
       description:
         "Achieve the trendy ombre nail look with seamlessly blended hues, creating a stunning gradient effect that's effortlessly chic and stylish.",
@@ -49,7 +49,7 @@ const NailsServices = () => {
       id: 4,
       title: "Classic Manicure",
       image: classicManicure,
-      link: "/",
+      link: "/classic-manicure-salon-in-mangalore",
       price: "500",
       description:
         "Indulge in our Classic Manicure for beautifully groomed nails. Our expert technicians will shape, buff, and polish your nails to perfection, leaving your hands refreshed and revitalized.",

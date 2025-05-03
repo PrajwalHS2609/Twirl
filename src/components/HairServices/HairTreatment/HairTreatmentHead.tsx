@@ -1,6 +1,6 @@
 import React from "react";
 import "@/components/Style/style.css";
-import hairTreatmentBanner from "@/media/Images/HairTreatment/hairTreatmentBanner.jpg";
+import hairTreatmentBanner from "@/media/Images/HairTreatmentServices/hairTreatmentBanner.jpg";
 import Image from "next/image";
 import "@/components/Style/style.css";
 
