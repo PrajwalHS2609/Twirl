@@ -58,7 +58,7 @@ const NailsServices = () => {
       id: 5,
       title: "Organic Manicure",
       image: organicManicure,
-      link: "/",
+      link: "/organic-manicure-salon-in-mangalore",
       price: "700",
       description:
         "Enjoy the ultimate pampering with our Organic Manicure, where skilled technicians use natural products to nourish, strengthen, and enhance your nails and cuticles.",
@@ -67,7 +67,7 @@ const NailsServices = () => {
       id: 6,
       title: "Classic Pedicure",
       image: classicPedicure,
-      link: "/",
+      link: "/classic-pedicure-salon-in-mangalore",
       price: "700",
       description:
         "Pamper your feet with our Classic Pedicure, featuring a relaxing soak, expert nail shaping, cuticle care, and a hydrating massage. Walk away feeling refreshed and rejuvenated.",
@@ -76,7 +76,7 @@ const NailsServices = () => {
       id: 7,
       title: "Organic Pedicure",
       image: organicPedicure,
-      link: "/",
+      link: "/organic-pedicure-salon-in-mangalore",
       price: "900",
       description:
         "Relax and rejuvenate with our Organic Pedicure, featuring natural products, a soothing foot soak, exfoliation, expert nail shaping, and cuticle care. Step out feeling refreshed and pampered.",
@@ -85,7 +85,7 @@ const NailsServices = () => {
       id: 8,
       title: "Candle Spa Manicure",
       image: candleManicure,
-      link: "/",
+      link: "/candle-spa-manicure-salon-in-mangalore",
       price: "1000",
       description:
         "Indulge in our Candle Spa Manicure for a luxurious nail care experience. Enjoy a soothing warm wax treatment, expert nail shaping, cuticle care, and a hydrating massage for soft, rejuvenated hands.",
@@ -94,7 +94,7 @@ const NailsServices = () => {
       id: 9,
       title: "Candle Spa Pedicure",
       image: candlePedicure,
-      link: "/",
+      link: "/candle-spa-pedicure-salon-in-mangalore",
       price: "1500",
       description:
         "Indulge in our Candle Spa Pedicure for the ultimate relaxation. Enjoy a warm candle wax treatment, expert nail shaping, cuticle care, and a deeply hydrating massage, leaving your feet refreshed and rejuvenated from heel to toe.",
@@ -103,7 +103,7 @@ const NailsServices = () => {
       id: 10,
       title: "Cut & File",
       image: cutFile,
-      link: "/",
+      link: "/nail-cut-and-file-salon-in-mangalore",
       price: "200",
       description:
         "Achieve perfectly shaped nails with our Cut & File service. Our skilled technicians will trim and shape your nails to your preferred length and style, ensuring a neat and polished look",
@@ -112,7 +112,7 @@ const NailsServices = () => {
       id: 11,
       title: "Colour Change",
       image: colorChange,
-      link: "/",
+      link: "/nail-colour-change-salon-in-mangalore",
       price: "200",
       description:
         "Refresh your nails instantly with our Colour Change service. Choose from a stunning selection of shades, and let our expert technicians give your nails a vibrant and stylish makeover",
@@ -121,7 +121,7 @@ const NailsServices = () => {
       id: 12,
       title: "Geleration",
       image: geleration,
-      link: "/",
+      link: "/nail-geleration-salon-in-mangalore",
       price: "700",
       description:
         "Enjoy flawless, chip-free nails with our Geleration service. Our expert technicians apply a long-lasting gel polish that cures instantly under UV light, keeping your nails beautiful and durable for weeks.",
@@ -130,7 +130,7 @@ const NailsServices = () => {
       id: 13,
       title: "French Geleration",
       image: frenchGeleration,
-      link: "/",
+      link: "/french-geleration-salon-in-mangalore",
       price: "750",
       description:
         "Enhance your sophistication with our French Geleration service. Our expert technicians apply long-lasting gel polish, giving you timeless, elegant nails that stay flawless for weeks.",

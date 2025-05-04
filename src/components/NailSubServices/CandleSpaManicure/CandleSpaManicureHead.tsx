@@ -1,29 +1,26 @@
-import Image from 'next/image'
-import React from 'react'
-import candleManicureBanner from "@/media/Images/NailService/Candle Spa Manicure.png"
-import "@/components/Style/style.css";
+import React from "react";
 
 const CandleSpaManicureHead = () => {
   return (
-<div className="subServiceHead-container">
-    <div className="subServiceHead-content">
-      <Image
-        src={candleManicureBanner}
-        alt="Candle Manicure Banner"
-      />
+    <div className="subServiceContent-container">
+      <div className="subServicesMain-item">
+        <h1>Candle Spa Manicure Salon in Mangalore</h1>
+        <p>
+          Indulging in a luxurious self-care ritual has never been more
+          rewarding than with a visit to the{" "}
+          <a href="https://twirlsalon.com/candle-spa-manicure-salon-in-mangalore">
+            Candle Spa Manicure Salon in Mangalore
+          </a>
+          , exclusively at Twirl Salon. Known for its serene ambiance, expert
+          staff, and unique manicure treatments that go beyond the ordinary,
+          Twirl Salon has redefined the hand and nail care experience in the
+          city. Among its signature services, the candle spa manicure stands out
+          as a customer favorite—a blend of relaxation, nourishment, and
+          elegance.
+        </p>
+      </div>
     </div>
-    <div className="subServiceHead-content">
-      <h6>NAIL SERVICE</h6>
-      <h2>Candle Spa Manicure</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis
-        sunt id pariatur vero ab minus itaque doloremque quibusdam, libero
-        optio perspiciatis corporis. Voluptatum id vitae consequuntur enim
-        optio repudiandae?
-      </p>
-    </div>
-  </div>
-  )
-}
+  );
+};
 
-export default CandleSpaManicureHead
+export default CandleSpaManicureHead;

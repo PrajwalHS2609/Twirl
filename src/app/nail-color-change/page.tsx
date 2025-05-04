@@ -1,4 +1,4 @@
-import ColorChangeHead from "@/components/NailSubServices/ColorChange/ColorChangeHead";
+import ColorChangeHead from "@/components/NailSubServices/ColorChange/ColorChangeHeader";
 
 export default function NailColorChange() {
   <div className="main-container">

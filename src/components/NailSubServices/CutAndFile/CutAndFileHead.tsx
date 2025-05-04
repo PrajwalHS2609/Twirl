@@ -1,22 +1,20 @@
 import React from "react";
-import "@/components/Style/style.css";
-import cutAndFileBanner from "@/media/Images/NailService/Banner/cutAndFileBanner.jpg";
-import Image from "next/image";
 
 const CutAndFileHead = () => {
   return (
-    <div className="subServiceHead-container">
-      <div className="subServiceHead-content">
-        <Image src={cutAndFileBanner} alt="Ombre Gel Banner" />
-      </div>
-      <div className="subServiceHead-content">
-        <h6>NAIL SERVICE</h6>
-        <h2>Cut And File </h2>
+    <div className="subServiceContent-container">
+      <div className="subServicesMain-item">
+        <h1>Nail Cut & File Salon in Mangalore</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis
-          sunt id pariatur vero ab minus itaque doloremque quibusdam, libero
-          optio perspiciatis corporis. Voluptatum id vitae consequuntur enim
-          optio repudiandae?
+          If you’re looking for precision, care, and cleanliness when it comes
+          to your nails, then Twirl Salon is the place to be. As the most
+          trusted <a href="https://twirlsalon.com/nail-salon-in-mangalore">Nail Cut & File Salon in Mangalore</a>, we take pride in offering
+          meticulous nail grooming services that enhance your appearance and
+          maintain the health of your nails. A well-maintained nail shape not
+          only looks great but also prevents breakage, ingrown nails, and other
+          hygiene-related issues. At Twirl Salon, our skilled nail technicians
+          ensure your nails are trimmed, filed, and shaped to perfection, with
+          attention to detail and safety.{" "}
         </p>
       </div>
     </div>
