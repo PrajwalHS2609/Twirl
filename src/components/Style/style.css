@@ -30,6 +30,12 @@
   font-weight: 500;
   text-align: center;
 }
+#slugHead > h2 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-align: center;
+}
 .subHead-content > p {
   width: 60%;
   font-size: 20px;
@@ -91,9 +97,9 @@
   font-weight: 600;
   text-decoration: none;
 }
-.subServices-cardContent > a:hover h3{
-color: var(--customColor1);
-} 
+.subServices-cardContent > a:hover h3 {
+  color: var(--customColor1);
+}
 
 .subServices-cardContent > h3 {
   text-align: center;
@@ -164,7 +170,7 @@ color: var(--customColor1);
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex------------------------------------------------------------------------------;
+  align-items: flex;
   flex-direction: column;
   gap: 10px;
   color: white;
@@ -229,6 +235,7 @@ color: var(--customColor1);
   margin-bottom: 0;
 } */
 .subServiceContent-container {
+  /* border: solid; */
   background-size: cover;
   padding: 40px;
   border-radius: 15px;
@@ -347,7 +354,7 @@ color: var(--customColor1);
     padding: 30px;
   }
 
-  .subServiceHead-content>h2{
+  .subServiceHead-content > h2 {
     font-size: 30px;
   }
   /* ----------------------------------------------------------------------------------------- */
@@ -470,10 +477,10 @@ color: var(--customColor1);
   font-weight: 500;
   position: relative;
 }
-.subServiceCard-itemWrapper  > span > a:hover {
+.subServiceCard-itemWrapper > span > a:hover {
   color: var(--customColor1);
 }
-.subServiceCard-itemWrapper  > span > a::after {
+.subServiceCard-itemWrapper > span > a::after {
   content: "";
   border-top: solid 1px black;
   position: absolute;
@@ -483,8 +490,16 @@ color: var(--customColor1);
   opacity: 0;
   transition: 300ms ease;
 }
-.subServiceCard-itemWrapper  > span > a:hover::after {
+.subServiceCard-itemWrapper > span > a:hover::after {
   border-top: solid 1px var(--customColor1);
   width: 100%;
   opacity: 1;
+}
+
+/* ----------------------------------------------------------------------- */
+.subServicesMain-item > h4 > strong {
+  color: var(--customColor1);
+}
+.subServicesMain-item > ul > li > strong {
+  color: var(--customBg1);
 }
