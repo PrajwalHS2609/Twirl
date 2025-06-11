@@ -13,6 +13,8 @@ import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimoni
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import SlugSubHeader from "@/components/SlugHeader/SlugSubHeader";
 
+export const revalidate = 0;
+
 const POST_QUERY = `*[_type == "post" && slug.current == $slug][0]{
   _id,
   title,

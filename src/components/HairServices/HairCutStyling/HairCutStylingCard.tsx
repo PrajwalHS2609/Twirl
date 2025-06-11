@@ -106,8 +106,8 @@ const HairCutStylingCard = () => {
                   Book Now
                 </a>
               </span>
-              <div className="line"></div>
-              <span>Price : ₹{x.price}</span>
+              {/* <div className="line"></div>
+              <span>Price : ₹{x.price}</span> */}
             </div>
           </div>
         </div>
