@@ -33,9 +33,19 @@ const MakeupServicesCard = () => {
             <Image src={x.image} alt={x.title} />
           </div>
           <div className="subServices-cardContent">
-            <h3>{x.title}</h3>
+            <Link href={x.link}>
+              <h3>{x.title}</h3>
+            </Link>
             <p>{x.description}</p>
-            <Link href={x.link}>View More</Link>
+            <div className="subServices-cardItemWrapper">
+              <span>
+                <a href="https://wa.me/919972272700" target="_blank">
+                  Book Now
+                </a>
+              </span>
+              {/* <div className="line"></div>
+               <span>Price : ₹{x.price}</span> */}
+            </div>
           </div>
         </div>
       ))}

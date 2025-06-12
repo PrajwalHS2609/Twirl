@@ -117,6 +117,7 @@ const SpaServicesCard = () => {
         " Body Scrub is an invigorating treatment that exfoliates and cleanses your skin, removing dead cells to reveal a smoother, brighter, and more radiant glow. Refresh your body and awaken your senses.",
     },
   ];
+  
   return (
     <div className="subServices-container">
       {spaService.map((x) => (
@@ -134,6 +135,7 @@ const SpaServicesCard = () => {
                 <a href="https://wa.me/919972272700" target="_blank">
                   Book Now
                 </a>
+
               </span>
               {/* <div className="line"></div>
               <span>Price : ₹{x.price}</span> */}
