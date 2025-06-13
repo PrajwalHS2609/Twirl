@@ -15,7 +15,7 @@ const HomeHeader = () => {
     <div className="homeHeader-container">
       <video src="/Video/HomeBanner.mp4" autoPlay loop muted></video>
       <div className="homeHeader-content">
-        <h2>TWIRL LIFESTYLE</h2>
+        <h2>TWIRL SALON</h2>
         <p>
           Step into luxury at our premium unisex salon, where style meets
           sophistication! From flawless haircuts to indulgent spa treatments, we
