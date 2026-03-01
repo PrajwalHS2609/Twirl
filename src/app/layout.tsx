@@ -8,10 +8,10 @@ import dynamic from "next/dynamic";
 
 // import BookingPopUp from "./../components/BookingPopUp/BookingPopUp.jsx";
 
-// const Whatsapp = dynamic(() => import("@/components/Whatsapp/Whatsapp"), {
-//   ssr: false,
-//   loading: () => <></>, // Optional fallback while loading
-// });
+const Whatsapp = dynamic(() => import("@/components/Whatsapp/Whatsapp"), {
+  ssr: false,
+  loading: () => <></>, // Optional fallback while loading
+});
 
 export default function RootLayout({
   children,
@@ -19,46 +19,39 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-  //   <html lang="en">
-  //     <head>
-  //       <meta
-  //         name="viewport"
-  //         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-  //       />
-  //       <meta
-  //         name="google-site-verification"
-  //         content="Ny1sryXLA5O4tZ-M4lTfw8VgYAndPN2fYbXwLDAoehM"
-  //       />
-  //       {/* <!-- Google tag (gtag.js) --> */}
-  //       <script
-  //         async
-  //         src="https://www.googletagmanager.com/gtag/js?id=G-CMCQW65YQW"
-  //       ></script>
-  //       <script>
-  //         {`
-  //          window.dataLayer = window.dataLayer || [];
-  // function gtag(){dataLayer.push(arguments);}
-  // gtag('js', new Date());
-  // gtag('config', 'G-CMCQW65YQW');
-  // `}
-  //       </script>
-  //       <link rel="icon" type="image/png" href="./favicon.png" />
-  //     </head>
-  //     <body>
-  //       <Navbar />
-  //       {children}
-  //       <Footer />
-  //       <Whatsapp />
-  //       <BookingPopUp />
-  //     </body>
-  //   </html>
-  <html>
-  <body>
-        <div style={{ textAlign: "center", marginTop: "100px" }}>
-      <h1>🚧 Site Temporarily Down</h1>
-      <p>We’ll be back shortly.</p>
-    </div>
-  </body>
+    <html lang="en">
+      <head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta
+          name="google-site-verification"
+          content="Ny1sryXLA5O4tZ-M4lTfw8VgYAndPN2fYbXwLDAoehM"
+        />
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CMCQW65YQW"
+        ></script>
+        <script>
+          {`
+           window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CMCQW65YQW');
+  `}
+        </script>
+        <link rel="icon" type="image/png" href="./favicon.png" />
+      </head>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+        <Whatsapp />
+        <BookingPopUp />
+      </body>
     </html>
+
   );
 }
