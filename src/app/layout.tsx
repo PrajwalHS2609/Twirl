@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
@@ -10,14 +10,14 @@ import dynamic from "next/dynamic";
 
 const Whatsapp = dynamic(() => import("@/components/Whatsapp/Whatsapp"), {
   ssr: false,
-  loading: () => <></>,   // Optional fallback while loading
+  loading: () => <></>, // Optional fallback while loading
 });
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <head>
