@@ -8,9 +8,6 @@ export function middleware() {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>404 - Site Under Maintenance</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        </head>
         <body style="margin:0;display:flex;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;>
           <div style="text-align:center;">
           </div>
