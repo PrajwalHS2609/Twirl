@@ -55,11 +55,11 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid var(--customColor1);
+  border: 3px solid white;
 }
 
 .homeTestimonial-item h5 {
-  color: var(--customColor1);
+  color: white;
   font-size: 30px;
   margin: 10px 0;
 }
@@ -69,7 +69,7 @@
   color: #fff;
   line-height: 1.5;
   padding: 10px;
-  border-left: 3px solid var(--customColor1);
+  border-left: 3px solid white;
   text-align: justify;
   padding: 10px;
 }
@@ -80,7 +80,7 @@
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: var(--customColor1); /* Gold indicators */
+  background-color: white; /* Gold indicators */
   width: 12px;
   height: 12px;
   border-radius: 50%;

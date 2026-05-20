@@ -10,8 +10,10 @@
 }
 
 :root {
-  --customBg1: #383131;
-  --customColor1: #f8b93e;
+  /* --customBg1: #383131;
+  --customColor1: #f8b93e; */
+    --customBg1: black;
+  --customColor1: black;
 }
 .main-container {
   display: flex;

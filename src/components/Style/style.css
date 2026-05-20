@@ -252,7 +252,8 @@
 
 /* Scroll Effect with Rolled Edges */
 .subServicesMain-item {
-  background: rgba(255, 248, 220, 0.9); /* Light parchment */
+  /* background: rgba(255, 248, 220, 0.9);  */
+    background: rgba(255, 255, 255, 0.9);
   padding: 30px;
   border-radius: 10px;
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.2);
@@ -310,7 +311,8 @@
 }
 
 .subServicesMain-item a:hover {
-  color: #b5651d;
+  /* color: #b5651d; */
+  color: black;
   text-decoration: underline;
 }
 

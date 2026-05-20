@@ -2,7 +2,7 @@
 import { NextResponse } from "next/server";
 
 export function middleware() {
-  if (process.env.SITE_DOWN === "true") {
+  if (process.env.SITE_DOWN === "True") {
     return new NextResponse(
       `
       <!DOCTYPE html>

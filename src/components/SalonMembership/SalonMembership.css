@@ -31,17 +31,17 @@
   width: 100%;
   margin: 40px auto;
   padding: 30px;
-  background: #f5f5dc;
+  background: black;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: #333333; /* Dark color for readability */
+  color: white; /* Dark color for readability */
 }
 
 .membershipContent-Container h2 {
   font-size: 40px;
-  color: #d4af37; /* Gold accent */
+  color:white; /* Gold accent */
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -49,7 +49,7 @@
 .membershipContent-Container p {
   font-size: 18px;
   line-height: 1.8;
-  color: #555;
+  color: white;
   margin-bottom: 15px;
 }
 
