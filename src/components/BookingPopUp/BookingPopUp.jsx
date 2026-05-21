@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import "./BookingPopUp.css";
 import { HiXMark } from "react-icons/hi2";
 import Swal from "sweetalert2";
-
+import PopupImg from "@/media/Images/PopupImg.jpg"
+import Image from "next/image";
 const BookingPopUp = () => {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -61,63 +62,96 @@ const BookingPopUp = () => {
   return (
     <div className="book-container">
       <div className="book-content">
-        <div className="book-item">
-          <HiXMark className="book-itemIco" onClick={handleExit} />
-        </div>
-        <div className="book-item">
+        {/* LEFT SIDE */}
+        <div className="book-left">
+          <div className="book-close">
+            <HiXMark className="book-itemIco" onClick={handleExit} />
+          </div>
+
           <div className="bookForm-content">
-            <h3>Book Your Appointment</h3>
+            <span className="book-subtitle">
+              LIMITED TIME OFFER
+            </span>
+
+            <h2>
+              Looking for an <br />
+              <span>Appointment?</span>
+            </h2>
+
+            <p>
+              Leave your message here and we will call you shortly.
+            </p>
+
             <form onSubmit={handleSubmit}>
-              <div className="bookForm-itemWrapper">
-                <div className="bookForm-item">
-                  <label htmlFor="name">Name</label>
-                  <input type="text" id="name" name="name" required />
-                </div>
-                <div className="bookForm-item">
-                  <label htmlFor="email">Email</label>
-                  <input type="email" name="email" id="email" required />
-                </div>
+              <div className="bookForm-item">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Full Name"
+                  required
+                />
               </div>
 
-              <div className="bookForm-itemWrapper">
-                <div className="bookForm-item">
-                  <label htmlFor="phone">Phone</label>
-                  <input type="tel" name="phone" id="phone" required />
-                </div>
-                <div className="bookForm-item">
-                  <label>Services</label>
-                  <div className="radio-group">
-                    <label>
-                      <input type="checkbox" name="Service" value="Hair" /> Hair
-                    </label>
-                    <label>
-                      <input type="checkbox" name="Service" value="Nails" /> Nails
-                    </label>
-                    <label>
-                      <input type="checkbox" name="Service" value="Facial" /> Facial
-                    </label>
-                    <label>
-                      <input type="checkbox" name="Service" value="Waxing" /> Waxing
-                    </label>
-                    <label>
-                      <input type="checkbox" name="Service" value="Makeup" /> Makeup
-                    </label>
-                  </div>
-                </div>
+              <div className="bookForm-item">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required
+                />
               </div>
 
-              <div className="bookForm-itemWrapper">
-                <label htmlFor="message">Your Message</label>
-                <textarea name="message" id="message" required></textarea>
+              <div className="bookForm-item">
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="Mobile Number"
+                  required
+                />
               </div>
 
-              <div className="bookForm-itemWrapper">
-                <button type="submit" className="submit-btn">
-                  Send Message
-                </button>
+              <div className="bookForm-item">
+                <select name="service" required>
+                  <option value="">Select Service</option>
+                  <option value="Hair">Hair</option>
+                  <option value="Facial">Facial</option>
+                  <option value="Makeup">Makeup</option>
+                  <option value="Waxing">Waxing</option>
+                  <option value="Nails">Nails</option>
+                </select>
               </div>
+{/* 
+              <div className="bookForm-item">
+                <select name="location" required>
+                  <option value="">Select Location</option>
+                  <option value="Bangalore">Bangalore</option>
+                  <option value="Mysore">Mysore</option>
+                  <option value="Hyderabad">Hyderabad</option>
+                </select>
+              </div> */}
+
+              <div className="bookForm-item">
+                <textarea
+                  name="message"
+                  placeholder="How can we assist you?"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" className="submit-btn">
+                Request Callback
+              </button>
             </form>
           </div>
+        </div>
+
+        {/* RIGHT SIDE */}
+        <div className="book-right">
+          <Image
+            src={PopupImg}
+            alt="Appointment"
+     
+          />
         </div>
       </div>
     </div>
