@@ -7,7 +7,7 @@ const HomeAbout = () => {
         <h2>Twirl Salon – Where Beauty Meets Luxury! ✨</h2>
         {/* <h6>Bespoke colour services, beautiful hairdressing</h6> */}
         <p>
-          Experience premium beauty and wellness at Twirl Lifestyle, Mangalore’s
+          Experience premium beauty and wellness at Twirl Salon, Mangalore’s
           finest unisex salon. Our expert stylists and therapists bring
           elegance, precision, and indulgence to every service—be it a chic
           haircut, rejuvenating facial, or luxurious spa treatment.
@@ -18,7 +18,7 @@ const HomeAbout = () => {
           sophistication meets comfort, and let us pamper you with perfection.
         </p>
         <p>
-          At Twirl Lifestyle, beauty isn’t just a look—it’s a feeling. Come,
+          At Twirl Salon, beauty isn’t just a look—it’s a feeling. Come,
           indulge in the ultimate salon experience!
         </p>
         <button>FIND OUT MORE</button>
