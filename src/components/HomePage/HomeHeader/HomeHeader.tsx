@@ -13,7 +13,7 @@ const HomeHeader = () => {
   };
   return (
     <div className="homeHeader-container">
-      <video src="/Video/HomeBanner.mp4" autoPlay loop muted></video>
+      <video src="/Video/Video2.mp4" autoPlay loop muted></video>
       <div className="homeHeader-content">
         <h2>TWIRL SALON</h2>
         <p>

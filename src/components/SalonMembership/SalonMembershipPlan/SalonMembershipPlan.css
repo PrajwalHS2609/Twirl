@@ -1,0 +1,192 @@
+.membershipContainer {
+  width: 100%;
+  padding: 80px 40px;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.membershipHead {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.membershipHead > h5 {
+  letter-spacing: 8px;
+  font-size: 14px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.membershipHead > h2 {
+  font-size: 90px;
+  font-weight: 300;
+  color: #111;
+  line-height: 1;
+}
+
+.membershipHead > h2 > span {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.membershipHead > p {
+  margin-top: 30px;
+  font-size: 22px;
+  color: #8d8d8d;
+  width: 70%;
+  margin-inline: auto;
+  line-height: 1.6;
+}
+
+.membershipCardsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.membershipCard {
+  width: 100%;
+  background: white;
+  border-radius: 25px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  gap: 20px;
+}
+
+.membershipCardItem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-right: 1px solid #ececec;
+  min-height: 120px;
+}
+
+.membershipCardItem:last-child {
+  border-right: none;
+}
+
+.membershipName {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.membershipIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #d8c2a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #c7a36a;
+  background: #faf7f2;
+}
+
+.membershipName > h3 {
+  font-size: 40px;
+  color: #111;
+  font-weight: 500;
+}
+
+.membershipCardItem > span {
+  font-size: 18px;
+  color: #8c8c8c;
+  margin-bottom: 15px;
+}
+
+.membershipCardItem > h4 {
+  font-size: 34px;
+  color: #111;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #111;
+  font-weight: 700;
+}
+
+/* ---------------- MOBILE ---------------- */
+
+@media screen and (max-width: 990px) {
+  .membershipContainer {
+    padding: 50px 20px;
+  }
+
+  .membershipHead > h2 {
+    font-size: 55px;
+  }
+
+  .membershipHead > p {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .membershipCard {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 20px;
+  }
+
+  .membershipCardItem {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ececec;
+    padding: 20px 0;
+    align-items: flex-start;
+    text-align: left;
+    min-height: auto;
+  }
+
+  .membershipCardItem:last-child {
+    border-bottom: none;
+  }
+
+  .membershipName {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .membershipName > h3 {
+    font-size: 30px;
+  }
+
+  .membershipCardItem > h4 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .membershipHead > h2 {
+    font-size: 42px;
+  }
+
+  .membershipHead > p {
+    font-size: 16px;
+  }
+
+  .membershipIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+
+  .membershipName > h3 {
+    font-size: 24px;
+  }
+
+  .membershipCardItem > h4 {
+    font-size: 22px;
+  }
+}

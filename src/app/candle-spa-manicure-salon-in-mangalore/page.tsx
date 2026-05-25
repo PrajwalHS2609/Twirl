@@ -1,10 +1,11 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import CandleSpaManicureContent from "@/components/NailSubServices/CandleSpaManicure/CandleSpaManicureContent";
 import CandleSpaManicureHead from "@/components/NailSubServices/CandleSpaManicure/CandleSpaManicureHead";
 import CandleSpaManicureHeader from "@/components/NailSubServices/CandleSpaManicure/CandleSpaManicureHeader";
+import Reviews from "@/components/Reviews/Reviews";
 
 export const metadata = {
   title: "Candle Spa Manicure Salon in Mangalore | Best Manicure Salon Near Me",
@@ -25,7 +26,8 @@ export default function CandleMaincure() {
       <CandleSpaManicureHead />
       <HomeTreatments />
       <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
       <CandleSpaManicureContent />
     </div>

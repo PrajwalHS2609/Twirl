@@ -3,8 +3,9 @@ import BalayageHairHighlightsHead from "@/components/HairTreatments/BalayageHair
 import BalayageHairHighlightsHeader from "@/components/HairTreatments/BalayageHairHighlights/BalayageHairHighlightsHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 
 export const metadata = {
   title:
@@ -26,7 +27,8 @@ export default function Makeup() {
       <BalayageHairHighlightsHead />
       <HomeTreatments />
       <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
       <BalayageHairHighlightsContent />
     </div>

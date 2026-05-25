@@ -4,6 +4,7 @@ import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimoni
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 import SalonMembershipContent from "@/components/SalonMembership/SalonMembershipContent";
 import SalonMembershipHead from "@/components/SalonMembership/SalonMembershipHead";
+// import SalonMembershipPlan from './../../components/SalonMembership/SalonMembershipPlan/SalonMembershipPlan';
 export const metadata = {
   title:
     "Salon Membership in mangalore – Hair, Nails, Facial, Waxing & Make-Up",
@@ -21,6 +22,7 @@ export default function SalonMembership() {
   return (
     <div className="main-container">
       <SalonMembershipHead />
+      {/* <SalonMembershipPlan/> */}
       <SalonMembershipContent />
       <HomeTreatments />
       <HomeInterior />
