@@ -5,11 +5,13 @@ import Navbar from "@/components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BookingPopUp from "@/components/BookingPopUp/BookingPopUp";
 import dynamic from "next/dynamic";
-
+import { useEffect, useState } from "react";
+ import Loader from './../components/Loader/Loader';
 // import BookingPopUp from "./../components/BookingPopUp/BookingPopUp.jsx";
 
 const Whatsapp = dynamic(() => import("@/components/Whatsapp/Whatsapp"), {
   ssr: false,
+
   loading: () => <></>, // Optional fallback while loading
 });
 
@@ -18,6 +20,16 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // fake loading for animation effect
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+
+    return () => clearTimeout(timeout);
+  }, []);
   return (
     <html lang="en">
       <head>
@@ -46,6 +58,8 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar />
+        {loading ? <Loader /> : children}
+
         {children}
         <Footer />
         <Whatsapp />

@@ -2,7 +2,6 @@ import BotoxHairTreatmentContent from "@/components/HairTreatments/BotoxHairTrea
 import BotoxHairTreatmentHead from "@/components/HairTreatments/BotoxHairTreatment/BotoxHairTreatmentHead";
 import BotoxHairTreatmentHeader from "@/components/HairTreatments/BotoxHairTreatment/BotoxHairTreatmentHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import Reviews from "@/components/Reviews/Reviews";
@@ -25,7 +24,6 @@ export default function Makeup() {
       <BotoxHairTreatmentHeader />
       <BotoxHairTreatmentHead />
       <HomeTreatments />
-      <HomeInterior />
       <HomeYt />
       <Reviews />
       <HomeInspire />

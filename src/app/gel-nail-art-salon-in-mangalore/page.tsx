@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import GelNailArtContent from "@/components/NailSubServices/GelNailArt/GelNailArtContent";
 import GelNailArtHead from "@/components/NailSubServices/GelNailArt/GelNailArtHead";
 import GelNailArtHeader from "@/components/NailSubServices/GelNailArt/GelNailArtHeader";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title: "Classic Manicure Salon in Mangalore | Best Manicure Salon Near Me",
   description:
@@ -23,8 +23,8 @@ export default function ClassicMaincure() {
       <GelNailArtHeader />
       <GelNailArtHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />      
       <HomeInspire />
       <GelNailArtContent />
     </div>

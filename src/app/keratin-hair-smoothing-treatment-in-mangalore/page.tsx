@@ -3,9 +3,9 @@ import KeratinHairTreatmentContent from "@/components/HairTreatments/KeratinHair
 import KeratinHairTreatmentHead from "@/components/HairTreatments/KeratinHairSmoothingTreatment/KeratinHairTreatmentHead";
 import KeratinHairSmoothingTreatment from "@/components/HairTreatments/KeratinHairSmoothingTreatment/KeratinHairTreatmentHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 
 export const metadata = {
   title: "Keratin Hair Smoothing Treatment in Mangalore | Hair Treatments Near Me",
@@ -25,8 +25,8 @@ export default function Makeup() {
       <KeratinHairSmoothingTreatment />
       <KeratinHairTreatmentHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />      
       <HomeInspire />
       <KeratinHairTreatmentContent />
     </div>

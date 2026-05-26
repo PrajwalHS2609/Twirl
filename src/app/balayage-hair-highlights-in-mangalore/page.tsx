@@ -2,7 +2,6 @@ import BalayageHairHighlightsContent from "@/components/HairTreatments/BalayageH
 import BalayageHairHighlightsHead from "@/components/HairTreatments/BalayageHairHighlights/BalayageHairHighlightsHead";
 import BalayageHairHighlightsHeader from "@/components/HairTreatments/BalayageHairHighlights/BalayageHairHighlightsHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import Reviews from "@/components/Reviews/Reviews";
@@ -26,7 +25,6 @@ export default function Makeup() {
       <BalayageHairHighlightsHeader />
       <BalayageHairHighlightsHead />
       <HomeTreatments />
-      <HomeInterior />
       <HomeYt />
       <Reviews />
       <HomeInspire />

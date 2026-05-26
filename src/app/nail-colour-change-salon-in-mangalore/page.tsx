@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 import ColorChangeHeader from "@/components/NailSubServices/ColorChange/ColorChangeHeader";
 import ColorChangeHead from "@/components/NailSubServices/ColorChange/ColorChangeHead";
 import ColorChangeContent from "@/components/NailSubServices/ColorChange/ColorChangeContent";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title: "Nail Colour Change Salon in Mangalore | Best Nail Salon Near Me",
   description:
@@ -23,8 +23,8 @@ export default function NailColorChange() {
       <ColorChangeHeader />
       <ColorChangeHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />      
       <HomeInspire />
       <ColorChangeContent />
     </div>

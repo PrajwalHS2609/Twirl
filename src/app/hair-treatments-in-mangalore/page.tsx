@@ -2,9 +2,9 @@ import HairTreatmentCard from "@/components/HairServices/HairTreatment/HairTreat
 import HairTreatmentContent from "@/components/HairServices/HairTreatment/HairTreatmentContent";
 import HairTreatmentHead from "@/components/HairServices/HairTreatment/HairTreatmentHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title:
     "Hair Treatments Salon in Mangalore for Men & Women | Hair Salon near me",
@@ -24,10 +24,10 @@ export default function HairTreatment() {
       <HairTreatmentHead />
       <HairTreatmentCard />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
-      <HairTreatmentContent/>
+      <HairTreatmentContent />
     </div>
   );
 }

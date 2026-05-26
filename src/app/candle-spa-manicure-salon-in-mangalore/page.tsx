@@ -1,5 +1,4 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import CandleSpaManicureContent from "@/components/NailSubServices/CandleSpaManicure/CandleSpaManicureContent";
@@ -25,7 +24,6 @@ export default function CandleMaincure() {
       <CandleSpaManicureHeader />
       <CandleSpaManicureHead />
       <HomeTreatments />
-      <HomeInterior />
       <HomeYt />
       <Reviews />
       <HomeInspire />

@@ -2,9 +2,9 @@ import BeautyEssentialServicesCard from "@/components/BeautyEssentialServices/Be
 import BeautyEssentialServicesHead from "@/components/BeautyEssentialServices/BeautyEssentialServicesHead";
 import WaxingContent from "@/components/BeautyEssentialServices/WaxingContent";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title: "Waxing in Mangalore | Body Waxing in Mangalore",
   description:
@@ -23,8 +23,8 @@ export default function BeautyEssentials() {
       <BeautyEssentialServicesHead />
       <BeautyEssentialServicesCard />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
       <WaxingContent />
     </div>

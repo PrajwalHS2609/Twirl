@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import NailContent from "@/components/NailPage/NailContent";
 import NailsServices from "@/components/NailPage/NailsServices";
 import NailsServicesHead from "@/components/NailPage/NailsServicesHead";
+import Reviews from "@/components/Reviews/Reviews";
 import React from "react";
 export const metadata = {
   title: "Nail Salon in Mangalore | Manicure & Pedicure Treatment in Mangalore",
@@ -24,9 +24,9 @@ export default function NailServices() {
       <NailsServicesHead />
       <NailsServices />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
-      <HomeInspire />
+      <HomeYt />
+      <Reviews />
+            <HomeInspire />
       <NailContent />
     </div>
   );

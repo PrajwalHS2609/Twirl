@@ -8,7 +8,6 @@ import type { Metadata } from "next";
 import "@/components/Style/style.css";
 import SlugHeader from "@/components/SlugHeader/SlugHeader";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
 import SlugSubHeader from "@/components/SlugHeader/SlugSubHeader";
@@ -147,8 +146,7 @@ export default async function SlugPage({
             </div>
           </div>
           <HomeTreatments />
-          <HomeInterior />
-          <HomeTestimonial />
+              <HomeTestimonial />
           <HomeInspire />
           <div className="subServiceContent-container">
             <div className="subServicesMain-item">
@@ -190,8 +188,7 @@ export default async function SlugPage({
           )}
 
           <HomeTreatments />
-          <HomeInterior />
-          <HomeTestimonial />
+              <HomeTestimonial />
           <HomeInspire />
           <div className="subServiceContent-container">
             <div className="subServicesMain-item">

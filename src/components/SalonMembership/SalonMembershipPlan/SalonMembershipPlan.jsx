@@ -1,70 +1,55 @@
 import React from "react";
 import "./SalonMembershipPlan.css";
 
+const membershipData = [
+  {
+    title: "Platinum",
+    amount: "₹ 1,00,000",
+    value: "₹ 1,60,000",
+    bonus: "₹ 60,000",
+    duration: "3 Years",
+  },
+  {
+    title: "Sapphire",
+    amount: "₹ 75,000",
+    value: "₹ 1,10,000",
+    bonus: "₹ 35,000",
+    duration: "2 Years",
+  },
+];
+
 const SalonMembershipPlan = () => {
-  const plans = [
-    {
-      name: "Platinum",
-      fee: "₹ 1,00,000",
-      benefit: "₹ 1,60,000",
-      reward: "₹ 60,000",
-      validity: "3 Years",
-    },
-    {
-      name: "Sapphire",
-      fee: "₹ 75,000",
-      benefit: "₹ 1,10,000",
-      reward: "₹ 35,000",
-      validity: "2 Years",
-    },
-  ];
-
   return (
-    <div className="membershipContainer">
-      <div className="membershipHead">
-        <h5>THE COLLECTION</h5>
+    <section className="membership-section">
+      <div className="membership-header">
+        <span className="sub-title">THE COLLECTION</span>
 
-        <h2>
-          membership <span>tiers</span>
-        </h2>
+        <h1 className="main-title">
+          membership <em>tiers</em>
+        </h1>
 
-        <p>
+        <p className="description">
           select a tier that aligns with your lifestyle. each level offers
           progressive rewards and exclusive concierge access.
         </p>
       </div>
 
-      <div className="membershipCardsContainer">
-        {plans.map((plan, index) => (
-          <div className="membershipCard" key={index}>
-            <div className="membershipCardItem membershipName">
-              <div className="membershipIcon">✧</div>
-              <h3>{plan.name}</h3>
-            </div>
+      <div className="membership-table">
+        {membershipData.map((item, index) => (
+          <div className="membership-row" key={index}>
+            <div className="membership-name">{item.title}</div>
 
-            <div className="membershipCardItem">
-              <span>Annual Fee</span>
-              <h4>{plan.fee}</h4>
-            </div>
+            <div className="membership-price">{item.amount}</div>
 
-            <div className="membershipCardItem">
-              <span>Welcome Benefit</span>
-              <h4>{plan.benefit}</h4>
-            </div>
+            <div className="membership-value">{item.value}</div>
 
-            <div className="membershipCardItem">
-              <span>Annual Reward</span>
-              <h4 className="highlight">{plan.reward}</h4>
-            </div>
+            <div className="membership-bonus">{item.bonus}</div>
 
-            <div className="membershipCardItem">
-              <span>Membership Validity</span>
-              <h4>{plan.validity}</h4>
-            </div>
+            <div className="membership-duration">{item.duration}</div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

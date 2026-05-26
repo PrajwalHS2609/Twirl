@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import CutAndFileContent from "@/components/NailSubServices/CutAndFile/CutAndFileContent";
 import CutAndFileHead from "@/components/NailSubServices/CutAndFile/CutAndFileHead";
 import CutAndFileHeader from "@/components/NailSubServices/CutAndFile/CutAndFileHeader";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title: "Nail Cut & File Salon in Mangalore | Nail Cut & File Salon Near Me",
   description:
@@ -23,9 +23,9 @@ export default function ClassicMaincure() {
       <CutAndFileHeader />
       <CutAndFileHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
-      <HomeInspire />
+      <HomeYt />
+      <Reviews />     
+       <HomeInspire />
       <CutAndFileContent />
     </div>
   );

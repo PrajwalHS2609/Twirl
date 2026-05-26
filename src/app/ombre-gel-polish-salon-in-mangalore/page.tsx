@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import OmbreGelPolishContent from "@/components/NailSubServices/OmbreGelPolish/OmbreGelPolishContent";
 import OmbreGelPolishHead from "@/components/NailSubServices/OmbreGelPolish/OmbreGelPolishHead";
 import OmbreGelPolishHeader from "@/components/NailSubServices/OmbreGelPolish/OmbreGelPolishHeader";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title:
     "Ombre Gel Polish Salon in Mangalore| Best Ombre Nail Polish Salon Near Me",
@@ -24,8 +24,8 @@ export default function OmbreGelPolish() {
       <OmbreGelPolishHeader />
       <OmbreGelPolishHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
       <OmbreGelPolishContent />
     </div>

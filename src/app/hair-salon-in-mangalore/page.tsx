@@ -2,9 +2,9 @@ import HairContent from "@/components/HairPage/HairContent";
 import HairHead from "@/components/HairPage/HairHead";
 import HairServices from "@/components/HairPage/HairServices";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 import React from "react";
 export const metadata = {
   title: "Hair Salon in Mangalore | Hair Treatments in Mangalore",
@@ -23,8 +23,8 @@ export default function HairService() {
       <HairHead />
       <HairServices />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />      
       <HomeInspire />
       <HairContent/>
     </div>

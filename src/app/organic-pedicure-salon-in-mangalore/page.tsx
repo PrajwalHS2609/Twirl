@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import OrganicMaincureContent from "@/components/NailSubServices/OrganicMaincure/OrganicMaincureContent";
 import OrganicMaincureHead from "@/components/NailSubServices/OrganicMaincure/OrganicMaincureHead";
 import OrganicPedicureHeader from "@/components/NailSubServices/OrganicPedicure/OrganicPedicureHeader";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title: "Organic Pedicure Salon in Mangalore | Best Pedicure Salon Near Me",
   description:
@@ -23,8 +23,8 @@ export default function OrganicPedicure() {
       <OrganicPedicureHeader />
       <OrganicMaincureHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+           <HomeYt />
+      <Reviews />
       <HomeInspire />
       <OrganicMaincureContent />
     </div>

@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import ChromeGelPolishContent from "@/components/NailSubServices/ChromeGelPolish/ChromeGelPolishContent";
 import ChromeGelPolishHead from "@/components/NailSubServices/ChromeGelPolish/ChromeGelPolishHead";
 import ChromeGelPolishHeader from "@/components/NailSubServices/ChromeGelPolish/ChromeGelPolishHeader";
+import Reviews from "@/components/Reviews/Reviews";
 
 export const metadata = {
   title: "Chrome Gel Polish Salon in Mangalore| Best Gel Nail Polish Salon Near Me",
@@ -24,8 +24,8 @@ export default function ChromeGelPolish() {
       <ChromeGelPolishHeader />
       <ChromeGelPolishHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
       <ChromeGelPolishContent />
     </div>

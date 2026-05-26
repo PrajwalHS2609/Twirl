@@ -1,10 +1,10 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
 import FrenchGelerationContent from "@/components/NailSubServices/FrenchGeleration/FrenchGelerationContent";
 import FrenchGelerationHead from "@/components/NailSubServices/FrenchGeleration/FrenchGelerationHead";
 import FrenchGelerationHeader from "@/components/NailSubServices/FrenchGeleration/FrenchGelerationHeader";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title: "French Geleration Salon in Mangalore | Best Nail Salon Near Me",
   description:
@@ -23,8 +23,8 @@ export default function FrenchGeleration() {
       <FrenchGelerationHeader />
       <FrenchGelerationHead />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
       <FrenchGelerationContent />
     </div>

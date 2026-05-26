@@ -1,7 +1,7 @@
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 import SpaContent from "@/components/SpaServices/SpaContent";
 import SpaServicesCard from "@/components/SpaServices/SpaServicesCard";
 import SpaServicesHead from "@/components/SpaServices/SpaServicesHead";
@@ -23,8 +23,8 @@ export default function SpaService() {
       <SpaServicesHead />
       <SpaServicesCard />
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />
       <HomeInspire />
       <SpaContent />
     </div>

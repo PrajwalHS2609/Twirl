@@ -2,9 +2,9 @@ import HighlightsCard from "@/components/HairServices/Highlights/HighlightsCard"
 import HighlightsContent from "@/components/HairServices/Highlights/HighlightsContent";
 import HighlightsHead from "@/components/HairServices/Highlights/HighlightsHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 export const metadata = {
   title: "Hair Highlights & Hair Streaks Salon in Mangalore for Men & Women",
   description: "Hair Highlights & Hair Streaks Salon in Mangalore for Men & Women. This technique enhances your natural color, creating a vibrant, sun-kissed look that’s perfect for any occasion.",
@@ -22,8 +22,8 @@ export default function HairHighlights() {
       <HighlightsHead />
       <HighlightsCard/>
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
+      <HomeYt />
+      <Reviews />      
       <HomeInspire />
       <HighlightsContent/>
     </div>

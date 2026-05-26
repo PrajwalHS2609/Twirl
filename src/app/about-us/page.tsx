@@ -1,6 +1,5 @@
 import AboutUsHeader from "@/components/AboutUs/AboutUsHeader";
 import AboutUsMain from "@/components/AboutUs/AboutUsMain";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
 import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 export const metadata = {
   title: "Twirl Salon in mangalore – About Us",
@@ -19,7 +18,7 @@ export default function AboutUs() {
     <div className="main-container">
       <AboutUsHeader />
       <AboutUsMain />
-      <HomeInterior />
+      {/* <HomeInterior /> */}
       <HomeTestimonial />
     </div>
   );

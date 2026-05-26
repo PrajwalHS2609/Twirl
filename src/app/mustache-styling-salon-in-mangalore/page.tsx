@@ -2,9 +2,9 @@ import MustacheCard from "@/components/HairServices/Mustache/MustacheCard";
 import MustacheContent from "@/components/HairServices/Mustache/MustacheContent";
 import MustacheHead from "@/components/HairServices/Mustache/MustacheHead";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeTestimonial from "@/components/HomePage/HomeTestimonial/HomeTestimonial";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
+import HomeYt from "@/components/HomePage/HomeYt/HomeYt";
+import Reviews from "@/components/Reviews/Reviews";
 
 export const metadata = {
   title: "Mustache Styling Salon in Mangalore | Best Mustache Salon near me",
@@ -24,9 +24,9 @@ export default function Mustache() {
       <MustacheHead />
       <MustacheCard/>
       <HomeTreatments />
-      <HomeInterior />
-      <HomeTestimonial />
-      <HomeInspire />
+      <HomeYt />
+      <Reviews />
+            <HomeInspire />
       <MustacheContent/>
     </div>
   );

@@ -3,12 +3,12 @@ import HomeContent from "@/components/HomePage/HomeContent/HomeContent";
 // import HomeArtist from "@/components/HomePage/HomeArtist/HomeArtist";
 import HomeHeader from "@/components/HomePage/HomeHeader/HomeHeader";
 import HomeInspire from "@/components/HomePage/HomeInspire/HomeInspire";
-// import HomeInterior from "@/components/HomePage/HomeInterior/HomeInterior";
-import HomeMap from "@/components/HomePage/HomeMap/HomeMap";
+// import HomeMap from "@/components/HomePage/HomeMap/HomeMap";
 import HomeService from "@/components/HomePage/HomeService/HomeService";
 import HomeTreatments from "@/components/HomePage/HomeTreatments/HomeTreatments";
 import HomeYt from './../components/HomePage/HomeYt/HomeYt';
 import Reviews from './../components/Reviews/Reviews';
+import HomeMap from "@/components/HomePage/HomeMap/HomeMap";
 export const metadata = {
   title: "Beauty Salon in Mangalore – Hair, Nails, Facial, Waxing & Make-Up",
   description:
@@ -28,9 +28,7 @@ export default function HomePage() {
       <HomeService />
       <HomeAbout />
       <HomeTreatments />
-      {/* <HomeArtist/> */}
-      {/* <HomeInterior /> */}
-      <HomeYt/>
+      <HomeYt />
       <Reviews />
       <HomeInspire />
       <HomeMap />

@@ -1,17 +1,24 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./BookingPopUp.css";
 import { HiXMark } from "react-icons/hi2";
 import Swal from "sweetalert2";
 import PopupImg from "@/media/Images/PopupImg.jpg"
 import Image from "next/image";
 const BookingPopUp = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
-  const handleExit = (e) => {
-    e.preventDefault();
-    document.querySelector(".book-container").style.visibility = "hidden";
+ useEffect(() => {
+    setTimeout(() => {
+      setIsVisible(true);
+    }, 15000);
+  }, []);
+
+  const handleExit = () => {
+    setIsVisible(false);
   };
+
+  if (!isVisible) return null;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
