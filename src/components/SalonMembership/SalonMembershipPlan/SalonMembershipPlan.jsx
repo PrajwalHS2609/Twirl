@@ -3,17 +3,24 @@ import "./SalonMembershipPlan.css";
 
 const membershipData = [
   {
-    title: "Platinum",
-    amount: "₹ 1,00,000",
-    value: "₹ 1,60,000",
-    bonus: "₹ 60,000",
+    title: "Silver ",
+    amount: "₹ 10,000",
+    value: "₹ 12,000",
+    bonus: "₹ 2,000",
     duration: "3 Years",
   },
   {
-    title: "Sapphire",
-    amount: "₹ 75,000",
-    value: "₹ 1,10,000",
-    bonus: "₹ 35,000",
+    title: "Gold  ",
+    amount: "₹ 15,000",
+    value: "₹ 18,000",
+    bonus: "₹ 3,000",
+    duration: "2 Years",
+  },
+    {
+    title: "Diamond   ",
+    amount: "₹ 20,000",
+    value: "₹ 26,000",
+    bonus: "₹ 6,000",
     duration: "2 Years",
   },
 ];
@@ -45,7 +52,7 @@ const SalonMembershipPlan = () => {
 
             <div className="membership-bonus">{item.bonus}</div>
 
-            <div className="membership-duration">{item.duration}</div>
+            {/* <div className="membership-duration">{item.duration}</div> */}
           </div>
         ))}
       </div>

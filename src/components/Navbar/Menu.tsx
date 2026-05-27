@@ -239,6 +239,16 @@ const Menu = () => {
                 </ul>
               </div>
             </li>
+             <li>
+              {" "}
+              <Link
+                href="/salon-membership-in-mangalore"
+                className={pathname === "/salon-membership-in-mangalore" ? "active" : ""}
+                onClick={hideSideBar}
+              >
+            SALON MEMBERSHIP
+              </Link>
+            </li>
             <li>
               {" "}
               <Link

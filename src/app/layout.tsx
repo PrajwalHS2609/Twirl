@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import BookingPopUp from "@/components/BookingPopUp/BookingPopUp";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
- import Loader from './../components/Loader/Loader';
+import Loader from './../components/Loader/Loader';
 // import BookingPopUp from "./../components/BookingPopUp/BookingPopUp.jsx";
 
 const Whatsapp = dynamic(() => import("@/components/Whatsapp/Whatsapp"), {
@@ -26,7 +26,7 @@ export default function RootLayout({
     // fake loading for animation effect
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 4000);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -59,8 +59,6 @@ export default function RootLayout({
       <body>
         <Navbar />
         {loading ? <Loader /> : children}
-
-        {children}
         <Footer />
         <Whatsapp />
         <BookingPopUp />
